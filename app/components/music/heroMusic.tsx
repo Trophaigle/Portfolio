@@ -1,0 +1,68 @@
+"use client";
+
+import Link from 'next/link'
+import React from 'react'
+
+function HeroMusic () {
+  return (
+     <section className="relative h-[70vh] flex items-center justify-center text-center text-white">
+      {/* Vidéo de fond */}
+    <div className="absolute inset-0 -z-10">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="w-full h-full object-cover"
+      > 
+      {/* https://pixabay.com/fr/videos/ai-g%c3%a9n%c3%a9r%c3%a9-village-ville-de-no%c3%abl-191724/ */}
+        <source src="/videos/noel.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+      {/* Overlay sombre */}
+      <div className="absolute inset-0 bg-black/40"></div>
+    </div>
+
+       {/* Titre */}
+        <div className="flex flex-col items-center justify-center gap-4 -mt-20">
+          <h1 className="text-5xl font-bold drop-shadow-xl px-2">
+            Oeuvres Musicales
+          </h1>
+        
+
+          {/* Boutons avec Link */}
+          <div className="flex gap-4">
+            <Link
+              href="/"
+              className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition"
+            >
+              Music
+            </Link>
+
+            <Link
+              href="/"
+              className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition"
+            >
+              Sketch
+              {/* pas la meme method sketch pour du classique/soundtrack ou chanson par exemple */}
+            </Link>
+          </div>
+          <p>Que souhaites-tu raconter aujourd'hui ?</p>
+        </div>
+
+      {/* Courbe SVG */}
+      <svg
+        className="absolute bottom-0 left-0 w-full"
+        viewBox="0 0 1440 150"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="#ffffff"
+          d="M0,96 C360,160 1080,0 1440,96 L1440,200 L0,200 Z"
+        ></path>
+      </svg>
+    </section>
+  )
+}
+
+export default HeroMusic
