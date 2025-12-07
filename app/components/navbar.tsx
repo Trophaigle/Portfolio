@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import ButtonCTA from "./buttons/buttonCTA";
 
 
 function Navbar (){
@@ -13,6 +14,7 @@ function Navbar (){
   
   const navItems = [
     { name: "Home", href: "/" },
+    { name: "Sciences", href: "/sciences"},
     { name: "Art", href: "/art"},
     { name: "Blog", href: "/blog" },
   ];
@@ -73,9 +75,10 @@ function Navbar (){
                 </li>
               ))}
               <li className="mt-4">
-                <button className="bg-red-700 text-white px-8 py-2 rounded-md hover:bg-red-500">
+                {/* <button className="bg-red-700 text-white px-8 py-2 rounded-md hover:bg-red-500">
                   Contact
-                </button>
+                </button> */}
+                <ButtonCTA label="Contact"  href="/contact" />
               </li>
             </ul>
           </div>
@@ -91,9 +94,10 @@ function Navbar (){
                 </li>
               ))}
               <li>
-                <button className="bg-red-700 hover:bg-red-500 text-white px-8 py-2 rounded-md">
+                {/* <button className="bg-red-700 hover:bg-red-500 text-white px-8 py-2 rounded-md">
                   Contact
-                </button>
+                </button> */}
+                <ButtonCTA label="Contact"  href="/contact" />
               </li>
             </ul>
           </div>

@@ -1,3 +1,4 @@
+
 import { musicData, MusicPiece } from "@/data/music";
 
 interface Props {
@@ -5,6 +6,7 @@ interface Props {
 }
 
 export default async function MusicDetailPage({ params }: Props) {
+
   // 🔹 "unwrap" la Promise
   const { slug } = await params;
   console.log("PARAMS slug:", slug); // log pour debugger
@@ -55,23 +57,7 @@ export default async function MusicDetailPage({ params }: Props) {
       </section>
 
       {/* Sketches */}
-      <section>
-        <h2 className="text-2xl font-semibold mb-2">Sketches</h2>
-        {sketches.length > 0 ? (
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {sketches.map((img) => (
-              <img
-                key={img}
-                src={img}
-                alt="Sketch"
-                className="rounded-lg w-full h-auto object-cover"
-              />
-            ))}
-          </div>
-        ) : (
-          <p className="text-gray-400">No sketches available</p>
-        )}
-      </section>
+      <section> <h2 className="text-2xl font-semibold mb-2">Sketches</h2> {sketches.length > 0 ? ( <div className="grid grid-cols-2 md:grid-cols-3 gap-4"> {sketches.map((img) => ( <img key={img} src={img} alt="Sketch" className="rounded-lg w-full h-auto object-cover" /> ))} </div> ) : ( <p className="text-gray-400">No sketches available</p> )} </section>
     </div>
   );
 }

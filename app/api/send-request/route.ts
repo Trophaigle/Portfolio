@@ -5,9 +5,9 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
-    const { instruments, email, notes } = await req.json();
+    const { email, notes } = await req.json();
 
-    console.log("Requête reçue :", { instruments, email, notes });
+    console.log("Requête reçue :", { email, notes });
 
     const receiverEmail = process.env.RECEIVER_EMAIL;
     if (!receiverEmail) {
@@ -15,21 +15,18 @@ export async function POST(req: Request) {
     }
 
     await resend.emails.send({
-      from: "Site Orchestration <onboarding@resend.dev>", // domaine vérifié
+      from: "Portfolio <onboarding@resend.dev>", // domaine vérifié
       to: receiverEmail, // ton email réel, caché au client
       replyTo : email,   // l’email du client (peut être Gmail, Yahoo, etc.)
-      subject: "Nouvelle demande d’orchestration",
+      subject: "Mail portfolio",
       text: `
-Nouvelle demande envoyée depuis le site :
-
-Instruments :
-${instruments.join(", ")}
-
-Email du client :
-${email}
-
-Notes :
-${notes}
+      Messsage envoyée depuis le portfolio :
+          
+      Email du client :
+      ${email}
+          
+      Notes :
+      ${notes}
       `,
     });
 

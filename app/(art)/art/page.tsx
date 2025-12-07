@@ -96,6 +96,12 @@ export default function ArtHero() {
         </div>
 
       </div>
+
+      <section className="flex justify-center pt-10">
+        <h2 className="text-center text-2xl">
+          L’art, c’est créer, faire voyager et raconter des histoires qui osent transformer et transcender le réel.
+        </h2>
+      </section>
     </div>
   );
 }

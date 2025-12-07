@@ -30,10 +30,10 @@ export default function MusicCard({ piece, imageSrc, isNew }: CardProps) {
         </div>
 
         {/* Texte à droite */}
-        <div className="ml-4 w-1/2 relative h-full flex flex-col justify-between">
+        <div className="ml-4 w-1/2 relative h-full flex flex-col justify-between items-start">
           <h3 className="text-xl font-semibold text-white flex items-center">
             {piece.title}
-
+          
             {/* Badge NEW */}
             {piece.isNew && (
               <span className="ml-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">
@@ -41,15 +41,17 @@ export default function MusicCard({ piece, imageSrc, isNew }: CardProps) {
               </span>
             )}
           </h3>
-
-          <p className="text-gray-300 mt-2">{piece.description}</p>
-
+          
+          <p className="text-gray-300 mt-2">
+            {piece.description}
+          </p>
+          
           {/* Badge sous la description */}
           {piece.type && (
             <span
-              className={`inline-block mt-3 text-white text-xs font-semibold px-3 py-1 rounded-full ${getBadgeColor(
-                piece.type
-              )}`}
+              className={`mt-3 inline-flex w-fit text-white text-xs font-semibold
+                          px-3 py-1 rounded-full
+                          ${getBadgeColor(piece.type)}`}
             >
               {piece.type.toUpperCase()}
             </span>
