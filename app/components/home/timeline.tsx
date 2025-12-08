@@ -7,27 +7,27 @@ interface TimelineStep {
 const timelineSteps: TimelineStep[] = [
   {
     icon: "🕶️",
-    title: "Stage de Fin d'Etude - IRIT - Réalité Mixte",
+    title: "Chaque individu possède des capacités",
     description:
-      "PFE"
+      ""
   },
   {
-    icon: "🇸🇪",
-    title: "Erasmus en Suède - Chalmers tekniska högskola",
+    icon: "🇸",
+    title: "",
     description:
-      "Programme d’échange d’un semestre en Suède, Norvège et Danemark. Adaptation à un nouvel environnement, cours en anglais, découverte des cultures locales et échanges enrichissants avec les personnes rencontrées."
+      ""
   },
   {
-    icon: "💻",
-    title: "Ensimag",
+    icon: "",
+    title: "",
     description:
-      "Exploration des technologies existantes en informatique, programmation et sciences appliquées. Création de liens et échanges enrichissants avec les personnes rencontrées sur place. Développement de la résilience face aux difficultés et adaptation à un nouvel environnement de travail."
+      ""
   },
   {
-    icon: "🧲",
-    title: "Classe Préparatoire aux Grandes Ecoles - Physique / Chimie",
+    icon: "",
+    title: "",
     description:
-      "Compréhension approfondie des phénomènes physiques et chimiques, avec analyse critique et rigueur scientifique, y compris à travers l’étude d’œuvres littéraires. La dynamique de la classe favorise les échanges, l’entraide et la collaboration entre élèves."
+      ""
   },
 ];
 
@@ -35,7 +35,7 @@ export default function ZigzagTimelineAuto() {
   return (
     <div className="container mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold text-white text-center mb-12">
-        Mon parcours et ce que j’en ai appris
+        L'intention, l'étoile polaire, mantras
       </h2>
 
       <div className="relative">
@@ -109,8 +109,7 @@ export default function ZigzagTimelineAuto() {
 
       <div className="mt-12 text-center px-6 md:px-32">
   <p className="text-gray-300 text-lg md:text-xl">
-    This orchestration service was born from the intersection of my travels, my musical experience in Scandinavia, and my personal connection to these songs.
-That is why I take care to arrange them with respect, authenticity, and artistic sensitivity.
+    Chaque individu possède des capacités, des forces et des centres d’intérêt qui peuvent devenir de puissants leviers pour lui-même et pour les autres. Souvent invisibles ou inexploités par peur, ces potentiels attendent simplement d’être révélés pour produire leur plein impact.
   </p>
 </div>
     </div>

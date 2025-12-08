@@ -38,7 +38,7 @@ function ContactForm() {
     <section className="bg-black text-white py-16 px-6">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold mb-8 text-center">
-         Request Your Custom Orchestration
+         Contact
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-10">

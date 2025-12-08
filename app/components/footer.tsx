@@ -12,7 +12,7 @@ function Footer (){
       links: [
         { name: "Home", href: "/" },
         { name: "About", href: "/about" },
-        { name: "Service", href: "/service", badge: "New" },
+        { name: "Contact", href: "/contact", badge: "New" },
       ],
     },
     {
@@ -32,10 +32,10 @@ function Footer (){
   ];
 
   const socialIcons = [
-    // { href: "#", label: "Patreon", icon: SiPatreon },
-    // { href: "#", label: "Instagram", icon: SiInstagram },
-    // { href: "#", label: "YouTube", icon: SiYoutube },
-    // { href: "#", label: "LinkedIn", icon: SiLinkedin },
+     { href: "#", label: "Patreon", icon: SiPatreon },
+     { href: "#", label: "Instagram", icon: SiInstagram },
+     { href: "#", label: "YouTube", icon: SiYoutube },
+     { href: "#", label: "LinkedIn", icon: SiLinkedin },
   ];
 
   return (

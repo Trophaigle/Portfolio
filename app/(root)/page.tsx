@@ -13,7 +13,7 @@ export default async function Home() {
       <Hero />
       <ZigzagTimelineAuto />
       <Values />
-
+      
     </>
   );
   // https://www.youtube.com/watch?v=Zq5fmkH0T78
