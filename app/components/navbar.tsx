@@ -74,7 +74,7 @@ function Navbar (){
                   </Link>
                 </li>
               ))}
-              <li className="mt-4">
+              <li>
                 <LanguageSwitcher />
               </li>
               <li className="mt-4">
@@ -98,7 +98,7 @@ function Navbar (){
               ))}
 
                {/* ✅ Language Selector */}
-              <li className="flex items-center">
+              <li>
                 <LanguageSwitcher />
               </li>
 
