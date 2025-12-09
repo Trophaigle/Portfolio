@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import ButtonCTA from "./buttons/buttonCTA";
-
+import LanguageSwitcher from "./languageSwitcher";
 
 function Navbar (){
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -75,6 +75,9 @@ function Navbar (){
                 </li>
               ))}
               <li className="mt-4">
+                <LanguageSwitcher />
+              </li>
+              <li className="mt-4">
                 {/* <button className="bg-red-700 text-white px-8 py-2 rounded-md hover:bg-red-500">
                   Contact
                 </button> */}
@@ -93,6 +96,12 @@ function Navbar (){
                   </Link>
                 </li>
               ))}
+
+               {/* ✅ Language Selector */}
+              <li className="flex items-center">
+                <LanguageSwitcher />
+              </li>
+
               <li>
                 {/* <button className="bg-red-700 hover:bg-red-500 text-white px-8 py-2 rounded-md">
                   Contact

@@ -1,7 +1,7 @@
 
-import Hero from "../components/home/hero";
-import ZigzagTimelineAuto from "../components/home/timeline";
-import Values from "../components/home/values";
+import Hero from "../../components/home/hero";
+import ZigzagTimelineAuto from "../../components/home/timeline";
+import Values from "../../components/home/values";
 
 
 export default async function Home() {

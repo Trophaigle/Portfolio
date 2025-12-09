@@ -2,11 +2,15 @@
 
 import ButtonCTA from "../buttons/buttonCTA";
 import InfoBlock from "../utils/InfoBlock";
+import { useTranslations } from "next-intl";
 
 // from https://tailwindflex.com/@manon-daniel/hero-section   tailwindcss example (hero, button, navbar ...)
 // https://tailwindflex.com/@gbenga-adegoke/hero-section-13 a voir aussi celui la plutot
 
 function Hero () {
+
+  const t = useTranslations('HomePage');
+
   return (
     <section className="relative h-[70vh] flex items-center justify-center text-white">
 
@@ -25,7 +29,7 @@ function Hero () {
         {/* Text section */}
         <div className="md:w-1/2 mb-10 md:mb-0 z-20 md:mr-10">
           <InfoBlock
-            title="Bienvenue sur mon site internet personnel"
+            title={t('title')}
             text="'The people who are crazy enough to think they can change the world ... are the ones who actually do'"
           />
           <p className="text-gray-300 mt-4 text-sm mb-4">
