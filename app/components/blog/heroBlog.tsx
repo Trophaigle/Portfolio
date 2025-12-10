@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import ButtonCTA from "../buttons/buttonCTA";
 import InfoBlock from "../utils/InfoBlock";
 
@@ -12,13 +13,20 @@ function HeroBlog () {
 
     {/* Image de fond */}
       <div className="absolute inset-0 -z-10">
-        <img
+        {/* <img
           src="https://picsum.photos/1600/900" // Remplace par ta bannière
           alt="banner"
           className="w-full h-full object-cover"
-        />
+        /> */}
+        <Image
+           src="/images/castle.jpg"
+           alt="Banner"
+           fill
+           className="w-full h-full object-cover"
+           priority
+         />
         {/* Overlay sombre */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">

@@ -1,18 +1,24 @@
+
 interface TimelineStep {
   icon: string;
   title: string;
   description: string;
+
+  sourceUrl?: string;
+  sourceLabel?: string;
 }
 
 const timelineSteps: TimelineStep[] = [
   {
-    icon: "🕶️",
-    title: "Chaque individu possède des capacités",
+    icon: "",
+    title: "Lien profond entre art et science",
     description:
-      ""
+      "'L’art recherche la beauté et parle à l’émotion; la science recherche la vérité et parle à la raison. Cette dichotomie n’a pas raison d’être : artistes et scientifiques s’engagent en réalité dans l’observation et dans l’expérimentation. “C’est par l’expérience que progressent la science et l’art”, selon Aristote ». L’art tout comme la science riment avec innovation.'",
+       sourceUrl: "https://www.usherbrooke.ca/actualites/nouvelles/details/36748",
+    sourceLabel: "Lire la source"
   },
   {
-    icon: "🇸",
+    icon: "",
     title: "",
     description:
       ""
@@ -31,11 +37,13 @@ const timelineSteps: TimelineStep[] = [
   },
 ];
 
+
+
 export default function ZigzagTimelineAuto() {
   return (
     <div className="container mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold text-white text-center mb-12">
-        L'intention, l'étoile polaire, mantras
+        Thématiques
       </h2>
 
       <div className="relative">
@@ -58,6 +66,18 @@ export default function ZigzagTimelineAuto() {
                         <div className="text-left">
                           <h3 className="text-xl font-semibold text-white">{step.title}</h3>
                           <p className="text-gray-300 mt-2">{step.description}</p>
+
+                          {step.sourceUrl && (
+                            <a
+                              href={step.sourceUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-2 mt-3 text-sm text-purple-400 hover:text-purple-300 underline underline-offset-4"
+                            >
+                              🔗 {step.sourceLabel ?? "Voir la source"}
+                            </a>
+                          )}
+
                         </div>
                       </div>
                       
@@ -83,8 +103,21 @@ export default function ZigzagTimelineAuto() {
                       {/* Boîte texte à droite */}
                       <div className="md:w-1/2 p-6 bg-gray-800 rounded-xl shadow-lg flex justify-start">
                         <div className="text-left md:text-right">
+
                           <h3 className="text-xl font-semibold text-white">{step.title}</h3>
                           <p className="text-gray-300 mt-2">{step.description}</p>
+
+                          {step.sourceUrl && (
+                            <a
+                              href={step.sourceUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-2 mt-3 text-sm text-purple-400 hover:text-purple-300 underline underline-offset-4"
+                            >
+                              🔗 {step.sourceLabel ?? "Voir la source"}
+                            </a>
+                          )}
+
                         </div>
                       </div>
                     </>
@@ -97,8 +130,21 @@ export default function ZigzagTimelineAuto() {
                     {step.icon}
                   </div>
                   <div className="bg-gray-800 p-6 rounded-xl shadow-lg text-center w-full">
+
                     <h3 className="text-xl font-semibold text-white">{step.title}</h3>
                     <p className="text-gray-300 mt-2">{step.description}</p>
+
+                    {step.sourceUrl && (
+                      <a
+                        href={step.sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 mt-3 text-sm text-purple-400 hover:text-purple-300 underline underline-offset-4"
+                      >
+                        🔗 {step.sourceLabel ?? "Voir la source"}
+                      </a>
+                    )}
+
                   </div>
                 </div>
               </div>
@@ -107,9 +153,9 @@ export default function ZigzagTimelineAuto() {
         </div>
       </div>
 
-      <div className="mt-12 text-center px-6 md:px-32">
+      <div className="mt-12 text-center px-6 md:px-25">
   <p className="text-gray-300 text-lg md:text-xl">
-    Chaque individu possède des capacités, des forces et des centres d’intérêt qui peuvent devenir de puissants leviers pour lui-même et pour les autres. Souvent invisibles ou inexploités par peur, ces potentiels attendent simplement d’être révélés pour produire leur plein impact.
+    "quote"
   </p>
 </div>
     </div>

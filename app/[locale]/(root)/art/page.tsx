@@ -41,7 +41,7 @@ export default function ArtHero() {
 
         <h2 className="text-3xl font-bold mb-4">Musique</h2>
         <p className="text-gray-300 mb-4">
-          A short introduction that sets the tone for the musical universe.
+          Oeuvres musicales classiques et autres ...
         </p>
 
         <Link
@@ -76,15 +76,15 @@ export default function ArtHero() {
              text-2xl
             "
           >
-           Magic <br /> Portal
+           Portail <br /> Magique
           </button>
         </div>
 
         {/* RIGHT TEXT */}
         <div className="text-white md:w-1/3 text-center md:text-right">
-          <h2 className="text-3xl font-bold mb-4">Dessin / Peinture</h2>
+          <h2 className="text-3xl font-bold mb-4">Oeuvres graphiques</h2>
           <p className="text-gray-300 mb-4">
-            Buttons, links, partitions, videos, or navigation.
+            Dessins, peintures ...
           </p>
 
           <Link

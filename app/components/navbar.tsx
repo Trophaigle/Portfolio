@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import ButtonCTA from "./buttons/buttonCTA";
 import LanguageSwitcher from "./languageSwitcher";
+import { useTranslations } from "next-intl";
 
 function Navbar (){
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,13 +12,16 @@ function Navbar (){
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  
+  const t = useTranslations('Navbar');
+
   const navItems = [
-    { name: "Home", href: "/" },
-    { name: "Sciences", href: "/sciences"},
-    { name: "Art", href: "/art"},
-    { name: "Blog", href: "/blog" },
+    { key: "home", href: "/" },
+    { key: "about", href: "/about"},
+    { key: "art", href: "/art"},
+    { key: "blog", href: "/blog" },
   ];
+
+  
 
   return (
     <>
@@ -70,7 +74,7 @@ function Navbar (){
                     className="flex items-center"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    {item.name}
+                    {t(item.key)}
                   </Link>
                 </li>
               ))}
@@ -92,7 +96,7 @@ function Navbar (){
               {navItems.map((item, index) => (
                 <li key={index} className="flex items-center p-1 text-lg gap-x-2 text-gray-100 hover:text-gray-300">
                   <Link href={item.href} className="flex items-center">
-                    {item.name}
+                    {t(item.key)}
                   </Link>
                 </li>
               ))}

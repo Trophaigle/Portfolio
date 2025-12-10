@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import ButtonCTA from "../buttons/buttonCTA";
 import InfoBlock from "../utils/InfoBlock";
 import { useTranslations } from "next-intl";
@@ -9,20 +10,27 @@ import { useTranslations } from "next-intl";
 
 function Hero () {
 
-  const t = useTranslations('HomePage');
+  const t = useTranslations('HomeHero');
 
   return (
     <section className="relative h-[70vh] flex items-center justify-center text-white">
 
     {/* Image de fond */}
       <div className="absolute inset-0 -z-10">
-        <img
+        {/* <img
           src="https://picsum.photos/1600/900" // Remplace par ta bannière
           alt="banner"
           className="w-full h-full object-cover"
+        /> */}
+        <Image
+          src="/images/traintrack.jpg"
+          alt="Banner"
+          fill
+          className=" w-full h-full object-cover"
+          priority
         />
         {/* Overlay sombre */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
@@ -30,12 +38,12 @@ function Hero () {
         <div className="md:w-1/2 mb-10 md:mb-0 z-20 md:mr-10">
           <InfoBlock
             title={t('title')}
-            text="'The people who are crazy enough to think they can change the world ... are the ones who actually do'"
+            text={t('quote')}
           />
           <p className="text-gray-300 mt-4 text-sm mb-4">
-           The whole website and its contents are my creation.
+           {t('subtext')}
           </p>
-          <ButtonCTA label="Discover" href="/"/>
+          <ButtonCTA label={t('button')} href="/about"/>
         </div>
 
     </div>
