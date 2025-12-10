@@ -17,7 +17,7 @@ export const musicData: MusicPiece[] = [
     title: "Balade du soir E majeur",
     description: "Description balade du soir",
     type: "piano",
-    pdfUrl: "/music/balade-du-soir-e-majeur/BaladeDuSoir1Emajor.pdf",
+    pdfUrl: "/music/balade-du-soir-e-majeur/BaladeDuSoir1EMajorOnePage.pdf",
     isNew: true,
     videoUrl: "https://www.youtube.com/embed/1iDDVL20Bqs?si=sznBKEyyG0wLySvn",
     sketches: []
@@ -36,7 +36,7 @@ export const musicData: MusicPiece[] = [
     title: "Danse des Poules",
     description: "Poules qui rourent, la nuit tombe, le renard passe, et le jour se lève ...",
     type: "piano",
-    pdfUrl: "/music/danse-des-poules/DansePouleAvecAjustementFinal.pdf",
+    pdfUrl: "/music/danse-des-poules/DansePouleVersionPagesAjustée.pdf",
     videoUrl: "https://www.youtube.com/embed/pzbkw3pux2g?si=xJnk3lGk7MNIRmj4",
     isNew: true,
     sketches: []
@@ -58,7 +58,32 @@ export const musicData: MusicPiece[] = [
     pdfUrl: "/music/petit-nocturne-sankta-lucia/NocturneLucia_merged.pdf",
     
     sketches: ["/music/petit-nocturne-sankta-lucia/sketch_rogne.jpg"]
+  },
+   {
+    slug: "comptine-noel-organ",
+    title: "Comptine de Noel",
+    description: "Musique écrite durant la période de Noel à Copenhague sur un carnet et composé à l'aide d'un clavier piano de téléphone",
+    type: "organ",
+    pdfUrl: "/music/comptine-noel-organ/ComptinedeNoelOrgan.pdf",
+    
+    sketches: []
+  },
+  {
+    slug: "balade-a-paris-Gb",
+    title: "Balade à Paris en Gb",
+    description: "Description",
+    type: "piano",
+    pdfUrl: "/music/balade-a-paris-Gb/Petite-Balade-a-Paris-en-Gb.pdf",
+    videoUrl: "https://www.youtube.com/embed/8J0RPYWc-U4?si=V8FD5CU4NEJwaNBj",
+    sketches: []
+  },
+   {
+    slug: "marche-funebre",
+    title: "Marche Funèbre",
+    description: "Musique écrite durant une période triste",
+    type: "organ",
+    pdfUrl: "/music/marche-funebre/FunesteForPdf.pdf",
+    videoUrl: "https://www.youtube.com/embed/RfBuS2MXnZ0?si=DedRygbGob2KN_-L",
+    sketches: []
   }
-  
-  
 ];

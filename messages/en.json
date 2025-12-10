@@ -8,11 +8,27 @@
     },
 
     "HomeHero": {
-        "title": "Welcome on my personal website !",
+        "title": "Welcome on my personal website ! (Work in progress)",
         "quote": "'The people who are crazy enough to think they can change the world ... are the ones who actually do'",
         "subtext": "The whole website and its contents are my creation.",
         "button": "Discover Me"
     },
+    "ProjectOverview": {
+        "title": "Quelques projets informatiques",
+        "1-title": "",
+        "1-description": "",
+
+        "2-title": "",
+        "2-description": "",
+
+        "3-title": "",
+        "3-description": "",
+
+        "4-title": "",
+        "4-description": ""
+        
+    },
+
     "Timeline": {
         "quote": "'Every individual possesses abilities, strengths, and areas of interest that can become powerful levers for themselves and for others. Often invisible or untapped out of fear, these potentials are simply waiting to be revealed to achieve their full impact.' - Me"
     }
