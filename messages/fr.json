@@ -11,9 +11,106 @@
         "quote": "'Ceux qui ont assez de folie pour croire qu’ils peuvent changer le monde sont ceux qui y parviennent vraiment.'",
         "subtext": "Le site internet et l'ensemble de son contenu sont ma création",
         "button": "Me Découvrir"
+    }, "projects": {
+    "title": "Quelques projets informatiques",
+
+    "pfe": {
+      "title": "Projet de PFE Ensimag",
+      "desc": [
+        "Stage de fin d’études de six mois au sein de l’équipe ELIPSE (IRIT - IHM).",
+        "Développement d’un système de collaboration multi-écrans en réalité mixte avec Unity/Netcode et C# sur Meta Quest 3.",
+        "Contribution à l’intégration réseau pour au moins deux utilisateurs.",
+        "Participation aux séminaires d’équipe."
+      ],
+      "cta": "Rapport"
     },
+
+    "gl": {
+      "title": "Projet Génie Logiciel Ensimag",
+      "desc": [
+        "Conception et développement d’un compilateur en Java pour le langage Déca.",
+        "Projet collaboratif en méthode Agile.",
+        "Respect d’un cahier des charges proche du milieu professionnel.",
+        "Répartition des tâches en équipe et rédaction de la documentation."
+      ],
+      "cta": "Code source"
+    },
+
+    "site": {
+      "title": "Projet de construction de ce site internet",
+      "desc": [
+        "Site développé avec React et Next.js.",
+        "Styling moderne avec Tailwind CSS.",
+        "Back-end pour mails et gestion des données.",
+        "Optimisation UX/UI et navigation fluide.",
+        "Focus sur esthétique et cohérence visuelle."
+      ],
+      "cta": "Code source"
+    },
+
+    "ai": {
+      "title": "Projet de stage AI",
+      "desc": [
+        "Exploration et implémentation des PINNs (Physics-Informed Neural Networks) en Python avec PyTorch.",
+        "Application sur la résolution de l’équation de Fourier.",
+        "Comparaison des résultats du PINN avec la solution théorique.",
+        "Travail expérimental et analyse des performances du modèle."
+      ]
+    }
+  },
+
+   "values": {
+    "title": "Ce que je défends",
+    "creativity": {
+      "title": "🎨 Créativité",
+      "subtitle": "Faire émerger de nouvelles idées, établir des liens, imaginer l’inédit."
+    },
+    "impact": {
+      "title": "🌟 Impact",
+      "subtitle": "Créer du sens et contribuer positivement au monde."
+    },
+    "excellence": {
+      "title": "🏆 Excellence",
+      "subtitle": "Agir avec précision, exigence, qualité et authenticité."
+    },
+    "boldness": {
+      "title": "🔥 Audace",
+      "subtitle": "Oser, expérimenter, avancer malgré le doute et l’incertitude."
+    },
+    "aesthetics": {
+      "title": "🎼 Esthétique",
+      "subtitle": "Sensibilité aux formes, aux sons et à l’harmonie."
+    },
+    "exploration": {
+      "title": "🧭 Exploration",
+      "subtitle": "Curiosité, découverte et ouverture à l’inconnu."
+    }
+  },
+
     "Timeline":
     {
         "quote": "'Chaque individu possède des capacités, des forces et des centres d’intérêt qui peuvent devenir de puissants leviers pour lui-même et pour les autres. Souvent invisibles ou inexploités par peur, ces potentiels attendent simplement d’être révélés pour produire leur plein impact.' - Moi"
+    },
+
+    "contact": {
+        "title": "Contact",
+        "email": "Votre email",
+        "emailPlaceholder": "exemple@mail.com",
+        "details": "Votre message",
+        "detailsPlaceholder": "Décrivez votre projet ici...",
+        "submit": "Envoyer ma demande",
+        "sending": "Envoi en cours...",
+        "success": "🎉 Votre demande a bien été envoyée !",
+        "error": "❌ Une erreur est survenue. Veuillez réessayer."
+    },
+    "artHero": {
+        "musicTitle": "Musiques",
+        "musicSubtitle": "Oeuvres musicales classiques et autres ...",
+        "musicCTA": "Commencer l'exploration",
+        "graphicTitle": "Oeuvres graphiques",
+        "graphicSubtitle": "Dessins, peintures ...",
+        "graphicCTA": "Commencer l'exploration",
+        "magicalPortal": "Portail|Magique",
+        "footerText": "L’art, c’est créer, faire voyager et raconter des histoires qui osent transformer et transcender le réel."
     }
 }

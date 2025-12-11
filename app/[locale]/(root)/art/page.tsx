@@ -1,12 +1,14 @@
 "use client"
 
 import Link from "next/link";
-import { useState } from "react";
+import React, { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 export default function ArtHero() {
-    const [zooming, setZooming] = useState(false);
+  const [zooming, setZooming] = useState(false);
   const router = useRouter();
+  const t = useTranslations("artHero");
 
   const triggerZoomAndNavigate = (href : string) => {
     setZooming(true);
@@ -39,16 +41,16 @@ export default function ArtHero() {
         <div className="relative group text-white md:w-1/3 text-center md:text-left mb-8 md:mb-0">
 
 
-        <h2 className="text-3xl font-bold mb-4">Musique</h2>
+        <h2 className="text-3xl font-bold mb-4">{t("musicTitle")}</h2>
         <p className="text-gray-300 mb-4">
-          Oeuvres musicales classiques et autres ...
+         {t("musicSubtitle")}
         </p>
 
         <Link
           href="/art/music"
           className="inline-block px-6 py-3 rounded-xl bg-red-700 hover:bg-indigo-700 transition text-white text-center"
         >
-          Commencer l'exploration
+          {t("musicCTA")}
         </Link>
       </div>
 
@@ -76,22 +78,28 @@ export default function ArtHero() {
              text-2xl
             "
           >
-           Portail <br /> Magique
+            {t("magicalPortal").split("|").map((line, index) => (
+              <React.Fragment key={index}>
+                {line}
+                {index < 1 && <br />}
+              </React.Fragment>
+            ))}
+            
           </button>
         </div>
 
         {/* RIGHT TEXT */}
         <div className="text-white md:w-1/3 text-center md:text-right">
-          <h2 className="text-3xl font-bold mb-4">Oeuvres graphiques</h2>
+          <h2 className="text-3xl font-bold mb-4">{t("graphicTitle")}</h2>
           <p className="text-gray-300 mb-4">
-            Dessins, peintures ...
+            {t("graphicSubtitle")}
           </p>
 
           <Link
             href="/art/graphic"
             className="inline-block px-6 py-3 rounded-xl bg-red-700 hover:bg-indigo-700 transition text-white text-center"
           >
-            Commencer l'exploration
+            {t("graphicCTA")}
           </Link>
         </div>
 
@@ -99,7 +107,7 @@ export default function ArtHero() {
 
       <section className="flex justify-center pt-10">
         <h2 className="text-center text-2xl">
-          L’art, c’est créer, faire voyager et raconter des histoires qui osent transformer et transcender le réel.
+          {t("footerText")}
         </h2>
       </section>
     </div>

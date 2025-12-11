@@ -13,23 +13,104 @@
         "subtext": "The whole website and its contents are my creation.",
         "button": "Discover Me"
     },
-    "ProjectOverview": {
-        "title": "Quelques projets informatiques",
-        "1-title": "",
-        "1-description": "",
 
-        "2-title": "",
-        "2-description": "",
+    "projects": {
+    "title": "Some Computer Science Projects",
 
-        "3-title": "",
-        "3-description": "",
-
-        "4-title": "",
-        "4-description": ""
-        
+    "pfe": {
+      "title": "Ensimag Final-Year Project",
+      "desc": [
+        "Six-month end-of-studies internship within the ELIPSE team (IRIT – HCI).",
+        "Development of a multi-screen collaboration system in mixed reality using Unity/Netcode and C# on the Meta Quest 3.",
+        "Contribution to the network integration to support at least two users.",
+        "Participation in team seminars and meetings."
+      ],
+      "cta": "Report"
     },
+
+    "gl": {
+      "title": "Ensimag Software Engineering Project",
+      "desc": [
+        "Design and development of a compiler in Java for the Déca language.",
+        "Collaborative project following Agile methodology.",
+        "Compliance with a professional-like requirements specification.",
+        "Task distribution within the team and documentation writing."
+      ],
+      "cta": "Source code"
+    },
+
+    "site": {
+      "title": "Personal Website Development Project",
+      "desc": [
+        "Website developed using React and Next.js.",
+        "Modern styling with Tailwind CSS.",
+        "Back-end for emails and data handling.",
+        "UX/UI optimization and smooth navigation.",
+        "Focus on visual aesthetics and coherence."
+      ],
+      "cta": "Source code"
+    },
+
+    "ai": {
+      "title": "AI Internship Project",
+      "desc": [
+        "Exploration and implementation of PINNs (Physics-Informed Neural Networks) in Python with PyTorch.",
+        "Application to solving the Fourier equation.",
+        "Comparison of the PINN output with the theoretical solution.",
+        "Experimental work and model performance analysis."
+      ]
+    }
+  },
+   "values": {
+    "title": "What I stand for",
+    "creativity": {
+      "title": "🎨 Creativity",
+      "subtitle": "Bringing new ideas to life, connecting concepts, imagining the unknown."
+    },
+    "impact": {
+      "title": "🌟 Impact",
+      "subtitle": "Creating meaning and contributing positively to the world."
+    },
+    "excellence": {
+      "title": "🏆 Excellence",
+      "subtitle": "Acting with precision, rigor, quality and authenticity."
+    },
+    "boldness": {
+      "title": "🔥 Boldness",
+      "subtitle": "Daring, experimenting, moving forward despite uncertainty."
+    },
+    "aesthetics": {
+      "title": "🎼 Aesthetics",
+      "subtitle": "Sensitivity to forms, sounds and harmony."
+    },
+    "exploration": {
+      "title": "🧭 Exploration",
+      "subtitle": "Curiosity, discovery and openness to the unknown."
+    }
+  },
 
     "Timeline": {
         "quote": "'Every individual possesses abilities, strengths, and areas of interest that can become powerful levers for themselves and for others. Often invisible or untapped out of fear, these potentials are simply waiting to be revealed to achieve their full impact.' - Me"
-    }
+    },
+    "contact": {
+        "title": "Contact",
+        "email": "Your Email",
+        "emailPlaceholder": "example@mail.com",
+        "details": "Your Details",
+        "detailsPlaceholder": "Describe your project here...",
+        "submit": "Submit my request",
+        "sending": "Sending...",
+        "success": "🎉 Your request has been successfully submitted!",
+        "error": "❌ An error occurred. Please try again."
+    },
+    "artHero": {
+        "musicTitle": "Music",
+        "musicSubtitle": "Classical and other musical works ...",
+        "musicCTA": "Start exploring",
+        "graphicTitle": "Graphic Works",
+        "graphicSubtitle": "Drawings, paintings ...",
+        "graphicCTA": "Start exploring",
+        "magicalPortal": "Magic|Portal",
+        "footerText": "Art is creating, taking journeys, and telling stories that dare to transform and transcend reality."
+    } 
 }

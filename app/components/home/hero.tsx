@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import ButtonCTA from "../buttons/buttonCTA";
 import InfoBlock from "../utils/InfoBlock";

@@ -1,4 +1,5 @@
 import ButtonCTA from "../buttons/buttonCTA";
+import { useTranslations } from "next-intl";
 
 // Composant pour une carte individuelle
 interface StepCardProps {
@@ -30,17 +31,16 @@ function StepCard({ title, description, icon, cta }: StepCardProps) {
   );
 }
 
-// Tableau de données pour chaque étape
-const steps = [
-  {
-    title: "Projet de PFE Ensimag",
-    description: ["Stage de fin d’études de six mois au sein de l’équipe ELIPSE (IRIT - IHM).",
-      "Développement d’un système de collaboration multi-écrans en réalité mixte avec Unity/Netcode et C# sur Meta Quest 3.",
-      "Contribution à l’intégration réseau pour au moins deux utilisateurs.",
-      "Participation aux séminaires d’équipe"],
-       
-    icon: (
-      <svg
+
+// Composant principal
+export default function ProjectOverview() {
+    const t = useTranslations("projects");
+
+   const steps = [
+    {
+      title: t("pfe.title"),
+      description: t.raw("pfe.desc"), // returns an array
+      icon: (<svg
         className="w-12 h-12 text-white"
         viewBox="0 0 24 24"
         fill="none"
@@ -49,66 +49,44 @@ const steps = [
       >
         <path d="M10 10l2-2v8" />
         <path d="M19.875 6.27a2.225 2.225 0 0 1 1.125 1.948v7.284c0 .809-.443 1.555-1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1-2.184 0l-6.75-4.27a2.225 2.225 0 0 1-1.158-1.948v-7.285c0-.809.443-1.554 1.158-1.947l6.75-3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z" />
-      </svg>
-    ),
-    cta: <ButtonCTA label="Rapport" href=""/>,
-  },
-  {
-    title: "Projet Génie Logiciel Ensimag",
-    description: ["Conception et développement d’un compilateur en Java pour le langage Déca.",
-      "Projet collaboratif en méthode Agile.",
-      "Respect d’un cahier des charges proche du milieu professionnel.",
-      "Répartition des tâches en équipe et rédaction de la documentation."],
-    icon: (
-      <svg className="w-12 h-12 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+      </svg>),
+      cta: <ButtonCTA label={t("pfe.cta")} href="" />
+    },
+    {
+      title: t("gl.title"),
+      description: t.raw("gl.desc"),
+      icon: ( <svg className="w-12 h-12 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
         <path d="M10 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h3" />
         <path d="M19.875 6.27a2.225 2.225 0 0 1 1.125 1.948v7.284c0 .809-.443 1.555-1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1-2.184 0l-6.75-4.27a2.225 2.225 0 0 1-1.158-1.948v-7.285c0-.809.443-1.554 1.158-1.947l6.75-3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z" />
-      </svg>
-    ),
-    cta: <ButtonCTA label="Code source" href="https://github.com/Trophaigle/ProjetGL-Ensimag"/>,
-  },
-  {
-    title: "Projet de construction de ce site internet",
-    description:
-      ["Site développé avec React et Next.js.",
-      "Styling moderne avec Tailwind CSS.",
-      "Back-end pour mails et gestion des données.",
-      "Optimisation UX/UI et navigation fluide.",
-      "Focus sur esthétique et cohérence visuelle."
-      ],
-    icon: (
-      <svg className="w-12 h-12 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+      </svg>),
+      cta: <ButtonCTA label={t("gl.cta")} href="https://github.com/Trophaigle/ProjetGL-Ensimag" />
+    },
+    {
+      title: t("site.title"),
+      description: t.raw("site.desc"),
+      icon: ( <svg className="w-12 h-12 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
         <path d="M10 9a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1" />
         <path d="M19.875 6.27a2.225 2.225 0 0 1 1.125 1.948v7.284c0 .809-.443 1.555-1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1-2.184 0l-6.75-4.27a2.225 2.225 0 0 1-1.158-1.948v-7.285c0-.809.443-1.554 1.158-1.947l6.75-3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z" />
-      </svg>
-    ),
-    cta: <ButtonCTA label="Code source" href="https://github.com/Trophaigle/Portfolio"/>,
-  },
-  {
-    title: "Projet de stage AI",
-    description: ["Exploration et implémentation des PINNs (Physics-Informed Neural Networks) en Python avec PyTorch.",
-      "Application sur la résolution de l’équation de Fourier.",
-    "Comparaison des résultats du PINN avec la solution théorique.",
-    "Travail expérimental et analyse des performances du modèle."
-  ],
-    icon: (
-      <svg className="w-12 h-12 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+      </svg>),
+      cta: <ButtonCTA label={t("site.cta")} href="https://github.com/Trophaigle/Portfolio" />
+    },
+    {
+      title: t("ai.title"),
+      description: t.raw("ai.desc"),
+      icon: (<svg className="w-12 h-12 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
         <path d="M10 8v3a1 1 0 0 0 1 1h3" />
         <path d="M14 8v8" />
         <path d="M19.875 6.27a2.225 2.225 0 0 1 1.125 1.948v7.284c0 .809-.443 1.555-1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1-2.184 0l-6.75-4.27a2.225 2.225 0 0 1-1.158-1.948v-7.285c0-.809.443-1.554 1.158-1.947l6.75-3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z" />
-      </svg>
-    ),
-  },
-];
+      </svg>),
+    }
+  ];
 
-// Composant principal
-export default function ProjectOverview() {
   return (
     <div className="bg-[radial-gradient(ellipse_at_40%_50%,rgba(100,124,140,0.8)_0%,transparent_50%)] p-4">
       {/* <div className="max-w-7xl mx-auto h-max px-6 md:px-12 xl:px-6"> */}
       <div className="container mx-auto h-max px-6"> {/*remplace celle du haut */}
         <div className="md:w-2/3 lg:w-1/2">
-          <h2 className="my-8 text-2xl font-bold text-white md:text-4xl">Quelques projets informatiques</h2>
+          <h2 className="my-8 text-2xl font-bold text-white md:text-4xl">{t("title")}</h2>
           {/* <p className="text-gray-300">We follow our process to get you started as quickly as possible</p> */}
         </div>
         <div className="mt-16 mb-16 grid divide-x divide-y divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">

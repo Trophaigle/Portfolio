@@ -1,8 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
+import { useTranslations } from "next-intl";
 
 function ContactForm() {
+
+  const t = useTranslations("contact");
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [email, setEmail] = useState("");
@@ -38,32 +41,32 @@ function ContactForm() {
     <section className="bg-black text-white py-16 px-6">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-4xl font-bold mb-8 text-center">
-         Contact
+         {t("title")}
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-10">
 
           {/* Email */}
           <div>
-            <label className="block mb-2 text-lg">Your Email</label>
+            <label className="block mb-2 text-lg">{t("email")}</label>
             <input
               type="email"
               value={email}
               onChange={e => setEmail(e.target.value)}
               className="w-full bg-gray-900 border border-gray-700 rounded px-4 py-2"
-              placeholder="example@mail.com"
+              placeholder={t("emailPlaceholder")}
               required
             />
           </div>
 
           {/* Notes */}
           <div>
-            <label className="block mb-2 text-lg">Your Details</label>
+            <label className="block mb-2 text-lg">{t("details")}</label>
             <textarea
               value={notes}
               onChange={e => setNotes(e.target.value)}
               className="w-full h-40 bg-gray-900 border border-gray-700 rounded px-4 py-2"
-              placeholder="Specify your project here..."
+              placeholder={t("detailsPlaceholder")}
             />
           </div>
 
@@ -72,18 +75,18 @@ function ContactForm() {
             type="submit"
             className="w-full bg-red-700 hover:bg-red-600 text-white font-bold py-3 rounded"
           >
-            {status === "loading" ? "Sending..." : "Submit my request"}
+            {status === "loading" ? t("sending") : t("submit")}
           </button>
         </form>
 
         {status === "sent" && (
           <p className="text-green-400 mt-4 text-center">
-            🎉 Your request has been successfully submitted !
+            {t("success")}
           </p>
         )}
         {status === "error" && (
           <p className="text-red-400 mt-4 text-center">
-            ❌ An error occurred. Please try again.
+             {t("error")}
           </p>
         )}
       </div>
