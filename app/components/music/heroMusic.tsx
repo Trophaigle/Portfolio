@@ -1,9 +1,11 @@
-"use client";
 
 import Link from 'next/link'
 import React from 'react'
+import { useTranslations } from "next-intl";
 
 function HeroMusic () {
+  const t = useTranslations("heroMusic");
+
   return (
      <section className="relative h-[70vh] flex items-center justify-center text-center text-white">
       {/* Vidéo de fond */}
@@ -26,28 +28,21 @@ function HeroMusic () {
        {/* Titre */}
         <div className="flex flex-col items-center justify-center gap-4 -mt-20">
           <h1 className="text-5xl font-bold drop-shadow-xl px-2">
-            Oeuvres Musicales
+            {t("title")}
           </h1>
         
 
-          {/* Boutons avec Link */}
           <div className="flex gap-4">
-            <Link
-              href="/"
-              className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition"
-            >
-              Music
-            </Link>
+            <div className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition cursor-default">
+              {t("music")}
+            </div>
 
-            <Link
-              href="/"
-              className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition"
-            >
-              Sketch
-              {/* pas la meme method sketch pour du classique/soundtrack ou chanson par exemple */}
-            </Link>
+            <div className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition cursor-default">
+              {t("sketch")}
+            </div>
           </div>
-          <p>Que souhaites-tu raconter aujourd'hui ?</p>
+
+          <p className='text-2xl'>{t("question")}</p>
         </div>
 
       {/* Courbe SVG */}

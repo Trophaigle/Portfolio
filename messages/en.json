@@ -112,5 +112,54 @@
         "graphicCTA": "Start exploring",
         "magicalPortal": "Magic|Portal",
         "footerText": "Art is creating, taking journeys, and telling stories that dare to transform and transcend reality."
-    } 
+    } ,
+     "music": {
+        "balade-du-soir-e-majeur": {
+          "title": "Evening Stroll in E Major",
+          "description": "Evening Stroll description"
+        },
+        "la-rosa-enflorece": {
+          "title": "La Rosa Enflorece",
+          "description": "Nar det lider mot jul (Swedish Christmas song)"
+        },
+        "danse-des-poules": {
+          "title": "Dance of the Chickens",
+          "description": "Description of Dance of the Chickens"
+        },
+        "nar-det-lider-mot-jul": {
+          "title": "Nar Det Lider Mot Jul - 2025",
+          "description": "Description of the Swedish Christmas song"
+        },
+        "petit-nocturne-sankta-lucia": {
+          "title": "Little Nocturne for Sankta Lucia",
+          "description": "Description of the Sankta Lucia nocturne"
+        },
+        "comptine-noel-organ": {
+          "title": "Christmas Song for Organ",
+          "description": "Description of the organ piece"
+        },
+        "balade-a-paris-Gb": {
+          "title": "Stroll in Paris in G♭",
+          "description": "Description of the Paris stroll in G♭"
+        },
+        "marche-funebre": {
+          "title": "Funeral March",
+          "description": "Description of the funeral march"
+        }
+    },
+    "heroMusic": {
+      "title": "Musical Works",
+      "music": "Music",
+      "sketch": "Sketches",
+      "question": "What would you like to share today?"
+    },
+    "musicDescription": {
+      "pdf": "Sheet Music (PDF)",
+      "viewPdf": "View PDF",
+      "noPdf": "No sheet music available",
+      "media": "Audio / Video",
+      "noMedia": "No media available",
+      "sketches": "Sketches",
+      "noSketches": "No sketches available"
+    }
 }

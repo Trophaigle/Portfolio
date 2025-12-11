@@ -1,5 +1,6 @@
 import { MusicPiece } from "@/data/music";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface CardProps {
   piece: MusicPiece;
@@ -8,6 +9,9 @@ interface CardProps {
 }
 
 export default function MusicCard({ piece, imageSrc, isNew }: CardProps) {
+
+  const t = useTranslations("music");
+
   // couleur auto selon type
   const getBadgeColor = (type?: string) => {
     if (!type) return "";
@@ -24,7 +28,7 @@ export default function MusicCard({ piece, imageSrc, isNew }: CardProps) {
         <div className="w-1/2 h-full">
           <img
             src={imageSrc}
-            alt={piece.title}
+            alt={t(`${piece.slug}.title`)}
             className="w-full h-full object-cover rounded-lg"
           />
         </div>
@@ -32,7 +36,7 @@ export default function MusicCard({ piece, imageSrc, isNew }: CardProps) {
         {/* Texte à droite */}
         <div className="ml-4 w-1/2 relative h-full flex flex-col justify-between items-start">
           <h3 className="text-xl font-semibold text-white flex items-center">
-            {piece.title}
+            {t(`${piece.slug}.title`)}
           
             {/* Badge NEW */}
             {piece.isNew && (
@@ -43,7 +47,7 @@ export default function MusicCard({ piece, imageSrc, isNew }: CardProps) {
           </h3>
           
           <p className="text-gray-300 mt-2">
-            {piece.description}
+            {t(`${piece.slug}.description`)}
           </p>
           
           {/* Badge sous la description */}

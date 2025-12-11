@@ -1,4 +1,3 @@
-"use client";
 
 import Link from 'next/link'
 import React from 'react'
@@ -25,20 +24,15 @@ function HeroGraphic () {
 
           {/* Boutons avec Link */}
           <div className="flex gap-4">
-            <Link
-              href="/dessin"
-              className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition"
-            >
+            <div className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition cursor-default">
               Dessin
-            </Link>
-
-            <Link
-              href="/peinture"
-              className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition"
-            >
+            </div>
+            
+            <div className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition cursor-default">
               Peinture
-            </Link>
+            </div>
           </div>
+            
           <p>Que souhaites-tu raconter aujourd'hui ?</p>
         </div>
         

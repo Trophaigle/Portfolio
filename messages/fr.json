@@ -112,5 +112,55 @@
         "graphicCTA": "Commencer l'exploration",
         "magicalPortal": "Portail|Magique",
         "footerText": "L’art, c’est créer, faire voyager et raconter des histoires qui osent transformer et transcender le réel."
+    },
+
+    "music": {
+      "balade-du-soir-e-majeur": {
+        "title": "Balade du soir E majeur",
+        "description": "Description balade du soir"
+      },
+      "la-rosa-enflorece": {
+        "title": "La Rosa Enflorece",
+        "description": "Nar det lider mot jul"
+      },
+      "danse-des-poules": {
+        "title": "Danse des Poules",
+        "description": "Description danse des poules"
+      },
+      "nar-det-lider-mot-jul": {
+        "title": "Nar Det Lider Mot Jul - 2025",
+        "description": "Description danse des poules"
+      },
+      "petit-nocturne-sankta-lucia": {
+        "title": "Petit Nocturne Sankta Lucia",
+        "description": "Description nocturne sankta lucia"
+      },
+      "comptine-noel-organ": {
+        "title": "Comptine de Noel à l'Organ",
+        "description": "Description organ"
+      },
+      "balade-a-paris-Gb": {
+        "title": "Balade à Paris en Gb",
+        "description": "Description balade Gb"
+      },
+      "marche-funebre": {
+        "title": "Marche Funèbre",
+        "description": "Description marche funèbre"
+      }
+  },
+    "heroMusic": {
+      "title": "Œuvres Musicales",
+      "music": "Musique",
+      "sketch": "Esquisses",
+      "question": "Que souhaites-tu raconter aujourd'hui ?"
+    },
+    "musicDescription": {
+      "pdf": "Partition (PDF)",
+      "viewPdf": "Voir le PDF",
+      "noPdf": "Aucune partition disponible",
+      "media": "Audio / Vidéo",
+      "noMedia": "Aucun média disponible",
+      "sketches": "Esquisses",
+      "noSketches": "Aucune esquisse disponible"
     }
 }
