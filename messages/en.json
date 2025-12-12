@@ -151,7 +151,7 @@
       "title": "Musical Works",
       "music": "Music",
       "sketch": "Sketches",
-      "question": "What would you like to share today?"
+      "question": "What would you like to tell today?"
     },
     "musicDescription": {
       "pdf": "Sheet Music (PDF)",
@@ -161,5 +161,13 @@
       "noMedia": "No media available",
       "sketches": "Sketches",
       "noSketches": "No sketches available"
-    }
+    },
+      "heroGraphic": {
+        "title": "Graphic Works",
+        "buttons": {
+          "drawing": "Drawing",
+          "painting": "Painting"
+        },
+        "subtitle": "What would you like to tell today?"
+  }
 }

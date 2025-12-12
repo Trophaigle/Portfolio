@@ -1,18 +1,21 @@
-"use client";
 
 import Link from "next/link";
 import { SiPatreon, SiInstagram, SiYoutube, SiLinkedin } from "react-icons/si";
+import { useTranslations } from "next-intl";
 
 // https://tailwindflex.com/@mr-robot/basic-footer + simplicafication du code avec Chatgpt
 
 function Footer (){
+    const t = useTranslations("Navbar");
+
    const sections = [
     {
       title: "Menu",
       links: [
-        { name: "Home", href: "/" },
-        { name: "About", href: "/about" },
-        { name: "Contact", href: "/contact", badge: "New" },
+        { name: t("home"), href: "/" },
+        { name: t("about"), href: "/about" },
+        { name: t("art"), href: "/art", badge: "New" },
+        { name: t("blog"), href: "/blog", badge: "New" },
       ],
     },
     {

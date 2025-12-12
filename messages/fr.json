@@ -162,5 +162,13 @@
       "noMedia": "Aucun média disponible",
       "sketches": "Esquisses",
       "noSketches": "Aucune esquisse disponible"
+    },
+    "heroGraphic": {
+      "title": "Oeuvres graphiques",
+      "buttons": {
+        "drawing": "Dessin",
+        "painting": "Peinture"
+      },
+      "subtitle": "Que souhaites-tu raconter aujourd'hui ?"
     }
 }

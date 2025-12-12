@@ -46,17 +46,11 @@ function Hero () {
 
     </div>
 
-    {/* Courbe SVG */}
-      <svg
-        className="absolute bottom-0 left-0 w-full"
-        viewBox="0 0 1440 150"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill="#000000"
-          d="M0,96 C360,160 1080,0 1440,96 L1440,200 L0,200 Z"
-        ></path>
-      </svg>
+<svg className="absolute bottom-0 left-0 w-full" 
+viewBox="0 0 1440 150" 
+xmlns="http://www.w3.org/2000/svg" > 
+<path fill="#ffffff" d="M0,96 C360,160 1080,0 1440,96 L1440,200 L0,200 Z" ></path> 
+</svg>
   </section>
 
   );

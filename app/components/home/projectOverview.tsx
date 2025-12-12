@@ -86,7 +86,7 @@ export default function ProjectOverview() {
       {/* <div className="max-w-7xl mx-auto h-max px-6 md:px-12 xl:px-6"> */}
       <div className="container mx-auto h-max px-6"> {/*remplace celle du haut */}
         <div className="md:w-2/3 lg:w-1/2">
-          <h2 className="my-8 text-2xl font-bold text-white md:text-4xl">{t("title")}</h2>
+          <h2 className="my-8 text-2xl font-bold text-black md:text-4xl">{t("title")}</h2>
           {/* <p className="text-gray-300">We follow our process to get you started as quickly as possible</p> */}
         </div>
         <div className="mt-16 mb-16 grid divide-x divide-y divide-gray-700 overflow-hidden rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">

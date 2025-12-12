@@ -11,8 +11,17 @@ export default async function Home() {
   return (
     <>
       <Hero />
-      <ProjectOverview />
-      <ZigzagTimelineAuto />      
+      <div className="relative bg-white overflow-hidden">
+  
+  {/* Contenu réel */}
+  <div className="relative z-10">
+     <ProjectOverview />
+        <ZigzagTimelineAuto />  
+  </div>
+</div>
+   
+       
+      
     </>
   );
   // https://www.youtube.com/watch?v=Zq5fmkH0T78

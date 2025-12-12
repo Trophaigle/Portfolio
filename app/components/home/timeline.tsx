@@ -9,25 +9,30 @@ interface TimelineStep {
 }
 
 const timelineSteps: TimelineStep[] = [
+ 
   {
-    icon: "",
+    icon: "🖌️",
+    title: "Meera Lee Patel's Journal",
+    description:
+      "'Wherever we are in life, change is always around the corner – and we often find ourselves clinging to the familiar, to what’s safe, even if it’s no longer serving us, rather than summoning the courage to simply let go. In this beautifully illustrated journal, artist and author Meera Lee Patel pairs inspiring quotes and encouraging prompts to help you face your current challenges, navigate difficult transitions, and leave your comfort zone—so you can confidently move forward, into your next chapter.'",
+      sourceUrl: "https://www.meeralee.com/my-friend-fear",
+      sourceLabel: "Lire la source"
+  },
+  {
+    icon: "🌟",
+    title: "Learn how great leaders inspire action (TEDX) — Top 5 lessons from Simon Sinek’s ‘Start With Why’",
+    description:
+      "“Be the change you wish to see in the world “— Mahatma Gandhi",
+    sourceUrl: "https://medium.com/@supermansastry/learn-how-great-leaders-inspire-action-top-5-lessons-from-simon-sineks-start-with-why-5727c9c1d76",
+    sourceLabel: "Lire la source"
+  },
+   {
+    icon: "🧲",
     title: "Lien profond entre art et science",
     description:
       "'L’art recherche la beauté et parle à l’émotion; la science recherche la vérité et parle à la raison. Cette dichotomie n’a pas raison d’être : artistes et scientifiques s’engagent en réalité dans l’observation et dans l’expérimentation. “C’est par l’expérience que progressent la science et l’art”, selon Aristote ». L’art tout comme la science riment avec innovation.'",
        sourceUrl: "https://www.usherbrooke.ca/actualites/nouvelles/details/36748",
     sourceLabel: "Lire la source"
-  },
-  {
-    icon: "",
-    title: "",
-    description:
-      ""
-  },
-  {
-    icon: "",
-    title: "",
-    description:
-      ""
   },
   {
     icon: "",
@@ -42,8 +47,8 @@ const timelineSteps: TimelineStep[] = [
 export default function ZigzagTimelineAuto() {
   return (
     <div className="container mx-auto px-6 py-12">
-      <h2 className="text-3xl font-bold text-white text-center mb-12">
-        Thématiques
+      <h2 className="text-3xl font-bold text-black text-center mb-12">
+        Thématiques pertinentes
       </h2>
 
       <div className="relative">
@@ -83,7 +88,7 @@ export default function ZigzagTimelineAuto() {
                       
 
                       {/* Cercle icône centré */}
-                      <div className="w-12 h-12 rounded-full bg-gray-900 border-4 border-white text-2xl flex items-center justify-center mx-6 z-10">
+                      <div className="w-12 h-12 rounded-full bg-gray-400 border-4 border-gray-900 text-2xl flex items-center justify-center mx-6 z-10">
                         {step.icon}
                       </div>
 
@@ -96,7 +101,7 @@ export default function ZigzagTimelineAuto() {
                       <div className="md:w-1/2"></div>
 
                       {/* Cercle icône centré */}
-                      <div className="w-12 h-12 rounded-full bg-gray-900 border-4 border-white text-2xl flex items-center justify-center mx-6 z-10">
+                      <div className="w-12 h-12 rounded-full bg-gray-400 border-4 border-gray-900 text-2xl flex items-center justify-center mx-6 z-10">
                         {step.icon}
                       </div>
 

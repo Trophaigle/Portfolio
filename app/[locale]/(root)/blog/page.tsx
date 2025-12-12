@@ -3,30 +3,30 @@ import Link from 'next/link'
 import React from 'react'
 
 const featuredPost = {
-  title: "Créer sans chercher à être vu",
+  title: "",
   excerpt:
-    "Un texte sur la liberté de créer loin des chiffres, des likes et du regard extérieur.",
-  slug: "creer-sans-etre-vu",
-  date: "2025-02-20",
-  readingTime: "4 min",
+    "",
+  slug: "",
+  date: "",
+  readingTime: "",
 }
 
 const posts = [
   {
-    title: "Le silence avant la musique",
-    slug: "le-silence-avant-la-musique",
-    date: "2025-02-12",
+    title: "",
+    slug: "",
+    date: "",
   },
-  {
-    title: "Pourquoi écrire à la main change tout",
-    slug: "ecrire-a-la-main",
-    date: "2025-02-01",
-  },
-  {
-    title: "Dessiner quand on doute",
-    slug: "dessiner-quand-on-doute",
-    date: "2025-01-18",
-  },
+  // {
+  //   title: "Pourquoi écrire à la main change tout",
+  //   slug: "ecrire-a-la-main",
+  //   date: "2025-02-01",
+  // },
+  // {
+  //   title: "Dessiner quand on doute",
+  //   slug: "dessiner-quand-on-doute",
+  //   date: "2025-01-18",
+  // },
 ]
 
 const categories = [

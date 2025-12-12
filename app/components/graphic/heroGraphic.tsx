@@ -1,8 +1,10 @@
 
 import Link from 'next/link'
 import React from 'react'
+import { useTranslations } from 'next-intl'
 
 function HeroGraphic () {
+    const t = useTranslations('heroGraphic') 
   return (
      <section className="relative h-[70vh] flex items-center justify-center text-center text-white">
       {/* Image de fond */}
@@ -19,21 +21,21 @@ function HeroGraphic () {
        {/* Titre */}
         <div className="flex flex-col items-center justify-center gap-4 -mt-20">
           <h1 className="text-5xl font-bold drop-shadow-xl px-2">
-            Oeuvres graphiques
+             {t('title')}
           </h1>
 
           {/* Boutons avec Link */}
           <div className="flex gap-4">
             <div className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition cursor-default">
-              Dessin
+              {t('buttons.drawing')}
             </div>
             
             <div className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition cursor-default">
-              Peinture
+               {t('buttons.painting')}
             </div>
           </div>
             
-          <p>Que souhaites-tu raconter aujourd'hui ?</p>
+          <p className='text-2xl'>{t('subtitle')}</p>
         </div>
         
       {/* Courbe SVG */}
