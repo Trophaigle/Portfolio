@@ -22,7 +22,7 @@ const timelineSteps: TimelineStep[] = [
     icon: "🌟",
     title: "Learn how great leaders inspire action (TEDX) — Top 5 lessons from Simon Sinek’s ‘Start With Why’",
     description:
-      "“Be the change you wish to see in the world “— Mahatma Gandhi",
+      "The leaders and organisations which inspire action, and can sustain to do so for longer periods of time, are the ones which have a clarity of their ‘why’, discipline of ‘how’, and consistency of ‘what’.",
     sourceUrl: "https://medium.com/@supermansastry/learn-how-great-leaders-inspire-action-top-5-lessons-from-simon-sineks-start-with-why-5727c9c1d76",
     sourceLabel: "Lire la source"
   },
