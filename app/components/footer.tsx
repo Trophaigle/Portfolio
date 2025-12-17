@@ -37,8 +37,8 @@ function Footer (){
   const socialIcons = [
      { href: "#", label: "Patreon", icon: SiPatreon },
      { href: "#", label: "Instagram", icon: SiInstagram },
-     { href: "#", label: "YouTube", icon: SiYoutube },
-     { href: "#", label: "LinkedIn", icon: SiLinkedin },
+     { href: "https://www.youtube.com/@trophaigle8801", label: "YouTube", icon: SiYoutube },
+     { href: "https://www.linkedin.com/in/thomas-serafin", label: "LinkedIn", icon: SiLinkedin },
   ];
 
   return (
@@ -63,7 +63,7 @@ function Footer (){
       <div className="bg-footercolor pt-2">
         <div className="flex flex-col items-center max-w-5xl mx-auto px-3 py-5 border-t text-sm">
           <div className="flex flex-row mt-2">
-             {/* {socialIcons.map(({ href, icon: Icon }, idx) => (
+             {socialIcons.map(({ href, icon: Icon }, idx) => (
               <Link
                 key={idx}
                 href={href}
@@ -71,7 +71,7 @@ function Footer (){
               >
               <Icon size={24} />
               </Link>
-            ))} */}
+            ))}
           </div>
           <div className="my-5">© Copyright 2025. All Rights Reserved.</div>
         </div>

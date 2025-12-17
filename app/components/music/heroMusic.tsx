@@ -18,6 +18,7 @@ function HeroMusic () {
         className="w-full h-full object-cover"
       > 
       {/* https://pixabay.com/fr/videos/ai-g%c3%a9n%c3%a9r%c3%a9-village-ville-de-no%c3%abl-191724/ */}
+      {/* video ia */}
         <source src="/videos/noel.mp4" type="video/mp4" />
         Votre navigateur ne supporte pas la vidéo.
       </video>
