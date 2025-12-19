@@ -73,7 +73,7 @@ export const musicData: MusicPiece[] = [
   {
     slug: "valse-joie",
     type: "orchestra",
-    pdfUrl: "/music/valse-joie/ValseDeLaJoieFinaleSheet",
+    pdfUrl: "/music/valse-joie/ValseDeLaJoieFinaleSheet.pdf",
     videoUrl: "https://www.youtube.com/embed/_HdvTgjd9n4?si=_K8WAZvRFHAcJ3JJ",
     sketches: []
   },
