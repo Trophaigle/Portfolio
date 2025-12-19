@@ -120,17 +120,6 @@ export default function ArtHero() {
 
   </div>
 </div>
-
-    {/* <div className="container mx-auto px-6 py-16">
-      <div className="w-full md:w-1/2">
-        <InfoBlock
-          title="Projet d'adaptation de la 'Nuit des Temps' de R. Barjavel"
-          text="remanier, s'inspirer, raconter ..."
-        />
-      </div>
-
-      <ButtonCTA label="Discover" href="/" />
-    </div> */}
     </>
   );
 }
