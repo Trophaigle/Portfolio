@@ -115,37 +115,45 @@
     },
 
     "music": {
+      "theme-passion": {
+        "title": "Thème de la Passion - 2023",
+        "description": "Thème romantique développé avec une orchestration progressive."
+      },
       "balade-du-soir-e-majeur": {
-        "title": "Balade du soir E majeur",
-        "description": "Description balade du soir"
+        "title": "Balade du soir E majeur - 2024",
+        "description": "Mélodie à titre de balade"
       },
       "la-rosa-enflorece": {
-        "title": "La Rosa Enflorece",
-        "description": "Nar det lider mot jul"
+        "title": "La Rosa Enflorece - 2024",
+        "description": "Chant séfarade judéo-espagnol, adapté et orchestré à partir d’un arrangement choral d’Alice Parker."
       },
       "danse-des-poules": {
-        "title": "Danse des Poules",
-        "description": "Description danse des poules"
+        "title": "Danse des Poules - 2024",
+        "description": "Pièce pour piano évoquant des poules courant dans la basse-cour, le passage du renard de nuit et l’aube du matin."
       },
       "nar-det-lider-mot-jul": {
         "title": "Nar Det Lider Mot Jul - 2025",
-        "description": "Description danse des poules"
+        "description": "Chant de Noël suédois, adaptation et orchestration à partir d’une partition pour chœur."
       },
       "petit-nocturne-sankta-lucia": {
-        "title": "Petit Nocturne Sankta Lucia",
-        "description": "Description nocturne sankta lucia"
+        "title": "Petit Nocturne Sankta Lucia - 2024",
+        "description": "Pièce pour piano écrite durant la période de Lucia en Suède."
       },
       "comptine-noel-organ": {
-        "title": "Comptine de Noel à l'Organ",
-        "description": "Description organ"
+        "title": "Comptine de Noel pour Orgue - 2024",
+        "description": "Pièce pour orgue écrite à Copenhague"
       },
       "balade-a-paris-Gb": {
-        "title": "Balade à Paris en Gb",
-        "description": "Description balade Gb"
+        "title": "Balade à Paris en Gb - 2023",
+        "description": "Piano melody written in Paris"
+      },
+      "valse-joie": {
+        "title": "Valse de la Joie - 2023",
+        "description": "Valse"
       },
       "marche-funebre": {
-        "title": "Marche Funèbre",
-        "description": "Description marche funèbre"
+        "title": "Marche Funèbre - 2024",
+        "description": "Marche funèbre pour piano"
       }
   },
     "heroMusic": {

@@ -15,8 +15,8 @@ export default async function Home() {
   
   {/* Contenu réel */}
   <div className="relative z-10">
-     <ProjectOverview />
-        <ZigzagTimelineAuto />  
+    <ZigzagTimelineAuto />  
+     <ProjectOverview /> {/*delete ?  */} 
   </div>
 </div>
    

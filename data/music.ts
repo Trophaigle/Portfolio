@@ -10,6 +10,13 @@ export interface MusicPiece {
 
 // Example data
 export const musicData: MusicPiece[] = [
+  {
+    slug: "theme-passion",
+    type: "orchestra",
+    pdfUrl: "/music/theme-passion/ThemeDelaPassion.pdf",
+    videoUrl: "https://www.youtube.com/embed/t751r_iIZfs?si=6CF4obrnBF9nOtZb",
+    sketches: []
+  },
     {
     slug: "balade-du-soir-e-majeur",
     type: "piano",
@@ -63,10 +70,17 @@ export const musicData: MusicPiece[] = [
     videoUrl: "https://www.youtube.com/embed/8J0RPYWc-U4?si=V8FD5CU4NEJwaNBj",
     sketches: []
   },
+  {
+    slug: "valse-joie",
+    type: "orchestra",
+    pdfUrl: "/music/valse-joie/ValseDeLaJoieFinaleSheet",
+    videoUrl: "https://www.youtube.com/embed/_HdvTgjd9n4?si=_K8WAZvRFHAcJ3JJ",
+    sketches: []
+  },
    {
     slug: "marche-funebre",
 
-    type: "organ",
+    type: "piano",
     pdfUrl: "/music/marche-funebre/FunesteForPdf.pdf",
     videoUrl: "https://www.youtube.com/embed/RfBuS2MXnZ0?si=DedRygbGob2KN_-L",
     sketches: []

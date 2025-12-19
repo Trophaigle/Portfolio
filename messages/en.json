@@ -114,37 +114,45 @@
         "footerText": "Art is creating, taking journeys, and telling stories that dare to transform and transcend reality."
     } ,
      "music": {
+        "theme-passion": {
+          "title": "Theme of passion - 2023",
+          "description": "Romantic theme developed with progressive orchestration."
+        },
         "balade-du-soir-e-majeur": {
-          "title": "Evening Stroll in E Major",
+          "title": "Evening Stroll in E Major - 2024",
           "description": "Evening Stroll description"
         },
         "la-rosa-enflorece": {
-          "title": "La Rosa Enflorece",
-          "description": "Nar det lider mot jul (Swedish Christmas song)"
+          "title": "La Rosa Enflorece - 2024",
+          "description": "Sephardic Judeo-Spanish song, adapted and orchestrated from a choral arrangement by Alice Parker."
         },
         "danse-des-poules": {
-          "title": "Dance of the Chickens",
-          "description": "Description of Dance of the Chickens"
+          "title": "Dance of the Chickens - 2024",
+          "description": "A piano piece evoking hens running around the farmyard, the fox’s nocturnal passage, and the dawn of morning"
         },
         "nar-det-lider-mot-jul": {
           "title": "Nar Det Lider Mot Jul - 2025",
-          "description": "Description of the Swedish Christmas song"
+          "description": "Swedish Christmas carol, adapted and orchestrated from a choral score."
         },
         "petit-nocturne-sankta-lucia": {
-          "title": "Little Nocturne for Sankta Lucia",
-          "description": "Description of the Sankta Lucia nocturne"
+          "title": "Little Nocturne for Sankta Lucia - 2024",
+          "description": "Piano piece written during the Lucia season in Sweden"
         },
         "comptine-noel-organ": {
-          "title": "Christmas Song for Organ",
-          "description": "Description of the organ piece"
+          "title": "Christmas Song for Organ - 2024",
+          "description": "Organ piece written in Copenhagen"
         },
         "balade-a-paris-Gb": {
-          "title": "Stroll in Paris in G♭",
-          "description": "Description of the Paris stroll in G♭"
+          "title": "Stroll in Paris in G♭ - 2023",
+          "description": "Mélodie pour piano écrite à Paris"
+        },
+        "valse-joie": {
+          "title": "Waltz of Joy - 2023",
+          "description": "Waltz"
         },
         "marche-funebre": {
-          "title": "Funeral March",
-          "description": "Description of the funeral march"
+          "title": "Funeral March - 2024",
+          "description": "Funeral march for piano"
         }
     },
     "heroMusic": {
