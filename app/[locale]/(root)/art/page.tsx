@@ -32,7 +32,7 @@ export default function ArtHero() {
   {/* BACKGROUND IMAGE + OVERLAY */}
   <div className="absolute inset-0 -z-10">
     <Image
-      src="/images/roadSunset.jpeg" // image de fond
+      src="/images/roadSunset.jpg" // image de fond
       alt="Background"
       fill
       className="object-cover"

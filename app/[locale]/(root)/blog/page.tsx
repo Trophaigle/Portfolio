@@ -1,71 +1,58 @@
 import HeroBlog from '@/app/components/blog/heroBlog'
 import Link from 'next/link'
-import React from 'react'
+import { featuredArticle, recentArticles } from '@/data/blog'
 
-const featuredPost = {
-  title: "",
-  excerpt:
-    "",
-  slug: "",
-  date: "",
-  readingTime: "",
-}
+export default function Blog({
+  params,
+}: {
+  params: { locale: string }
+}) {
+  const { locale } = params
 
-const posts = [
-  {
-    title: "",
-    slug: "",
-    date: "",
-  },
-  // {
-  //   title: "Pourquoi écrire à la main change tout",
-  //   slug: "ecrire-a-la-main",
-  //   date: "2025-02-01",
-  // },
-  // {
-  //   title: "Dessiner quand on doute",
-  //   slug: "dessiner-quand-on-doute",
-  //   date: "2025-01-18",
-  // },
-]
+  const featuredPost = featuredArticle
+  const posts = recentArticles
 
-const categories = [
-  { name: "Création", slug: "creation" },
-  { name: "Réflexions", slug: "reflexions" },
-  { name: "Processus", slug: "processus" },
-]
+  const categories = [
+    { name: 'Création', slug: 'creation' },
+    { name: 'Réflexions', slug: 'reflexions' },
+    { name: 'Processus', slug: 'processus' },
+  ]
 
-const blog = () => {
   return (
     <>
-    <HeroBlog />
-    {/* WRAPPER BLANC + TEXTE SOMBRE */}
-      <div className="bg-white text-neutral-900 dark:bg-white dark:text-neutral-900">
+      <HeroBlog />
+
+      <div className="bg-white text-neutral-900">
         <div className="container mx-auto px-6 py-24 space-y-24">
 
           {/* ARTICLE MIS EN AVANT */}
-          <section>
-            <Link href={`/blog/${featuredPost.slug}`} className="group block">
-              <article className="space-y-4">
-                <p className="text-xs uppercase tracking-widest text-neutral-500">
-                  Article mis en avant
-                </p>
+          {featuredPost && (
+            <section>
+              <Link
+                href={`/blog/${featuredPost.slug}`}
+                className="group block"
+              >
+                <article className="space-y-4 max-w-3xl">
+                  <p className="text-xs uppercase tracking-widest text-neutral-500">
+                    Article mis en avant
+                  </p>
 
-                <h1 className="text-3xl sm:text-4xl font-semibold leading-tight text-neutral-900 group-hover:underline">
-                  {featuredPost.title}
-                </h1>
+                  <h1 className="text-3xl sm:text-4xl font-semibold leading-tight group-hover:underline">
+                    {featuredPost.title}
+                  </h1>
 
-                <p className="text-neutral-700 max-w-2xl">
-                  {featuredPost.excerpt}
-                </p>
+                  <p className="text-neutral-700 max-w-2xl">
+                    {featuredPost.excerpt}
+                  </p>
 
-                <div className="flex gap-4 text-xs text-neutral-500">
-                  <time>{featuredPost.date}</time>
-                  <span>{featuredPost.readingTime}</span>
-                </div>
-              </article>
-            </Link>
-          </section>
+                  <div className="flex gap-4 text-xs text-neutral-500">
+                    <time>{featuredPost.date}</time>
+                    <span>{featuredPost.readingTime}</span>
+                  </div>
+                </article>
+              </Link>
+            </section>
+          )}
 
           {/* CATEGORIES */}
           <section className="flex flex-wrap gap-3">
@@ -83,8 +70,8 @@ const blog = () => {
             ))}
           </section>
 
-          {/* LISTE DES ARTICLES */}
-          <section className="space-y-10">
+          {/* ARTICLES RECENTS */}
+          <section className="space-y-10 max-w-3xl">
             <h2 className="text-xl font-medium text-neutral-900">
               Articles récents
             </h2>
@@ -101,7 +88,7 @@ const blog = () => {
                       {post.date}
                     </time>
 
-                    <h3 className="text-lg font-medium text-neutral-900 group-hover:underline">
+                    <h3 className="text-lg font-medium group-hover:underline">
                       {post.title}
                     </h3>
                   </article>
@@ -115,5 +102,3 @@ const blog = () => {
     </>
   )
 }
-
-export default blog

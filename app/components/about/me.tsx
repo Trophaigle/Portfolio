@@ -23,9 +23,9 @@ const Me = () => {
         <div className="relative group text-white md:w-1/3 text-center md:text-left mb-8 md:mb-0">
 
 
-        <h2 className="text-3xl font-bold mb-4">Connu</h2>
+        <h2 className="text-3xl font-bold mb-4"> A </h2>
         <p className="text-gray-300 mb-4">
-          igzeyrgzyergzeyurgzeuyrzgeurzer
+          
         </p>
 
        
@@ -36,7 +36,7 @@ const Me = () => {
 
           <img
             src="/"
-            alt="image me qui sort du cadre apr la droite"
+            alt="image"
             className="max-h-[40vh] md:max-h-[55vh] object-contain drop-shadow-2xl pointer-events-none select-none"
           />
 
@@ -44,9 +44,9 @@ const Me = () => {
 
         {/* RIGHT TEXT */}
         <div className="text-white md:w-1/3 text-center md:text-right">
-          <h2 className="text-3xl font-bold mb-4">Inconnu</h2>
+          <h2 className="text-3xl font-bold mb-4"> B </h2>
           <p className="text-gray-300 mb-4">
-            zqeqfzqgrdgehytrdfdhtx
+            text
           </p>
 
          
