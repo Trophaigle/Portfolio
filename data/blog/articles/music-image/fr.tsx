@@ -1,4 +1,4 @@
-const article = {
+const articleFr = {
   slug: 'music-image',
   title: "Musique / effets sonores au service d'un contenu audiovisuel",
   excerpt: "Comment le son structure l’émotion, le rythme et la narration.",
@@ -19,4 +19,4 @@ const article = {
   ),
 }
 
-export default article
+export default articleFr

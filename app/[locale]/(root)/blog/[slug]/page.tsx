@@ -5,11 +5,11 @@ import { notFound } from 'next/navigation'
 export default async function BlogPostPage({
   params,
 }: {
-  params: Promise<{ locale: string; slug: string }>
+  params: Promise<{ locale: 'fr' | 'en'; slug: string }>
 }) {
-  const { slug } = await params
+  const { locale, slug } = await params
 
-  const article = getArticleBySlug(slug)
+  const article = getArticleBySlug(locale, slug)
 
   if (!article) notFound()
 

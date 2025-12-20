@@ -1,12 +1,20 @@
-import musicImage from './articles/music-image'
+import frMusicImage from './articles/music-image/fr'
+import enMusicImage from './articles/music-image/en'
 
-export const articles = [musicImage]
+const articles = {
+  fr: [frMusicImage],
+  en: [enMusicImage],
+}
 
-export const featuredArticle = articles.find(a => a.featured)
-export const recentArticles = articles.filter(a => !a.featured)
+export const getArticleBySlug = (
+  locale: 'fr' | 'en',
+  slug: string
+) => {
+  return articles[locale]?.find(a => a.slug === slug)
+}
 
-export const getArticleBySlug = (slug: string) =>
-  articles.find(a => a.slug === slug)
+export const getFeaturedArticle = (locale: 'fr' | 'en') =>
+  articles[locale].find(a => a.featured)
 
-export const getArticlesByCategory = (category: string) =>
-  articles.filter(a => a.category.slug === category)
+export const getRecentArticles = (locale: 'fr' | 'en') =>
+  articles[locale].filter(a => !a.featured)

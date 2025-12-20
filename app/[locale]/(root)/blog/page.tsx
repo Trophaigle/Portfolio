@@ -1,17 +1,19 @@
 import HeroBlog from '@/app/components/blog/heroBlog'
 import Link from 'next/link'
-import { featuredArticle, recentArticles } from '@/data/blog'
+import {
+  getFeaturedArticle,
+  getRecentArticles,
+} from '@/data/blog'
 
-export default function Blog({
+export default async function Blog({
   params,
 }: {
-  params: { locale: string }
+  params: Promise<{ locale: 'fr' | 'en' }>
 }) {
-  const { locale } = params
+  const { locale } = await params
 
-  const featuredPost = featuredArticle
-  const posts = recentArticles
-
+  const featuredPost = getFeaturedArticle(locale)
+  const posts = getRecentArticles(locale)
   const categories = [
     { name: 'Création', slug: 'creation' },
     { name: 'Réflexions', slug: 'reflexions' },
