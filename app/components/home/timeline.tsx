@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 
 interface TimelineStep {
   icon: string;
@@ -47,6 +48,9 @@ const timelineSteps: TimelineStep[] = [
 
 
 export default function ZigzagTimelineAuto() {
+
+  const t = useTranslations('Timeline');
+
   return (
     <div className="container mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold text-black text-center mb-12">
@@ -161,8 +165,8 @@ export default function ZigzagTimelineAuto() {
       </div>
 
       <div className="mt-12 text-center px-6 md:px-25">
-  <p className="text-gray-300 text-lg md:text-xl">
-    "quote"
+  <p className="text-black text-xl md:text-2xl">
+   {t('quote')}
   </p>
 </div>
     </div>
