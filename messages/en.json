@@ -10,8 +10,8 @@
     "HomeHero": {
         "title": "Welcome on my personal website ! (Work in progress)",
         "quote": "I believe in living memorable experiences that transcend individuals and bring people together around inspiring values.",
-        "subtext": "The whole website and its contents are my creation.",
-        "button": "Discover Me"
+        "subtext": "Do you feel inspired ? Do you believe it too ?",
+        "button": "Click Here !"
     },
 
     "projects": {
@@ -90,6 +90,7 @@
   },
 
     "Timeline": {
+        "title": "Relevant themes",
         "quote": "'The people who are crazy enough to think they can change the world ... are the ones who actually do'"
     },
     "contact": {

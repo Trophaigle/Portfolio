@@ -13,12 +13,8 @@ const About = () => {
   // throw new Error("NOT IMPLEMENTED");
   return (
     <>
-    <Me />
+    {/* <Me /> */}
       <Values />
-    
-    
-
-
     </>
   )
 }

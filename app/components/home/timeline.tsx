@@ -54,7 +54,7 @@ export default function ZigzagTimelineAuto() {
   return (
     <div className="container mx-auto px-6 py-12">
       <h2 className="text-3xl font-bold text-black text-center mb-12">
-        Thématiques pertinentes
+       {t('title')}
       </h2>
 
       <div className="relative">
