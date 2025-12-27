@@ -11,6 +11,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
+  /* --color-navbarcolor : #131314; */
   --color-navbarcolor : #131314;
   --color-titlecolor : #ffffff;
   --color-footercolor: var(--color-navbarcolor);

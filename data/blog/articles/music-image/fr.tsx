@@ -15,6 +15,7 @@ const articleFr = {
     <>
       <p>Les films / series transportent. Stranger Things, films. C'est un ensemble qui transporte. La musique et les sons ont leur rôles role dedans</p>
       <p>Transporte comme les voyages dans la nature, autres pays etc ...</p>
+      <p>La musique créer des ambiances, racontes des histoires ...</p>
     </>
   ),
 }

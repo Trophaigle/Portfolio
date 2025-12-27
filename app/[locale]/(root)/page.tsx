@@ -2,6 +2,8 @@
 import ProjectOverview from "@/app/components/home/projectOverview";
 import Hero from "../../components/home/hero";
 import ZigzagTimelineAuto from "../../components/home/timeline";
+import Highlight from "@/app/components/home/highlight";
+import ButtonCTA from "@/app/components/buttons/buttonCTA";
 
 
 
@@ -15,8 +17,9 @@ export default async function Home() {
   
   {/* Contenu réel */}
   <div className="relative z-10">
+    {/* <Highlight /> */}
     <ZigzagTimelineAuto />  
-     {/* <ProjectOverview /> delete ?   */}
+    
   </div>
 </div>
    

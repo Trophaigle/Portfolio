@@ -17,6 +17,13 @@ export const musicData: MusicPiece[] = [
     videoUrl: "https://www.youtube.com/embed/t751r_iIZfs?si=6CF4obrnBF9nOtZb",
     sketches: []
   },
+   {
+    slug: "composers-journey-contest",
+    type: "orchestra",
+    isNew: true,
+    videoUrl: "https://www.youtube.com/embed/f_0fT9AMsbQ?si=EKFQZy1j1gG1QgD3",
+    sketches: []
+  },
     {
     slug: "balade-du-soir-e-majeur",
     type: "piano",
