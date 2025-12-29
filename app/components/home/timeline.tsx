@@ -27,6 +27,14 @@ const timelineSteps: TimelineStep[] = [
     sourceUrl: "https://medium.com/@supermansastry/learn-how-great-leaders-inspire-action-top-5-lessons-from-simon-sineks-start-with-why-5727c9c1d76",
     sourceLabel: "Lire la source"
   },
+  {
+    icon: "",
+    title: "Et si on arrêtait d'avoir peur ? | Margaux Hammann | TEDxReims",
+    description:
+      "key insights",
+       sourceUrl: "https://www.youtube.com/watch?v=xKSSEHbRXcM",
+    sourceLabel: "Lire la source"
+  },
    {
     icon: "🧲",
     title: "Lien profond entre art et science",
