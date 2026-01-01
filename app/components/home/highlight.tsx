@@ -28,14 +28,14 @@ return (
           </p>
         </div>
 
-        {/* Image */}
-        <div className="md:w-1/2">
-          <img
-            src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620"
-            alt="Highlight visuel"
-            className="rounded-xl w-full object-cover"
-          />
-        </div>
+{/* Image */}
+<div className="md:w-1/2 h-64 flex items-center justify-center">
+  <img
+    src="/images/oeuvresGraphiques/abeille.jpg"
+    alt="Highlight visuel"
+    className="max-h-full max-w-full rounded-xl object-contain"
+  />
+</div>
       </div>
     </Link>
   </div>

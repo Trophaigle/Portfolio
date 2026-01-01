@@ -1,63 +1,92 @@
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 
 interface TimelineStep {
   icon: string;
-  title: string;
-  description: string;
-
-  sourceUrl?: string;
-  sourceLabel?: string;
+  title: { fr: string; en: string };
+  description: { fr: string; en: string };
+  sourceUrl: string;
+  sourceLabel: { fr: string; en: string };
 }
 
 const timelineSteps: TimelineStep[] = [
- 
   {
     icon: "🖌️",
-    title: "Meera Lee Patel's Journal",
-    description:
-      "'Wherever we are in life, change is always around the corner – and we often find ourselves clinging to the familiar, to what’s safe, even if it’s no longer serving us, rather than summoning the courage to simply let go. In this beautifully illustrated journal, artist and author Meera Lee Patel pairs inspiring quotes and encouraging prompts to help you face your current challenges, navigate difficult transitions, and leave your comfort zone—so you can confidently move forward, into your next chapter.'",
-      sourceUrl: "https://www.meeralee.com/my-friend-fear",
-      sourceLabel: "Lire la source"
+    title: {
+      fr: "Journal de Meera Lee Patel",
+      en: "Meera Lee Patel's Journal"
+    },
+    description: {
+      fr: "« Où que nous soyons dans la vie, le changement est toujours au coin de la rue – et nous nous accrochons souvent à ce qui est familier, à ce qui est sûr, même si cela ne nous sert plus, plutôt que d'avoir le courage de lâcher prise. Dans ce journal magnifiquement illustré, l'artiste et auteure Meera Lee Patel associe des citations inspirantes et des exercices pour vous aider à affronter vos défis, naviguer dans les transitions difficiles et sortir de votre zone de confort afin de progresser en confiance vers votre prochain chapitre. »",
+      en: "'Wherever we are in life, change is always around the corner – and we often find ourselves clinging to the familiar, to what’s safe, even if it’s no longer serving us, rather than summoning the courage to simply let go. In this beautifully illustrated journal, artist and author Meera Lee Patel pairs inspiring quotes and encouraging prompts to help you face your current challenges, navigate difficult transitions, and leave your comfort zone—so you can confidently move forward, into your next chapter.'"
+    },
+    sourceUrl: "https://www.meeralee.com/my-friend-fear",
+    sourceLabel: { fr: "Lire la source", en: "Read source" }
   },
   {
     icon: "🌟",
-    title: "Learn how great leaders inspire action (TEDX) — Top 5 lessons from Simon Sinek’s ‘Start With Why’",
-    description:
-      "The leaders and organisations which inspire action, and can sustain to do so for longer periods of time, are the ones which have a clarity of their ‘why’, discipline of ‘how’, and consistency of ‘what’.",
+    title: {
+      fr: "Apprenez comment les grands leaders inspirent l'action (TEDX) — Top 5 leçons de ‘Start With Why’ de Simon Sinek",
+      en: "Learn how great leaders inspire action (TEDX) — Top 5 lessons from Simon Sinek’s ‘Start With Why’"
+    },
+    description: {
+      fr: "Les leaders et organisations qui inspirent l'action, et qui peuvent le maintenir sur le long terme, sont ceux qui ont une clarté de leur 'pourquoi', une discipline de leur 'comment' et une cohérence de leur 'quoi'.",
+      en: "The leaders and organisations which inspire action, and can sustain to do so for longer periods of time, are the ones which have a clarity of their ‘why’, discipline of ‘how’, and consistency of ‘what’."
+    },
     sourceUrl: "https://medium.com/@supermansastry/learn-how-great-leaders-inspire-action-top-5-lessons-from-simon-sineks-start-with-why-5727c9c1d76",
-    sourceLabel: "Lire la source"
+    sourceLabel: { fr: "Lire la source", en: "Read source" }
   },
   {
     icon: "🕊️",
-    title: "Et si on arrêtait d'avoir peur ? | Margaux Hammann | TEDxReims",
-    description:
-      "",
-       sourceUrl: "https://www.youtube.com/watch?v=xKSSEHbRXcM",
-    sourceLabel: "Lire la source"
+    title: {
+      fr: "Et si on arrêtait d'avoir peur ? | Margaux Hammann | TEDxReims",
+      en: "What if we stopped being afraid? | Margaux Hammann | TEDxReims"
+    },
+    description: { fr: "", en: "" },
+    sourceUrl: "https://www.youtube.com/watch?v=xKSSEHbRXcM",
+    sourceLabel: { fr: "Lire la source", en: "Read source" }
   },
-   {
+  {
     icon: "🧲",
-    title: "Lien profond entre art et science",
-    description:
-      "'L’art recherche la beauté et parle à l’émotion; la science recherche la vérité et parle à la raison. Cette dichotomie n’a pas raison d’être : artistes et scientifiques s’engagent en réalité dans l’observation et dans l’expérimentation. “C’est par l’expérience que progressent la science et l’art”, selon Aristote ». L’art tout comme la science riment avec innovation.'",
-       sourceUrl: "https://www.usherbrooke.ca/actualites/nouvelles/details/36748",
-    sourceLabel: "Lire la source"
+    title: {
+      fr: "Lien profond entre art et science",
+      en: "Deep Connection Between Art and Science"
+    },
+    description: {
+      fr: "« L’art recherche la beauté et parle à l’émotion ; la science recherche la vérité et parle à la raison. Cette dichotomie n’a pas raison d’être : artistes et scientifiques s’engagent en réalité dans l’observation et l’expérimentation. “C’est par l’expérience que progressent la science et l’art”, selon Aristote. L’art tout comme la science riment avec innovation. »",
+      en: "'Art seeks beauty and speaks to emotion; science seeks truth and speaks to reason. This dichotomy has no real meaning: artists and scientists are actually engaged in observation and experimentation. “It is through experience that science and art progress,” according to Aristotle. Both art and science rhyme with innovation.'"
+    },
+    sourceUrl: "https://www.usherbrooke.ca/actualites/nouvelles/details/36748",
+    sourceLabel: { fr: "Lire la source", en: "Read source" }
   },
   {
     icon: "🤝",
-    title: "Grandir ensemble face à l’inconnu",
-    description:
-      "S’inspirant d’œuvres comme *Stranger Things*, cette thématique met en avant l’importance des liens humains et de la coopération pour affronter des mondes dangereux ou des situations inconnues. Les personnages, souvent jeunes, apprennent à se soutenir mutuellement, à partager leurs forces et leurs peurs, et à évoluer ensemble face aux défis, montrant que la résilience collective est la clé pour surmonter les obstacles.",
-      sourceUrl: "https://www.imdb.com/title/tt4574334/", 
-    sourceLabel: "Voir la série"
-  },
+    title: {
+      fr: "Grandir ensemble face à l’inconnu",
+      en: "Growing Together in the Face of the Unknown"
+    },
+    description: {
+      fr: "S’inspirant d’œuvres comme *Stranger Things*, cette thématique met en avant l’importance des liens humains et de la coopération pour affronter des mondes dangereux ou des situations inconnues. Les personnages, souvent jeunes, apprennent à se soutenir mutuellement, à partager leurs forces et leurs peurs, et à évoluer ensemble face aux défis, montrant que la résilience collective est la clé pour surmonter les obstacles.",
+      en: "Inspired by works like *Stranger Things*, this theme highlights the importance of human bonds and cooperation to face dangerous worlds or unknown situations. The characters, often young, learn to support each other, share their strengths and fears, and grow together in the face of challenges, showing that collective resilience is the key to overcoming obstacles."
+    },
+    sourceUrl: "https://www.imdb.com/title/tt4574334/",
+    sourceLabel: { fr: "Voir la série", en: "See the series" }
+  }
 ];
 
 
+function getText(step: TimelineStep, locale: "fr" | "en") { //pour eviter d'écrire ...[locale] à chaque fois
+  return {
+    title: step.title[locale],
+    description: step.description[locale],
+    sourceLabel: step.sourceLabel[locale],
+  };
+}
 
 export default function ZigzagTimelineAuto() {
 
-  const t = useTranslations('Timeline');
+  const t = useTranslations('Timeline'); //Pour les titres generiques (titres de section etc ...)
+  const locale = useLocale() as "fr" | "en"; //pour contenus spécifiques à la timeline, contenus possiblement amenés à évoluer ...
 
   return (
     <div className="container mx-auto px-6 py-12">
@@ -71,6 +100,7 @@ export default function ZigzagTimelineAuto() {
 
         <div className="flex flex-col space-y-12 relative">
           {timelineSteps.map((step, index) => {
+            const text = getText(step, locale);
             const isLeft = index % 2 === 0;
 
             return (
@@ -83,8 +113,8 @@ export default function ZigzagTimelineAuto() {
                       <div className="md:w-1/2 p-6 bg-gray-800 rounded-xl shadow-lg flex justify-end">
 
                         <div className="text-left">
-                          <h3 className="text-xl font-semibold text-white">{step.title}</h3>
-                          <p className="text-gray-300 mt-2">{step.description}</p>
+                          <h3 className="text-xl font-semibold text-white">{text.title}</h3>
+                          <p className="text-gray-300 mt-2">{text.description}</p>
 
                           {step.sourceUrl && (
                             <a
@@ -93,7 +123,7 @@ export default function ZigzagTimelineAuto() {
                               rel="noopener noreferrer"
                               className="inline-flex items-center gap-2 mt-3 text-sm text-purple-400 hover:text-purple-300 underline underline-offset-4"
                             >
-                              🔗 {step.sourceLabel ?? "Voir la source"}
+                              🔗 {text.sourceLabel ?? "Voir la source"}
                             </a>
                           )}
 
@@ -123,8 +153,8 @@ export default function ZigzagTimelineAuto() {
                       <div className="md:w-1/2 p-6 bg-gray-800 rounded-xl shadow-lg flex justify-start">
                         <div className="text-left md:text-right">
 
-                          <h3 className="text-xl font-semibold text-white">{step.title}</h3>
-                          <p className="text-gray-300 mt-2">{step.description}</p>
+                          <h3 className="text-xl font-semibold text-white">{text.title}</h3>
+                          <p className="text-gray-300 mt-2">{text.description}</p>
 
                           {step.sourceUrl && (
                             <a
@@ -133,7 +163,7 @@ export default function ZigzagTimelineAuto() {
                               rel="noopener noreferrer"
                               className="inline-flex items-center gap-2 mt-3 text-sm text-purple-400 hover:text-purple-300 underline underline-offset-4"
                             >
-                              🔗 {step.sourceLabel ?? "Voir la source"}
+                              🔗 {text.sourceLabel ?? "Voir la source"}
                             </a>
                           )}
 
@@ -150,8 +180,8 @@ export default function ZigzagTimelineAuto() {
                   </div>
                   <div className="bg-gray-800 p-6 rounded-xl shadow-lg text-center w-full">
 
-                    <h3 className="text-xl font-semibold text-white">{step.title}</h3>
-                    <p className="text-gray-300 mt-2">{step.description}</p>
+                    <h3 className="text-xl font-semibold text-white">{text.title}</h3>
+                    <p className="text-gray-300 mt-2">{text.description}</p>
 
                     {step.sourceUrl && (
                       <a
@@ -160,7 +190,7 @@ export default function ZigzagTimelineAuto() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 mt-3 text-sm text-purple-400 hover:text-purple-300 underline underline-offset-4"
                       >
-                        🔗 {step.sourceLabel ?? "Voir la source"}
+                        🔗 {text.sourceLabel ?? "Voir la source"}
                       </a>
                     )}
 
