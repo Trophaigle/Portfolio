@@ -158,6 +158,22 @@
         "marche-funebre": {
           "title": "Funeral March - 2024",
           "description": "Funeral march for piano"
+        },
+        "comptine-aout": {
+          "title": "August rhyme - 2024",
+          "description": "Rhyme for piano written in August"
+        },
+        "prelude-vagabond": {
+          "title": "Wandering Prelude - 2024",
+          "description": "Wandering prelude written in train station"
+        },
+        "boom-boom-instru": {
+          "title": "Boom Boom Instrumental - 2022",
+          "description": "Instrumental for song"
+        },
+         "symphony-instru": {
+          "title": "The Symphony - 2023",
+          "description": "Instrumental for song"
         }
     },
     "heroMusic": {
@@ -182,5 +198,10 @@
           "painting": "Painting"
         },
         "subtitle": "What would you like to tell today?"
+  },
+  "musicDownloadClavier": {
+    "title": "Complete Sheets for Keyboard Pieces (PDF)",
+    "subtitle": "Click below to download the full musical score.",
+    "download": "Download PDF"
   }
 }

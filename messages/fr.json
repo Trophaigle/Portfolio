@@ -159,7 +159,23 @@
       "marche-funebre": {
         "title": "Marche Funèbre - 2024",
         "description": "Marche funèbre pour piano"
-      }
+      },
+      "comptine-aout": {
+          "title": "Comptine d'Aout - 2024",
+          "description": "Comptine pour piano"
+        },
+        "prelude-vagabond": {
+          "title": "Prélude Vagabond - 2024",
+          "description": "Prélude écrit dans une gare de train"
+        },
+        "boom-boom-instru": {
+          "title": "Boom Boom Instrumental - 2022",
+          "description": "Instrumental pour chanson"
+        },
+         "symphony-instru": {
+          "title": "La Symphonie - 2023",
+          "description": "Instrumental pour chanson"
+        }
   },
     "heroMusic": {
       "title": "Œuvres Musicales",
@@ -183,5 +199,10 @@
         "painting": "Peinture"
       },
       "subtitle": "Que souhaites-tu raconter aujourd'hui ?"
-    }
+    },
+    "musicDownloadClavier": {
+    "title": "Partition complète des pièces pour clavier (PDF)",
+    "subtitle": "Cliquez ci-dessous pour télécharger la partition musicale complète.",
+    "download": "Télécharger le PDF"
+  }
 }

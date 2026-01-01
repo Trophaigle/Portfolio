@@ -28,10 +28,10 @@ const timelineSteps: TimelineStep[] = [
     sourceLabel: "Lire la source"
   },
   {
-    icon: "",
+    icon: "🕊️",
     title: "Et si on arrêtait d'avoir peur ? | Margaux Hammann | TEDxReims",
     description:
-      "key insights",
+      "",
        sourceUrl: "https://www.youtube.com/watch?v=xKSSEHbRXcM",
     sourceLabel: "Lire la source"
   },

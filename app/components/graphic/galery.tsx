@@ -25,6 +25,7 @@ export default function GaleryImage() { //faire un truc avec api ? boucle ? pour
             <ImageCard src="/images/oeuvresGraphiques/schindler.jpg" alt="Image 6" />
             <ImageCard src="/images/oeuvresGraphiques/MiseANu_rogne.jpg" alt="Image 3" />
             <ImageCard src="/images/oeuvresGraphiques/climbingOutdoor.jpg" alt="Image 9" />
+             <ImageCard src="/images/oeuvresGraphiques/bouldering_rogne.jpg" alt="Image 9" />
           </div>
 
           {/* Colonne 3 */}

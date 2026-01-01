@@ -91,5 +91,32 @@ export const musicData: MusicPiece[] = [
     pdfUrl: "/music/marche-funebre/FunesteForPdf.pdf",
     videoUrl: "https://www.youtube.com/embed/RfBuS2MXnZ0?si=DedRygbGob2KN_-L",
     sketches: []
+  },
+  {
+    slug: "comptine-aout",
+
+    type: "piano",
+    pdfUrl: "/music/comptine-aout/ComptineDAout.pdf",
+    sketches: []
+  },
+  {
+    slug: "prelude-vagabond",
+
+    type: "piano",
+    pdfUrl: "/music/prelude-vagabond/PréludeVagabond.pdf",
+    videoUrl: "https://www.youtube.com/embed/v4n77kQ1YeY?si=4l0Bqp4oo7G3sT_v",
+    sketches: []
+  },
+  {
+    slug: "boom-boom-instru",
+    videoUrl: "https://www.youtube.com/embed/BOZwdtLd64Y?si=jvMhXkcA9DysTA0m",
+    type: "band",
+
+  },
+  {
+    slug: "symphony-instru",
+    videoUrl: "https://www.youtube.com/embed/YxeqlAWos_A?si=G0Qo2Qc_Cj1UpQ5_",
+    type: "band",
+
   }
 ];
