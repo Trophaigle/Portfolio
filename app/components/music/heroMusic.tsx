@@ -41,6 +41,11 @@ function HeroMusic () {
             <div className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition cursor-default">
               {t("sketch")}
             </div>
+
+            <div className="px-6 py-3 bg-white text-black font-semibold rounded-full shadow-lg hover:bg-gray-200 transition cursor-default">
+              Clip
+            </div> 
+            {/* //clip pour musique instrumental pour l'illustrer ? */}
           </div>
 
           <p className='text-2xl'>{t("question")}</p>

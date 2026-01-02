@@ -17,7 +17,12 @@ export default async function Home() {
   
   {/* Contenu réel */}
   <div className="relative z-10">
-    {/* <Highlight /> */}
+    {/* <Highlight
+  title="Highlight"
+  description="Ceci est un contenu mis en avant. Tu peux décrire ici ton projet,
+  une œuvre artistique ou un élément clé que tu souhaites valoriser."
+  imageSrc="/images/oeuvresGraphiques/abeille.jpg"
+/> */}
     <ZigzagTimelineAuto />   
     
   </div>
