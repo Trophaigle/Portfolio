@@ -204,5 +204,11 @@
     "title": "Complete Sheets for Keyboard Pieces (PDF)",
     "subtitle": "Click below to download the full musical score.",
     "download": "Download PDF"
+  },
+  "languages-about": {
+    "title": "Languages I Speak"
+  },
+  "music-composition": {
+    "myCompos": "My compositions"
   }
 }

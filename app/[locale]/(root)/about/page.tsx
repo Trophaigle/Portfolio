@@ -1,13 +1,7 @@
 
-
-import FinalCTA from '@/app/components/about/finalCTA'
-import Galery from '@/app/components/about/galery'
-import Philosophy from '@/app/components/about/philosophy'
-import TechnicalSkills from '@/app/components/about/skills'
-import CustomerReviews from '@/app/components/about/customerReviews'
-import React from 'react'
 import Values from '@/app/components/about/values'
-import Me from '@/app/components/about/me'
+import Languages from '@/app/components/about/lang'
+import Sports from '@/app/components/about/sports'
 
 const About = () => {
   // throw new Error("NOT IMPLEMENTED");
@@ -15,6 +9,23 @@ const About = () => {
     <>
     {/* <Me /> */}
       <Values />
+    <Languages
+  languages={[
+    { name: "Français", level: "Native", flagEmoji: "🇫🇷" },
+    { name: "Anglais", level: "Fluent C1-2", flagEmoji: "🇬🇧" },
+    { name: "Danois", level: "Débutant A2", flagEmoji: "🇩🇰" },
+    { name: "Espagnol", level: "Intermediate B1", flagEmoji: "🇪🇸" },
+    // { name: "Polonais", level: "Débutant A1", flagEmoji: "🇵🇱" },
+  ]}
+/>
+<Sports
+  sports={[
+    { name: "Climbing", icon: "🧗‍♂️", level: "Regular" },
+    { name: "Running", icon: "🏃‍♂️", level: "Regular" },
+    { name: "Tennis", icon: "🎾", level: "Leisure" },
+    { name: "Gym", icon: "🏋️‍♂️", level: "Regular" },
+  ]}
+/>
     </>
   )
 }

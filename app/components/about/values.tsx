@@ -36,6 +36,7 @@ function Values() {
       image: "https://images.unsplash.com/photo-1603623898218-0cb7f493309b?q=80&w=1170&auto=format&fit=crop"
     }
   ];
+  // aussi: le partage (de moment, de biens ...)
 
   return (
     <div className=" bg-black p-8">

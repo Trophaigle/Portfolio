@@ -204,5 +204,11 @@
     "title": "Partition complète des pièces pour clavier (PDF)",
     "subtitle": "Cliquez ci-dessous pour télécharger la partition musicale complète.",
     "download": "Télécharger le PDF"
+  },
+   "languages-about": {
+    "title": "Les Langues que je parle"
+  },
+  "music-composition": {
+    "myCompos": "Mes compositions"
   }
 }
