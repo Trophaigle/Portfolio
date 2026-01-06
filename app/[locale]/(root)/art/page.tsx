@@ -120,6 +120,8 @@ export default function ArtHero() {
 
   </div>
 </div>
+
+{/* autre art pratiqués: theatre */}
     </>
   );
 }

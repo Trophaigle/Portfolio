@@ -19,6 +19,7 @@ function Navbar (){
     { key: "about", href: "/about"},
     { key: "art", href: "/art"},
     { key: "blog", href: "/blog" },
+    { key: "resources", href: "/resources" },
   ];
 
   

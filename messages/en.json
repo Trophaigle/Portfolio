@@ -4,7 +4,8 @@
         "home": "Home",
         "about": "About",
         "art": "Art",
-        "blog": "Blog"
+        "blog": "Blog",
+        "resources": "Resources"
     },
 
     "HomeHero": {
