@@ -15,9 +15,16 @@ export default function Resources() {
       {
         title: "Et si on arrêtait d’avoir peur ? – Margaux Hammann",
         summary:
-          "Remise en question de la place de la peur pour la transformer en moteur",
+          "Remise en question de la place de la peur pour la transformer en véritable moteur",
         url: "https://www.youtube.com/watch?v=xKSSEHbRXcM",
       },
+      {
+        title: "Danish Podcast: Learn Danish Like a Child – Fast and Naturally",
+        summary:
+          "More than just a method to learn a language, it's rethinking how to learn something and face difficulties. It could be summarized in 'keeping simple, fun/love, making mistakes, courage and repetition'.",
+        url: "https://www.youtube.com/watch?v=XimUGRxIPIk",
+      },
+      
       {
         title: "N'attendez pas votre place, créez-la! | Rebecca Sfedj | TEDxEMLYON",
         summary:
@@ -27,7 +34,7 @@ export default function Resources() {
       {
         title: "Lucas Hof",
         summary:
-          "Chaine Youtube",
+          "Chaine Youtube / NewsLetter / Podcasts",
         url: "https://www.youtube.com/@Lucas_HOF",
       },
       {

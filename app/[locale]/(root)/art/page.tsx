@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function ArtHero() {
   const [zooming, setZooming] = useState(false);
   const router = useRouter();
-  const t = useTranslations("artHero");
+  const t = useTranslations("artPage");
 
   const triggerZoomAndNavigate = (href : string) => {
     setZooming(true);
@@ -121,7 +121,30 @@ export default function ArtHero() {
   </div>
 </div>
 
+
+
 {/* autre art pratiqués: theatre */}
+{/* THEATRE SECTION */}
+<section className="mt-24 pb-8 flex justify-center">
+  <div className="max-w-2xl text-center text-gray-200 px-6">
+
+    {/* Icon */}
+    <div className="text-4xl mb-4">
+      🎭
+    </div>
+
+    {/* Title */}
+    <h3 className="text-2xl font-semibold mb-4 text-white">
+      {t('theaterTitle')}
+    </h3>
+
+    {/* Text */}
+    <p className="text-gray-300 leading-relaxed">
+       {t('theaterText')}
+    </p>
+
+  </div>
+</section>
     </>
   );
 }

@@ -18,7 +18,7 @@ function Values() {
     {
       title: t('excellence.title'),
       subtitle: t('excellence.subtitle'),
-      image: "https://images.unsplash.com/photo-1475518845976-0fd87b7e4e5d?q=80&w=1170&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1656090729242-f742a02db629?q=80&w=1470&auto=format&fit=crop"
     },
     {
       title: t('boldness.title'),
@@ -34,7 +34,12 @@ function Values() {
       title: t('exploration.title'),
       subtitle: t('exploration.subtitle'),
       image: "https://images.unsplash.com/photo-1603623898218-0cb7f493309b?q=80&w=1170&auto=format&fit=crop"
-    }
+    },
+    {
+      title: t('sharing.title'),
+      subtitle: t('sharing.subtitle'),
+      image: "https://images.unsplash.com/photo-1670460891931-a2780ccb223f?q=80&w=1470&auto=format&fit=crop"
+    },
   ];
   // aussi: le partage (de moment, de biens ...)
 

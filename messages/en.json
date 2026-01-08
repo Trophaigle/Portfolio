@@ -79,7 +79,7 @@
     },
     "boldness": {
       "title": "🔥 Boldness",
-      "subtitle": "Daring, experimenting, moving forward despite uncertainty."
+      "subtitle": "Daring, experimenting, moving forward despite uncertainty and fear."
     },
     "aesthetics": {
       "title": "🎼 Aesthetics",
@@ -88,6 +88,10 @@
     "exploration": {
       "title": "🧭 Exploration",
       "subtitle": "Curiosity, discovery and openness to the unknown."
+    },
+    "sharing": {
+      "title": "🌱 Sharing",
+      "subtitle": "Sharing valuable moments with people or sharing knowledge."
     }
   },
 
@@ -107,7 +111,7 @@
         "success": "🎉 Your request has been successfully submitted!",
         "error": "❌ An error occurred. Please try again."
     },
-    "artHero": {
+    "artPage": {
         "musicTitle": "Music",
         "musicSubtitle": "Classical and other musical works ...",
         "musicCTA": "Start exploring",
@@ -115,8 +119,10 @@
         "graphicSubtitle": "Drawings, paintings ...",
         "graphicCTA": "Start exploring",
         "magicalPortal": "Magic|Portal",
-        "footerText": "Art is creating, taking journeys, and telling stories that dare to transform and transcend reality."
-    } ,
+        "footerText": "Art is creating, taking journeys, and telling stories that dare to transform and transcend reality.",
+        "theaterTitle": "Theater",
+        "theaterText":  "I also practice theater in French and in English — a playful way to connect with others, to play with languages, and to learn how to inhabit speech."
+      } ,
      "music": {
         "theme-passion": {
           "title": "Theme of passion - 2023",
@@ -212,5 +218,8 @@
   },
   "music-composition": {
     "myCompos": "My compositions"
+  },
+   "MiniTimeline": {
+    "title": "Learning Journey"
   }
 }

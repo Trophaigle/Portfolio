@@ -77,7 +77,7 @@
     },
     "boldness": {
       "title": "🔥 Audace",
-      "subtitle": "Oser, expérimenter, avancer malgré le doute et l’incertitude."
+      "subtitle": "Oser, expérimenter, avancer malgré le doute et l’incertitude et la peur."
     },
     "aesthetics": {
       "title": "🎼 Esthétique",
@@ -86,6 +86,10 @@
     "exploration": {
       "title": "🧭 Exploration",
       "subtitle": "Curiosité, découverte et ouverture à l’inconnu."
+    },
+     "sharing": {
+      "title": "🌱 Le Partage",
+      "subtitle": "Partager des moments précieux avec des gens. Partager du savoir."
     }
   },
 
@@ -106,7 +110,7 @@
         "success": "🎉 Votre demande a bien été envoyée !",
         "error": "❌ Une erreur est survenue. Veuillez réessayer."
     },
-    "artHero": {
+    "artPage": {
         "musicTitle": "Musiques",
         "musicSubtitle": "Oeuvres musicales classiques et autres ...",
         "musicCTA": "Commencer l'exploration",
@@ -114,8 +118,10 @@
         "graphicSubtitle": "Dessins, peintures ...",
         "graphicCTA": "Commencer l'exploration",
         "magicalPortal": "Portail|Magique",
-        "footerText": "L’art, c’est créer, faire voyager et raconter des histoires qui osent transformer et transcender le réel."
-    },
+        "footerText": "L’art, c’est créer, faire voyager et raconter des histoires qui osent transformer et transcender le réel.",
+        "theaterTitle": "Théâtre",
+        "theaterText":  "Je pratique aussi le théâtre en français et en anglais — un moyen ludique de s’ouvrir aux autres, de jouer avec les langues, et d’apprendre à habiter la parole."
+      },
 
     "music": {
       "theme-passion": {
@@ -212,5 +218,8 @@
   },
   "music-composition": {
     "myCompos": "Mes compositions"
+  },
+   "MiniTimeline": {
+    "title": "Parcours scolaire & explorations"
   }
 }
