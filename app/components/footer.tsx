@@ -15,7 +15,9 @@ function Footer (){
         { name: t("home"), href: "/" },
         { name: t("about"), href: "/about" },
         { name: t("art"), href: "/art", badge: "New" },
-        { name: t("blog"), href: "/blog", badge: "New" },
+        // { name: t("blog"), href: "/blog", badge: "New" },
+        { name: t("tech"), href: "/tech", badge: "New" },
+        { name: t("resources"), href: "/resources", badge: "New" },
       ],
     },
     {

@@ -11,7 +11,7 @@ export default function graphic () {
       <HeroGraphic />
        <Highlight
   title="Work in progress ..."
-  description="Dessin préparatoire avec quadrillage pour une peinture 'L'amour, le  corps, l'esprit'"
+  description="Dessin préparatoire avec quadrillage pour une peinture 'Embrasse-moi, caresse-moi...'"
   imageSrc="/images/oeuvresGraphiques/dessin_preparatoire.jpg"
 />
       <GaleryImage />

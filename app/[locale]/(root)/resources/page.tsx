@@ -7,6 +7,12 @@ export default function Resources() {
     icon: "🎥",
     items: [
       {
+        title: "S'arrêter et prendre conscience | Le temps de méditer de Christophe André",
+        summary:
+          "Méditation quotidienne",
+        url: "https://www.youtube.com/watch?v=f3N2QrQMCsQ",
+      },
+      {
         title: "Start With Why – Simon Sinek (TEDx)",
         summary:
           "How great leaders inspire action: clarity of purpose before strategy.",
@@ -42,6 +48,12 @@ export default function Resources() {
         summary:
           "Livres et conférences",
         url: "https://www.thomasdansembourg.com/",
+      },
+      {
+        title: "Christophe André: 9 choses à éliminer de votre vie avant 2026 pour retrouver la paix intérieure",
+        summary:
+          "Rappels",
+        url: "https://www.youtube.com/watch?v=QV_ld64HyNs",
       },
     ],
   },
