@@ -221,5 +221,20 @@
   },
    "MiniTimeline": {
     "title": "Parcours scolaire & explorations"
+  },
+  "Quotes": {
+    "title": "En quoi crois-tu ?",
+    "list": [
+        "Je crois en les personnes qui prennent des décisions instinctives parce qu’elles se sentent profondément inspirées et guidées par des valeurs fortes.",
+        "Je crois en les personnes qui donnent généreusement aux autres parce qu’elles croient au pouvoir transformateur du don sur l’individu.",
+        "Je crois en les personnes qui inspirent les autres par leur manière de penser et d’agir, et qui sont cohérentes avec elles-mêmes.",
+        "Je crois en les personnes qui assument leurs responsabilités, menant soit au changement, soit à l’acceptation.",
+        "Je crois en les personnes qui se sentent pleinement vivantes parce qu’elles entrent en contact avec un concept qui transcende leur individualité.",
+        "Je crois en les personnes qui osent remettre en question le statu quo, même si cela signifie être perçues comme folles par ceux qui craignent le changement.",
+        "Je crois en les personnes qui font l’amour parce qu’elles se sont perdues passionnément dans le regard de leur partenaire.",
+        "Je crois en les personnes qui osent aller vers les autres et qui respectent leur véritable nature.",
+        "Je crois en les personnes qui croient.",
+        "Je crois en toi !"
+    ]
   }
 }

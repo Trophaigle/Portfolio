@@ -221,5 +221,20 @@
   },
    "MiniTimeline": {
     "title": "Learning Journey"
+  },
+   "Quotes": {
+    "title": "What do you believe in ?",
+    "list": [
+      "I believe in people who make gut decisions because they feel truly inspired and driven by strong values.",
+      "I believe in people who give generously to others because they believe in the transformative power of giving on an individual.",
+      "I believe in people who inspire others by their way of thinking and acting, and who are consistent with themselves.",
+      "I believe in people who take responsibility, leading to either change or acceptance.",
+      "I believe in people who feel fully alive because they come into contact with a concept that transcends their individuality.",
+      "I believe in people who dare to challenge the status quo, even if it means being seen as crazy by those who fear change.",
+      "I believe in people who make love because they have lost themselves passionately in their partner’s gaze.",
+      "I believe in people who dare to reach out to others and who respect their true nature.",
+      "I believe in people who believe.",
+      "I believe in you!"
+    ]
   }
 }

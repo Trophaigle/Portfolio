@@ -2,12 +2,14 @@
 import Values from '@/app/components/about/values'
 import Languages from '@/app/components/about/lang'
 import Sports from '@/app/components/about/sports'
+import IBelieve from '@/app/components/about/iBelieve'
 
 const About = () => {
   // throw new Error("NOT IMPLEMENTED");
   return (
     <>
     {/* <Me /> */}
+    <IBelieve />
       <Values />
     <Languages
   languages={[
