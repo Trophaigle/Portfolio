@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 
 
-export default function IBelieve () {
+export default function IBelieve () { //ecrit dans auberge jeunesse Copenhague, il neige dehors et il fait froid. Et moi je travail sur le site dans la grande salle un soir
 
    const t = useTranslations("Quotes");
   const quotes = t.raw("list") as string[];
