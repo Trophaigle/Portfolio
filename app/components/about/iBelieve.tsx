@@ -12,7 +12,7 @@ export default function IBelieve () { //ecrit dans auberge jeunesse Copenhague, 
   const quotes = t.raw("list") as string[];
 
   return (
-    <section className="py-32 bg-neutral-950">
+    <section className="py-16 bg-neutral-950">
       <div className="flex justify-center">
         <div className="space-y-16 text-center">
 

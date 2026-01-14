@@ -51,6 +51,17 @@ const miniTimelineSteps: MiniTimelineStep[] = [
       en: "Spent six months in Sweden on Erasmus at Chalmers University, discovering the culture, the people, and the landscapes — a real window to the world."
     }
   },
+  {
+    icon: "🇸",
+    title: {
+      fr: "Lucid Summit / Séjour Copenhague",
+      en: "Lucid Summit / Stay in Copenhagen"
+    },
+    description: {
+      fr: "On est pas seul, peu importe ce qu'on fait / Pour vraiment donner quelque chose qui en vaut vraiment la peine, il faut se sentir complètement mis à nu.",
+      en: "We are never alone, no matter what we do. To truly give something worthwhile, we must feel completely exposed."  
+    }
+  },
 ];
 
 function getText(step: MiniTimelineStep, locale: "fr" | "en") {

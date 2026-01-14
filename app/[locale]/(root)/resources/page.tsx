@@ -25,6 +25,12 @@ export default function Resources() {
         url: "https://www.youtube.com/watch?v=xKSSEHbRXcM",
       },
       {
+        title: "Steve Job Speech",
+        summary:
+          "",
+        url: "https://www.youtube.com/watch?v=Tuw8hxrFBH8",
+      },
+      {
         title: "Danish Podcast: Learn Danish Like a Child – Fast and Naturally",
         summary:
           "More than just a method to learn a language, it's rethinking how to learn something and face difficulties. It could be summarized in 'keeping simple, fun/love, making mistakes, courage and repetition'.",
@@ -46,8 +52,8 @@ export default function Resources() {
       {
         title: "Thomas D'Ansembourg",
         summary:
-          "Livres et conférences",
-        url: "https://www.thomasdansembourg.com/",
+          "Livres et conférences sur la communication et bien d'autres choses",
+        url: "https://www.youtube.com/watch?v=t2hWWM3OJdU",
       },
       {
         title: "Christophe André: 9 choses à éliminer de votre vie avant 2026 pour retrouver la paix intérieure",
