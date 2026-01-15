@@ -12,7 +12,7 @@ export default function graphic () {
        <Highlight
   title="Work in progress ..."
   description="Dessin préparatoire avec quadrillage pour une peinture 'Embrasse-moi, caresse-moi...'"
-  imageSrc="/images/oeuvresGraphiques/dessin_preparatoire.jpg"
+  imageSrc="/images/current.jpg"
 />
       <GaleryImage />
     

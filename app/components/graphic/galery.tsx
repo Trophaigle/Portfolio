@@ -22,6 +22,7 @@ export default function GaleryImage() { //faire un truc avec api ? boucle ? pour
           {/* Colonne 2 - plus haute */}
           <div className="flex flex-col gap-6 pt-12">
             <ImageCard src="/images/oeuvresGraphiques/RosaEnflorece_rogne.png" alt="Image 4" />
+            <ImageCard src="/images/oeuvresGraphiques/cat.jpg" alt="Image 5" />
             <ImageCard src="/images/oeuvresGraphiques/pirate_rogne.jpg" alt="Image 5" />
             <ImageCard src="/images/oeuvresGraphiques/schindler.jpg" alt="Image 6" />
             <ImageCard src="/images/oeuvresGraphiques/MiseANu_rogne.jpg" alt="Image 3" />
