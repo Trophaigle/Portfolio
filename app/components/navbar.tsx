@@ -18,6 +18,7 @@ function Navbar (){
     { key: "home", href: "/" },
     { key: "about", href: "/about"},
     { key: "art", href: "/art"},
+     { key: "entrepreneurship", href: "/entrepreneurship"},
     // { key: "blog", href: "/blog" },
     { key: "tech", href: "/tech" },
     { key: "resources", href: "/resources" },
