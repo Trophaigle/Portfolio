@@ -38,9 +38,9 @@ function Hero () {
             title={t('title')}
             text={t('quote')}
           />
-          <p className="text-gray-300 mt-4 text-sm mb-4">
+          {/* <p className="text-gray-300 mt-4 text-sm mb-4">
            {t('subtext')}
-          </p>
+          </p> */}
           <ButtonCTA label={t('button')} href="/about"/>
         </div>
 
