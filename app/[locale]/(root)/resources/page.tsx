@@ -24,6 +24,12 @@ export default function Resources() {
           "Remise en question de la place de la peur pour la transformer en véritable moteur",
         url: "https://www.youtube.com/watch?v=xKSSEHbRXcM",
       },
+       {
+        title: "How Being Bold Will Change Your Life | Gregory Russell Benedikt | TEDxSan Diego Studio",
+        summary:
+          "",
+        url: "https://www.youtube.com/watch?v=ezygvBTXeeQ",
+      },
       {
         title: "Steve Job Speech",
         summary:
@@ -61,6 +67,7 @@ export default function Resources() {
           "Rappels",
         url: "https://www.youtube.com/watch?v=QV_ld64HyNs",
       },
+     
     ],
   },
    {
