@@ -23,6 +23,7 @@ const About = () => {
     { name: "Anglais", level: "Fluent C1-2", flagEmoji: "🇬🇧" },
     { name: "Danois", level: "Débutant A2", flagEmoji: "🇩🇰" },
     { name: "Espagnol", level: "Intermediate B1", flagEmoji: "🇪🇸" },
+    { name: "Allemand", level: "Débutant A0", flagEmoji: "🇩🇪" },
     // { name: "Polonais", level: "Débutant A1", flagEmoji: "🇵🇱" },
   ]}
 />

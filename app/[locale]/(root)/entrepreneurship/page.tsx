@@ -13,8 +13,7 @@ const Entrepreneurship = () => {
     "Tâches à fort levier"
   ];
     const step1 = [
-    "Idée en exploration: Utilisateur de MAO / compositeur / producteur de musique et leur rapport à la théorie musicale",
-    "Etude de marché en cours pour déterminer un besoin précis"
+    ""
     
   ];
 

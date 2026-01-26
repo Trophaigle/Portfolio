@@ -7,7 +7,7 @@ function PianoRepertoire() {
         "Frédéric Chopin – Nocturnes",
         "Frédéric Chopin – Fantaisie Impromptu",
          "Frédéric Chopin – Concerto 1 E minor",
-         "..."
+         "valses, orchestre, ..."
       ],
     },
     {
@@ -17,6 +17,15 @@ function PianoRepertoire() {
         "Scott Joplin – Elite Synchopation",
         "Scott Joplin – Maple Leaf Rag",
         "Scott Joplin – Original Rags",
+      ],
+    },
+    {
+      category: "Jazz",
+      icon: "🎹",
+      pieces: [
+        "Hit the road jack",
+        "Hymne à l'amour",
+        "Autre morceaux avec accord 7,9,sus,aug,dim",
       ],
     },
     {
