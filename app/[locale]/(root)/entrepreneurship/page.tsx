@@ -1,4 +1,5 @@
 import Identity from '@/app/components/entrepreneurship/identity'
+import Link from 'next/link';
 import React from 'react'
 
 const Entrepreneurship = () => {
@@ -12,18 +13,29 @@ const Entrepreneurship = () => {
     "Action",
     "Tâches à fort levier"
   ];
-    const step1 = [
-    ""
-    
-  ];
+      const step1 = [
+  <span key="step1-text">
+    A short serious game prototype where players identify potential hazards in a 3D environment. The score rewards correct detections and penalizes false alerts to encourage careful analysis.{' '}
+    <Link
+      href="https://play.unity.com/fr/games/1827c35f-1c75-4c38-8ae1-94567c9d0776/hazard-spotting-unity-demo"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 underline hover:text-blue-800"
+    >
+      (see prototype)
+    </Link>
+    .
+  </span>
+];
 
   return (
     <>
       <IdentitySection items={itemsIdentity} />
       <div className="container mx-auto px-6 py-6">
-        <h1 className='text-2xl justify-center text-center mb-4'>Progression</h1>
-        <InfoBox title="Step 1 (arrivé dans l'arène): Clarification d'un besoin" status="current" points={step1} />
-       </div>
+        <h1 className="text-2xl text-center mb-4">Progression</h1>
+        <InfoBox title="Unity serious game prototype" status="current" points={step1} />
+      </div>
+       
     </>
   );
 };
@@ -39,56 +51,33 @@ export const IdentitySection = ({ items }: { items: string[] }) => {
   );
 };
 
+
 interface BoxProps {
   title: string;
-  points: string[]; 
-  status: string
+  points: React.ReactNode[]; // ← permet du texte ou des liens
+  status: "done" | "current" | "todo";
 }
 
-export function InfoBox({ title, points, status } : BoxProps) {
+export function InfoBox({ title, points, status }: BoxProps) {
+  // Icone simple pour le statut
+  const StatusIcon = () => {
+    if (status === "done") return <span className="h-5 w-5 rounded-full bg-green-500"></span>;
+    if (status === "current") return <span className="h-5 w-5 rounded-full bg-indigo-500"></span>;
+    return <span className="h-5 w-5 rounded-full border-2 border-gray-500"></span>;
+  };
 
-  // status: "done" | "current" | "todo"
-  const StatusIcon = ({ status } : {status: string}) => {
-    if (status === "done") {
-      return (
-        <span className="flex h-5 w-5 items-center justify-center rounded-full bg-green-500">
-          <svg className="h-3 w-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-          </svg>
-        </span>
-      );
-    }
-
-    if (status === "current") {
-      return (
-        <span className="relative flex h-5 w-5">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-indigo-400 opacity-75"></span>
-          <span className="relative inline-flex h-5 w-5 rounded-full bg-indigo-500"></span>
-        </span>
-      );
-    }
-
-    return (
-      <span className="h-5 w-5 rounded-full border-2 border-gray-500"></span>
-    );
-};
-
-return (
-    <div className="relative mx-auto rounded-2xl p-6
-                    bg-gradient-to-br from-gray-700/80 to-gray-800/90
-                    border border-gray-600/50
-                    shadow-lg backdrop-blur mt-8">
-                    
+  return (
+    <div className="mx-auto rounded-xl p-6 bg-gray-800 border border-gray-600 shadow-md mt-6">
       <h2 className="text-xl font-semibold mb-4 text-white flex items-center gap-3">
-        <StatusIcon status={status} />
+        <StatusIcon />
         {title}
       </h2>
 
       <ul className="space-y-2 text-gray-200">
         {points.map((point, index) => (
           <li key={index} className="flex items-start gap-2">
-            <span className="mt-2 h-1.5 w-1.5 rounded-full bg-indigo-400"></span>
-            <span>{point}</span>
+            <span className="mt-2 h-2 w-2 rounded-full bg-indigo-400"></span>
+            {point}
           </li>
         ))}
       </ul>
