@@ -31,6 +31,12 @@ export default function Resources() {
         url: "https://www.youtube.com/watch?v=ezygvBTXeeQ",
       },
       {
+        title: "Les 6 règles pour avoir confiance en soi | Sally | TEDxBrussels",
+        summary:
+          "",
+        url: "https://www.youtube.com/watch?v=2E_Kx-MBlEA",
+      },
+      {
         title: "Steve Job Speech",
         summary:
           "",
