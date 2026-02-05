@@ -15,7 +15,7 @@ const Entrepreneurship = () => {
   ];
       const step1 = [
   <span key="step1-text">
-    A short serious game prototype where players identify potential hazards in a 3D environment. The score rewards correct detections and penalizes false alerts to encourage careful analysis.{' '}
+    Link toward main page {' '}
     <Link
       href="https://play.unity.com/fr/games/1827c35f-1c75-4c38-8ae1-94567c9d0776/hazard-spotting-unity-demo"
       target="_blank"
@@ -30,11 +30,27 @@ const Entrepreneurship = () => {
 
   return (
     <>
-      <IdentitySection items={itemsIdentity} />
-      <div className="container mx-auto px-6 py-6">
+      {/* <IdentitySection items={itemsIdentity} /> */}
+      {/* <div className="container mx-auto px-6 py-6">
         <h1 className="text-2xl text-center mb-4">Progression</h1>
         <InfoBox title="Unity serious game prototype" status="current" points={step1} />
+      </div> */}
+      <Link
+      href="https://unityportfolio-gamma.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block container mx-auto mt-10 max-w-sm"
+    >
+      <div className="w-full rounded-xl border border-gray-300 p-6 transition
+                      hover:bg-gray-500 hover:shadow-md cursor-pointer">
+        <h2 className="text-lg font-semibold">
+          Vers la page web entrepreneuriale
+        </h2>
+        <p className="text-gray-100">
+          Clique ici pour aller vers le site.
+        </p>
       </div>
+    </Link>
        
     </>
   );
