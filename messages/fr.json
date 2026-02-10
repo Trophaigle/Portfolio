@@ -106,9 +106,9 @@
         "emailPlaceholder": "exemple@mail.com",
         "details": "Votre message",
         "detailsPlaceholder": "Décrivez votre projet ici...",
-        "submit": "Envoyer ma demande",
+        "submit": "Envoyer un message",
         "sending": "Envoi en cours...",
-        "success": "🎉 Votre demande a bien été envoyée !",
+        "success": "🎉 Votre message a bien été envoyée !",
         "error": "❌ Une erreur est survenue. Veuillez réessayer."
     },
     "artPage": {

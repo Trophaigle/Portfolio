@@ -39,15 +39,15 @@ const Entrepreneurship = () => {
       href="https://unityportfolio-gamma.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
-      className="block container mx-auto mt-10 max-w-sm"
+      className="block container mx-auto mt-10 max-w-sm mb-10"
     >
       <div className="w-full rounded-xl border border-gray-300 p-6 transition
                       hover:bg-gray-500 hover:shadow-md cursor-pointer">
         <h2 className="text-lg font-semibold">
-          Vers la page web entrepreneuriale
+          Link to entrepreneurship project (Unity serious game prototype)
         </h2>
         <p className="text-gray-100">
-          Clique ici pour aller vers le site.
+          Click here
         </p>
       </div>
     </Link>

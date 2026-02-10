@@ -21,9 +21,9 @@ const About = () => {
   languages={[
     { name: "Français", level: "Native", flagEmoji: "🇫🇷" },
     { name: "Anglais", level: "Fluent C1-2", flagEmoji: "🇬🇧" },
-    { name: "Danois", level: "Débutant A2", flagEmoji: "🇩🇰" },
+    { name: "Danois", level: "Débutant A1", flagEmoji: "🇩🇰" },
     { name: "Espagnol", level: "Intermediate B1", flagEmoji: "🇪🇸" },
-    { name: "Allemand", level: "Débutant A0", flagEmoji: "🇩🇪" },
+    { name: "Allemand", level: "Débutant A1", flagEmoji: "🇩🇪" },
     // { name: "Polonais", level: "Débutant A1", flagEmoji: "🇵🇱" },
   ]}
 />

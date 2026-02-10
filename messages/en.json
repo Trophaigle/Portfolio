@@ -107,9 +107,9 @@
         "emailPlaceholder": "example@mail.com",
         "details": "Your Details",
         "detailsPlaceholder": "Describe your project here...",
-        "submit": "Submit my request",
+        "submit": "Send my message",
         "sending": "Sending...",
-        "success": "🎉 Your request has been successfully submitted!",
+        "success": "🎉 Your message has been successfully submitted!",
         "error": "❌ An error occurred. Please try again."
     },
     "artPage": {
