@@ -16,11 +16,19 @@ export default async function LocaleLayout({children, params}: Props) {
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
+  // Charge les traductions depuis le dossier messages
+  let messages;
+  try {
+    messages = (await import(`../../messages/${locale}.json`)).default;
+  } catch {
+    notFound();
+  }
  
   return (
-    <html>
+    <html lang={locale}>
       <body>
-        <NextIntlClientProvider>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
      
