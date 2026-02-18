@@ -43,6 +43,12 @@ export default function Resources() {
         url: "https://www.youtube.com/watch?v=Tuw8hxrFBH8",
       },
       {
+        title: "The secrets of learning a new language | Lýdia Machová | TED",
+        summary:
+          "Enjoyment, Methods (that works for you), System, Patience",
+        url: "https://www.youtube.com/watch?v=o_XVt5rdpFY",
+      },
+      {
         title: "Danish Podcast: Learn Danish Like a Child – Fast and Naturally",
         summary:
           "More than just a method to learn a language, it's rethinking how to learn something and face difficulties. It could be summarized in 'keeping simple, fun/love, making mistakes, courage and repetition'.",
@@ -68,11 +74,17 @@ export default function Resources() {
         url: "https://www.youtube.com/watch?v=t2hWWM3OJdU",
       },
       {
-        title: "Christophe André: 9 choses à éliminer de votre vie avant 2026 pour retrouver la paix intérieure",
+        title: "Why Having Fun Is the Secret to a Healthier Life | Catherine Price | TED",
         summary:
-          "Rappels",
-        url: "https://www.youtube.com/watch?v=QV_ld64HyNs",
+          "",
+        url: "https://www.youtube.com/watch?v=iMBJrvEwv8s",
       },
+      // {
+      //   title: "Christophe André: 9 choses à éliminer de votre vie avant 2026 pour retrouver la paix intérieure",
+      //   summary:
+      //     "Rappels",
+      //   url: "https://www.youtube.com/watch?v=QV_ld64HyNs",
+      // },
      
     ],
   },
