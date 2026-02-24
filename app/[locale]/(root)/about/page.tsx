@@ -5,6 +5,7 @@ import Sports from '@/app/components/about/sports'
 import IBelieve from '@/app/components/about/iBelieve'
 import Image from 'next/image'
 import Pyramid from '@/app/components/about/pyramid'
+import Style from '@/app/components/about/style'
 
 const About = () => {
   // throw new Error("NOT IMPLEMENTED");
@@ -35,6 +36,7 @@ const About = () => {
     { name: "Gym", icon: "🏋️‍♂️", level: "Regular" },
   ]}
 />
+  <Style />
     </>
   )
 }
