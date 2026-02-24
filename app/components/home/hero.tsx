@@ -36,8 +36,8 @@ function Hero () {
         <div className="md:w-1/2 mb-10 md:mb-0 z-20 md:mr-10">
           <InfoBlock
             title={t('title')}
-            // text={t('quote')}
-            text=""
+            text={t('quote')}
+         
           />
           {/* <p className="text-gray-300 mt-4 text-sm mb-4">
            {t('subtext')}
