@@ -23,7 +23,8 @@ function Values() {
     {
       title: t('boldness.title'),
       subtitle: t('boldness.subtitle'),
-      image: "https://images.unsplash.com/photo-1495072667656-424d680e6299?q=80&w=1172&auto=format&fit=crop"
+      // image: "https://images.unsplash.com/photo-1495072667656-424d680e6299?q=80&w=1172&auto=format&fit=crop"
+      image: "/images/MI.jpg"
     },
     {
       title: t('aesthetics.title'),

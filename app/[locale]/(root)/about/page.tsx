@@ -14,9 +14,9 @@ const About = () => {
     {/* <Me /> */}
     <IBelieve />
 
-    <Pyramid />
-
     <Values />
+
+    <Pyramid />
 
     <Languages
   languages={[
