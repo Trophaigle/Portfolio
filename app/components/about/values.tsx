@@ -2,7 +2,8 @@ import React from 'react';
 import Card from '../cards/card';
 import { useTranslations } from 'next-intl';
 
-function Values() {
+function Values() { 
+  // si on doute dans le présent, regarder dans le passé les moments les plus mémorables (c'est ceux qui illustrent les valeurs importantes)
    const t = useTranslations('values');
     const values = [
     {
@@ -18,7 +19,8 @@ function Values() {
     {
       title: t('excellence.title'),
       subtitle: t('excellence.subtitle'),
-      image: "https://images.unsplash.com/photo-1656090729242-f742a02db629?q=80&w=1470&auto=format&fit=crop"
+      // image: "https://images.unsplash.com/photo-1656090729242-f742a02db629?q=80&w=1470&auto=format&fit=crop"
+      image: "/images/amadeus.jpg"
     },
     {
       title: t('boldness.title'),
@@ -43,27 +45,45 @@ function Values() {
       image: "https://images.unsplash.com/photo-1670460891931-a2780ccb223f?q=80&w=1470&auto=format&fit=crop"
     },
     {
+      title: t('community.title'),
+      subtitle: t('community.subtitle'),
+      image: "/images/lotr.jpeg"
+    },
+    {
       title: t('fun.title'),
       subtitle: t('fun.subtitle'),
       image: "/images/fun.jpeg"
     },
   ];
-  // aussi: le partage (de moment, de biens ...)
+  //creer communauté comme il y avait pour les serveur de jeu par exemple (art, musique, humain, pas juste virtuel, creer du lien à travers sujet commun, que les gens mettent leur talent en commun, chacun à des talents à mettre en jeu)
+  //Minecraft à marché car on peut créer ce quon veut, s'exprimer, se lacher, rever, imaginer et partager tout ca.
 
   return (
-    <div className=" bg-black p-8">
-      <div className="container mx-auto">
-        <h1 className="text-white text-4xl mb-12 text-center">{t("title")}</h1>
+    <div className="bg-black p-8">
+  <div className="container mx-auto">
+    <h1 className="text-white text-4xl mb-12 text-center">
+      {t("title")}
+    </h1>
 
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
-            {values.map((value, index) => (
-              <Card key={index} title={value.title} subtitle={value.subtitle} image={value.image}/>
-            ))}
-          </div>
-        </div>
+    <div className="max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
+        {values.map((value, index) => (
+          <Card
+            key={index}
+            title={value.title}
+            subtitle={value.subtitle}
+            image={value.image}
+          />
+        ))}
       </div>
+
+      {/* Phrase sous les cartes */}
+      <p className="mt-16 text-center text-gray-400 text-sm italic">
+        {t("sentence")}
+      </p>
     </div>
+  </div>
+</div>
   );
 }
 

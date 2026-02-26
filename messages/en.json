@@ -66,6 +66,7 @@
   },
    "values": {
     "title": "What I stand for",
+    "sentence": "Values I turn to when I feel lost.",
     "creativity": {
       "title": "🎨 Creativity",
       "subtitle": "Bringing new ideas to life, connecting concepts, imagining the unknown."
@@ -83,8 +84,8 @@
       "subtitle": "Daring, experimenting, moving forward despite uncertainty and fear."
     },
     "aesthetics": {
-      "title": "🎼 Aesthetics",
-      "subtitle": "Sensitivity to forms, sounds and harmony."
+      "title": "🕯️ Aesthetics",
+      "subtitle": "Sensitivity to forms, sounds, harmony, and the spirit of places."
     },
     "exploration": {
       "title": "🧭 Exploration",
@@ -93,6 +94,10 @@
     "sharing": {
       "title": "🌱 Sharing",
       "subtitle": "Sharing valuable moments with people or sharing knowledge."
+    },
+     "community": {
+      "title": "🤝 Community",
+      "subtitle": "Collective Creativity, Synergy & Belonging"
     },
     "fun": {
       "title": "🎉 Fun",

@@ -1,3 +1,4 @@
+
 {
     "Navbar": {
         "home": "Accueil",
@@ -64,6 +65,7 @@
 
    "values": {
     "title": "Ce que je défends",
+    "sentence": "Des valeurs auxquelles je me réfère lorsque je me sens perdu.",
     "creativity": {
       "title": "🎨 Créativité",
       "subtitle": "Faire émerger de nouvelles idées, établir des liens, imaginer l’inédit."
@@ -81,8 +83,8 @@
       "subtitle": "Oser, expérimenter, avancer malgré le doute et l’incertitude et la peur."
     },
     "aesthetics": {
-      "title": "🎼 Esthétique",
-      "subtitle": "Sensibilité aux formes, aux sons et à l’harmonie."
+      "title": "🕯️ Esthétique",
+      "subtitle": "Sensibilité aux formes, aux sons, à l’harmonie et à l'esprit des lieux."
     },
     "exploration": {
       "title": "🧭 Exploration",
@@ -92,11 +94,16 @@
       "title": "🌱 Le Partage",
       "subtitle": "Partager des moments précieux avec des gens. Partager du savoir."
     },
+    "community": {
+      "title": "🤝 Communauté ",
+      "subtitle": "Créativité collective, Synergie & Appartenance"
+    },
     "fun": {
       "title": "🎉 Fun",
       "subtitle": "Le fun pour soi et avec les autres."
     }
   },
+  
 
     "Timeline":
     {
