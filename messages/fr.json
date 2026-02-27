@@ -12,7 +12,7 @@
 
     "HomeHero": {
         "title": "Bienvenue sur mon site internet personnel 👊 ! ",
-        "quote": "(R)Eveiller ce qui nous rend profondement vivant.",
+        "quote": "Créer pour bâtir un ecosystème collectif.",
         "subtext": "Est-ce que cela t’inspire ? Est-ce que tu y crois aussi ?",
         "button": "Go !"
     }, "projects": {
@@ -65,7 +65,7 @@
 
    "values": {
     "title": "Ce que je défends",
-    "sentence": "Des valeurs auxquelles je me réfère lorsque je me sens perdu.",
+    "sentence": "Des valeurs auxquelles je me réfère lorsque je me veux revenir à l'essentiel.",
     "creativity": {
       "title": "🎨 Créativité",
       "subtitle": "Faire émerger de nouvelles idées, établir des liens, imaginer l’inédit."
@@ -84,7 +84,7 @@
     },
     "aesthetics": {
       "title": "🕯️ Esthétique",
-      "subtitle": "Sensibilité aux formes, aux sons, à l’harmonie et à l'esprit des lieux."
+      "subtitle": "Sensibilité à la structure et à l’harmonie, tant visuelle que sonore et à l'esprit des lieux."
     },
     "exploration": {
       "title": "🧭 Exploration",

@@ -12,7 +12,7 @@
 
     "HomeHero": {
         "title": "Welcome on my personal website 👊 !",
-        "quote": "(Re)awaken what makes us feel deeply alive",
+        "quote": "Creating to build a collective ecosystem.",
         "subtext": "Do you feel inspired ? Do you believe in this too ?",
         "button": "Dive in !"
     },
@@ -66,7 +66,7 @@
   },
    "values": {
     "title": "What I stand for",
-    "sentence": "Values I turn to when I feel lost.",
+    "sentence": "Values I turn to when I want to return to the essentials.", 
     "creativity": {
       "title": "🎨 Creativity",
       "subtitle": "Bringing new ideas to life, connecting concepts, imagining the unknown."
@@ -85,7 +85,8 @@
     },
     "aesthetics": {
       "title": "🕯️ Aesthetics",
-      "subtitle": "Sensitivity to forms, sounds, harmony, and the spirit of places."
+      "subtitle": "Sensitivity to structure and harmony, both visual and auditory, as well as to the spirit of places.",
+      "__comment": "Sensitivity to forms, sounds, harmony, and the spirit of places."
     },
     "exploration": {
       "title": "🧭 Exploration",

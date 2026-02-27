@@ -37,7 +37,7 @@ function Footer (){
   ];
 
   const socialIcons = [
-     { href: "#", label: "Patreon", icon: SiPatreon },
+     { href: "https://www.patreon.com/Trophaigle", label: "Patreon", icon: SiPatreon },
      { href: "#", label: "Instagram", icon: SiInstagram },
      { href: "https://www.youtube.com/@trophaigle8801", label: "YouTube", icon: SiYoutube },
      { href: "https://www.linkedin.com/in/thomas-serafin", label: "LinkedIn", icon: SiLinkedin },

@@ -4,7 +4,9 @@ import { useTranslations } from 'next-intl';
 
 function Values() { 
   // si on doute dans le présent, regarder dans le passé les moments les plus mémorables (c'est ceux qui illustrent les valeurs importantes)
-   const t = useTranslations('values');
+  //On peut facilement se faire enliser par notre env, physique ou digital (resteindre maladroitement notre realité uniquement à ce qu'on peut voir à l'instant t) si on n'y prete pas attention, ce socle de valeur est la pour ca. 
+  //suivre, dans la mesure de nos moyens, ce qui nous anime, nous rend vivant, aller chercher ca
+  const t = useTranslations('values');
     const values = [
     {
       title: t('creativity.title'),
@@ -57,6 +59,7 @@ function Values() {
   ];
   //creer communauté comme il y avait pour les serveur de jeu par exemple (art, musique, humain, pas juste virtuel, creer du lien à travers sujet commun, que les gens mettent leur talent en commun, chacun à des talents à mettre en jeu)
   //Minecraft à marché car on peut créer ce quon veut, s'exprimer, se lacher, rever, imaginer et partager tout ca.
+  //une equipe qui poursuit un meme but
 
   return (
     <div className="bg-black p-8">
