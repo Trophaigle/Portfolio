@@ -253,5 +253,17 @@
   }
   ,"about": {
     "quote-pyramid": "A good relationship with oneself (spiritual, athletic, health) allows for good relationships with others (family, friends, acquaintances, lovers) and enables one to give the best of oneself in the service of others!"
+  },
+  "success": {
+    "title_before": "My Definition of",
+    "title_highlight": "Success",
+
+    "p1_before": "Having enough",
+    "p1_highlight": "freedom",
+    "p1_after": "to meet and work with people I want to collaborate and spend time with.",
+
+    "p2_before": "Create, with people, something",
+    "p2_highlight": "valuable",
+    "p2_after": "for others."
   }
 }

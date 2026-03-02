@@ -254,5 +254,17 @@
   }
   ,"about": {
     "quote-pyramid": "Une bonne relation à soi (spirituelle, sportive, santé) permet une bonne relation aux autres (familles, amis, connaissances, amours) et de donner le meilleur de soi au service des autres !"
+  },
+  "success": {
+    "title_before": "Ma définition du",
+    "title_highlight": "Succès",
+
+    "p1_before": "Avoir assez de",
+    "p1_highlight": "liberté",
+    "p1_after": "pour rencontrer et travailler avec les personnes avec qui j’ai envie de collaborer et de passer du temps.",
+
+    "p2_before": "Créer, avec d’autres, quelque chose qui apporte de la",
+    "p2_highlight": "valeur",
+    "p2_after": "aux autres."
   }
 }
