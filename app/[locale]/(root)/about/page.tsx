@@ -6,6 +6,7 @@ import IBelieve from '@/app/components/about/iBelieve'
 import Pyramid from '@/app/components/about/pyramid'
 import Style from '@/app/components/about/style'
 import Success from '@/app/components/about/success'
+import Strenghs from '@/app/components/about/strenghs'
 
 const About = () => {
   
@@ -35,10 +36,9 @@ const About = () => {
       { name: "Gym", icon: "🏋️‍♂️", level: "Regular" },
     ]}
   />
-
-  <Style />
-
   <Success />
+  <Strenghs />
+  <Style />
     </>
   )
 }
