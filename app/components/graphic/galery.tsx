@@ -9,9 +9,9 @@ export default function GaleryImage() { //faire un truc avec api ? boucle ? pour
 
           {/* Colonne 1 */}
           <div className="flex flex-col gap-6">
-            <ImageCard src="/images/oeuvresGraphiques/elea_rogne2.jpg" alt="Image 1" />
+            <ImageCard src="/images/oeuvresGraphiques/elea3_rogne.jpg" alt="Image 1" />
             <ImageCard src="/images/oeuvresGraphiques/daenerys_rogne.jpg" alt="Image 2" />
-            <ImageCard src="/images/oeuvresGraphiques/woman_bedroom_rogne.jpg" alt="Image 2" />
+            <ImageCard src="/images/oeuvresGraphiques/bedroom3_rogne.jpg" alt="Image 2" />
             <ImageCard src="/images/oeuvresGraphiques/jeanWoman_rogne.jpg" alt="Image 3" />
             <ImageCard src="/images/oeuvresGraphiques/mereNature_rogne.jpg" alt="Image 6" />
             <ImageCard src="/images/oeuvresGraphiques/abeille.jpg" alt="Image 6" />

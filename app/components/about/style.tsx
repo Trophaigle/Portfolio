@@ -7,7 +7,13 @@ export default function Style() {
         <h2 className="text-3xl font-bold text-white mb-8 text-center">
           Style (look)
         </h2>
-        
+        <div className="flex justify-center items-center">
+      <img
+        src="/images/style.jpg"
+        alt="Description"
+        className="max-h-screen w-auto object-contain"
+      />
+    </div>
       </div>
     </div>
   )

@@ -75,7 +75,7 @@ function Footer (){
               </Link>
             ))}
           </div>
-          <div className="my-5">© Copyright 2025. All Rights Reserved.</div>
+          <div className="my-5">© Copyright 2026. All Rights Reserved.</div>
         </div>
       </div>
     </footer>
