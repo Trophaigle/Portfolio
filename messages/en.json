@@ -255,15 +255,19 @@
     "quote-pyramid": "A good relationship with oneself (spiritual, athletic, health) allows for good relationships with others (family, friends, acquaintances, lovers) and enables one to give the best of oneself in the service of others!"
   },
   "success": {
-    "title_before": "My Definition of",
-    "title_highlight": "Success",
+    "title": "My definition of Archieving",
+    "title_highlight": "Archieving",
 
-    "p1_before": "Having enough",
+    "p1": "Having enough freedom to meet and work with people I truly want to collaborate and spend time with.",
     "p1_highlight": "freedom",
-    "p1_after": "to meet and work with people I want to collaborate and spend time with.",
-
-    "p2_before": "Create, with people, something",
-    "p2_highlight": "valuable",
-    "p2_after": "for others."
+    
+    "p2": "Success, to me, is about creating something that lives beyond me.",
+    "p2_highlight": "creating something",
+    
+    "p3": "Something that moves people, sparks ideas, emotions, and imagination.",
+    "p3_highlight": "moves people",
+    
+    "p4": "Success is creating something that becomes part of someone else’s memories, inspiring them to dream and create in return.",
+    "p4_highlight": "memories"
   }
 }

@@ -256,15 +256,19 @@
     "quote-pyramid": "Une bonne relation à soi (spirituelle, sportive, santé) permet une bonne relation aux autres (familles, amis, connaissances, amours) et de donner le meilleur de soi au service des autres !"
   },
   "success": {
-    "title_before": "Ma définition du",
-    "title_highlight": "Succès",
+  "title": "Ma définition du Succès",
+  "title_highlight": "Succès",
 
-    "p1_before": "Avoir assez de",
-    "p1_highlight": "liberté",
-    "p1_after": "pour rencontrer et travailler avec les personnes avec qui j’ai envie de collaborer et de passer du temps.",
+  "p1": "Avoir assez de liberté pour rencontrer et travailler avec les personnes avec qui je veux vraiment collaborer et passer du temps.",
+  "p1_highlight": "liberté",
 
-    "p2_before": "Créer, avec d’autres, quelque chose qui apporte de la",
-    "p2_highlight": "valeur",
-    "p2_after": "aux autres."
-  }
+  "p2": "Pour moi, le succès consiste à créer quelque chose qui dépasse ma propre existence.",
+  "p2_highlight": "créer quelque chose",
+
+  "p3": "Quelque chose qui touche les gens, qui suscite des idées, des émotions et de l’imagination.",
+  "p3_highlight": "touche les gens",
+
+  "p4": "Le succès, c’est créer quelque chose qui fait partie des souvenirs de quelqu’un d’autre, l’inspirant à rêver et à créer à son tour.",
+  "p4_highlight": "souvenirs"
+}
 }
