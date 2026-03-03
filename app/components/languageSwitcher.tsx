@@ -8,6 +8,7 @@ import { FiGlobe } from 'react-icons/fi';
 const LANGUAGES = [
   { code: 'fr', label: 'Français', flag: '🇫🇷' },
   { code: 'en', label: 'English', flag: '🇬🇧' },
+  { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
 ];
 
 export default function LanguageSwitcher() {

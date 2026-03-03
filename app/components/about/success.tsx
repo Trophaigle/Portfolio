@@ -37,6 +37,7 @@ const Success = () => {
         text={t("p3")}
         highlights={[t("p3_highlight")]}
       />
+      <br /><br />
       <GradientText
         text={t("p4")}
         highlights={[t("p4_highlight")]}

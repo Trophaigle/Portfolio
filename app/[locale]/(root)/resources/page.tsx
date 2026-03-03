@@ -19,6 +19,12 @@ export default function Resources() {
         url: "https://www.youtube.com/watch?v=u4ZoJKF_VuA",
       },
       {
+        title: "TEDxMaastricht - Simon Sinek - 'First why and then trust'",
+        summary:
+          "",
+        url: "https://www.youtube.com/watch?v=4VdO7LuoBzM",
+      },
+      {
         title: "Et si on arrêtait d’avoir peur ? – Margaux Hammann",
         summary:
           "Remise en question de la place de la peur pour la transformer en véritable moteur",
