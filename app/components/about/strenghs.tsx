@@ -21,7 +21,7 @@ const Card: React.FC<CardProps> = ({ title, items, color = "bg-white" }) => {
 }
 
 const Strengths: React.FC = () => {
-  const strengths = ["Uses visual memory to learn, understand, imagine, and create effectively", "Confortable engaging interactions with people from all over the world", "Always in a mindset of continuous learning."]
+  const strengths = ["Uses visual memory to learn, understand, imagine, and create effectively", "Confortable engaging interactions with people from all over the world", "Always in a mindset of continuous learning.", "Memoire auditive aussi", "grande curiosité", "etat de flow"]
   const improvements = ["Prise d'initiative et de risque", ""]
 
   return (
