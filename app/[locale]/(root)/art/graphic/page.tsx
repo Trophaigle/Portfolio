@@ -9,11 +9,7 @@ export default function graphic () {
     <>
   
       <HeroGraphic />
-       <Highlight
-  title="Work in progress ..."
-  description="Dessin préparatoire avec quadrillage pour une peinture 'Embrasse-moi, enlace-moi, caresse-moi...'"
-  imageSrc="/images/current.jpg"
-/>
+      {/*<Highlight title="Oeuvres graphiques" description="Découvrez une sélection de mes œuvres graphiques, où chaque image raconte une histoire unique à travers des détails captivants et une esthétique soignée." />*/}
       <GaleryImage />
     
    </>
