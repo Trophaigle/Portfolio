@@ -9,6 +9,7 @@ export default function GaleryImage() { //faire un truc avec api ? boucle ? pour
 
           {/* Colonne 1 */}
           <div className="flex flex-col gap-6">
+            <ImageCard src="/images/oeuvresGraphiques/couple_rogne.jpg" alt="Image 1" />
             <ImageCard src="/images/oeuvresGraphiques/elea3_rogne.jpg" alt="Image 1" />
             <ImageCard src="/images/oeuvresGraphiques/daenerys_rogne.jpg" alt="Image 2" />
             <ImageCard src="/images/oeuvresGraphiques/bedroom3_rogne.jpg" alt="Image 2" />
@@ -27,7 +28,7 @@ export default function GaleryImage() { //faire un truc avec api ? boucle ? pour
             <ImageCard src="/images/oeuvresGraphiques/schindler.jpg" alt="Image 6" />
             <ImageCard src="/images/oeuvresGraphiques/MiseANu_rogne.jpg" alt="Image 3" />
             <ImageCard src="/images/oeuvresGraphiques/climbingOutdoor.jpg" alt="Image 9" />
-             <ImageCard src="/images/oeuvresGraphiques/bouldering_rogne.jpg" alt="Image 9" />
+            <ImageCard src="/images/oeuvresGraphiques/bouldering_rogne.jpg" alt="Image 9" />
           </div>
 
           {/* Colonne 3 */}
