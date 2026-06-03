@@ -24,11 +24,18 @@ export const musicData: MusicPiece[] = [
     videoUrl: "https://www.youtube.com/embed/f_0fT9AMsbQ?si=EKFQZy1j1gG1QgD3",
     sketches: []
   },
+  {
+    slug: "99-LuftBallons",
+    type: "orchestra",
+    isNew: true,
+    videoUrl: "",
+    pdfUrl: "/music/99-LuftBallons/99LuftBallonsOrchestra.pdf",
+    sketches: ["/music/99-LuftBallons/99LuftBallonsSketchA3.jpg"]
+  },
     {
     slug: "balade-du-soir-e-majeur",
     type: "piano",
     pdfUrl: "/music/balade-du-soir-e-majeur/BaladeDuSoir1EMajorOnePage.pdf",
-    isNew: true,
     videoUrl: "https://www.youtube.com/embed/1iDDVL20Bqs?si=sznBKEyyG0wLySvn",
     sketches: []
   },
@@ -44,7 +51,6 @@ export const musicData: MusicPiece[] = [
     type: "piano",
     pdfUrl: "/music/danse-des-poules/DansePouleVersionPagesAjustée.pdf",
     videoUrl: "https://www.youtube.com/embed/pzbkw3pux2g?si=xJnk3lGk7MNIRmj4",
-    isNew: true,
     sketches: []
   },
     {
