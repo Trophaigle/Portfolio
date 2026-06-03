@@ -43,8 +43,8 @@ const Entrepreneurship = () => {
     >
       <div className="w-full rounded-xl border border-gray-300 p-6 transition
                       hover:bg-gray-500 hover:shadow-md cursor-pointer">
-        <h2 className="text-lg font-semibold">
-          Link to project (Unity serious games)
+        <h2 className="text-lg font-semibold text-white">
+          3D Engine Projects
         </h2>
         <p className="text-gray-100">
           Click here

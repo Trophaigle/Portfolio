@@ -61,7 +61,7 @@ const timelineSteps: TimelineStep[] = [
     sourceUrl: "https://www.usherbrooke.ca/actualites/nouvelles/details/36748",
     sourceLabel: { fr: "Lire la source", en: "Read source" }
   },
-  {
+ /* {
     icon: "🤝",
     title: {
       fr: "Grandir ensemble face à l’inconnu",
@@ -73,7 +73,7 @@ const timelineSteps: TimelineStep[] = [
     },
     sourceUrl: "https://www.imdb.com/title/tt4574334/",
     sourceLabel: { fr: "Voir la série", en: "See the series" }
-  }
+  }*/
 ];
 
 

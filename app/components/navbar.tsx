@@ -18,9 +18,9 @@ function Navbar (){
     { key: "home", href: "/" },
     { key: "about", href: "/about"},
     { key: "art", href: "/art"},
-     { key: "project", href: "/project"},
+     { key: "projects", href: "/projects"},
     // { key: "blog", href: "/blog" },
-    { key: "tech", href: "/tech" },
+    //{ key: "tech", href: "/tech" },
     { key: "resources", href: "/resources" },
   ];
 

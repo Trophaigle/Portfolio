@@ -5,7 +5,7 @@
         "about": "A Propos",
         "art": "Art",
         "blog": "Blog",
-        "project" : "Projet",
+        "projects" : "Projets",
         "tech": "Tech",
         "resources": "Ressources"
     },
@@ -15,53 +15,7 @@
         "quote": "Créer pour faire émerger une dynamique collective",
         "subtext": "Est-ce que cela t’inspire ? Est-ce que tu y crois aussi ?",
         "button": "Go !"
-    }, "projects": {
-    "title": "Quelques projets informatiques",
-
-    "pfe": {
-      "title": "Projet de PFE Ensimag",
-      "desc": [
-        "Stage de fin d’études de six mois au sein de l’équipe ELIPSE (IRIT - IHM).",
-        "Développement d’un système de collaboration multi-écrans en réalité mixte avec Unity/Netcode et C# sur Meta Quest 3.",
-        "Contribution à l’intégration réseau pour au moins deux utilisateurs.",
-        "Participation aux séminaires d’équipe."
-      ],
-      "cta": "Rapport"
-    },
-
-    "gl": {
-      "title": "Projet Génie Logiciel Ensimag",
-      "desc": [
-        "Conception et développement d’un compilateur en Java pour le langage Déca.",
-        "Projet collaboratif en méthode Agile.",
-        "Respect d’un cahier des charges proche du milieu professionnel.",
-        "Répartition des tâches en équipe et rédaction de la documentation."
-      ],
-      "cta": "Code source"
-    },
-
-    "site": {
-      "title": "Projet de construction de ce site internet",
-      "desc": [
-        "Site développé avec React et Next.js.",
-        "Styling moderne avec Tailwind CSS.",
-        "Back-end pour mails et gestion des données.",
-        "Optimisation UX/UI et navigation fluide.",
-        "Focus sur esthétique et cohérence visuelle."
-      ],
-      "cta": "Code source"
-    },
-
-    "ai": {
-      "title": "Projet de stage AI",
-      "desc": [
-        "Exploration et implémentation des PINNs (Physics-Informed Neural Networks) en Python avec PyTorch.",
-        "Application sur la résolution de l’équation de Fourier.",
-        "Comparaison des résultats du PINN avec la solution théorique.",
-        "Travail expérimental et analyse des performances du modèle."
-      ]
-    }
-  },
+    }, 
 
    "values": {
     "title": "Ce que je défends",

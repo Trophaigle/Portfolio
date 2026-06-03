@@ -113,7 +113,7 @@ export default function ArtHero() {
     </div>
 
     <section className="flex justify-center pt-10">
-      <h2 className="text-center text-2xl">
+      <h2 className="text-center text-2xl text-gray-200">
         {t("footerText")}
       </h2>
     </section>

@@ -5,7 +5,7 @@
         "about": "About",
         "art": "Art",
         "blog": "Blog",
-        "project" : "Project",
+        "projects" : "Projects",
         "tech": "Tech",
         "resources": "Resources"
     },
@@ -17,53 +17,6 @@
         "button": "Dive in !"
     },
 
-    "projects": {
-    "title": "Some Computer Science Projects",
-
-    "pfe": {
-      "title": "Ensimag Final-Year Project",
-      "desc": [
-        "Six-month end-of-studies internship within the ELIPSE team (IRIT – HCI).",
-        "Development of a multi-screen collaboration system in mixed reality using Unity/Netcode and C# on the Meta Quest 3.",
-        "Contribution to the network integration to support at least two users.",
-        "Participation in team seminars and meetings."
-      ],
-      "cta": "Report"
-    },
-
-    "gl": {
-      "title": "Ensimag Software Engineering Project",
-      "desc": [
-        "Design and development of a compiler in Java for the Déca language.",
-        "Collaborative project following Agile methodology.",
-        "Compliance with a professional-like requirements specification.",
-        "Task distribution within the team and documentation writing."
-      ],
-      "cta": "Source code"
-    },
-
-    "site": {
-      "title": "Personal Website Development Project",
-      "desc": [
-        "Website developed using React and Next.js.",
-        "Modern styling with Tailwind CSS.",
-        "Back-end for emails and data handling.",
-        "UX/UI optimization and smooth navigation.",
-        "Focus on visual aesthetics and coherence."
-      ],
-      "cta": "Source code"
-    },
-
-    "ai": {
-      "title": "AI Internship Project",
-      "desc": [
-        "Exploration and implementation of PINNs (Physics-Informed Neural Networks) in Python with PyTorch.",
-        "Application to solving the Fourier equation.",
-        "Comparison of the PINN output with the theoretical solution.",
-        "Experimental work and model performance analysis."
-      ]
-    }
-  },
    "values": {
     "title": "What I stand for",
     "sentence": "Values I turn to when I want to return to the essentials.", 
