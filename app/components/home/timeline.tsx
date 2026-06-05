@@ -61,19 +61,6 @@ const timelineSteps: TimelineStep[] = [
     sourceUrl: "https://www.usherbrooke.ca/actualites/nouvelles/details/36748",
     sourceLabel: { fr: "Lire la source", en: "Read source" }
   },
- /* {
-    icon: "🤝",
-    title: {
-      fr: "Grandir ensemble face à l’inconnu",
-      en: "Growing Together in the Face of the Unknown"
-    },
-    description: {
-      fr: "S’inspirant d’œuvres comme *Stranger Things*, cette thématique met en avant l’importance des liens humains et de la coopération pour affronter des mondes dangereux ou des situations inconnues. Les personnages, souvent jeunes, apprennent à se soutenir mutuellement, à partager leurs forces et leurs peurs, et à évoluer ensemble face aux défis, montrant que la résilience collective est la clé pour surmonter les obstacles.",
-      en: "Inspired by works like *Stranger Things*, this theme highlights the importance of human bonds and cooperation to face dangerous worlds or unknown situations. The characters, often young, learn to support each other, share their strengths and fears, and grow together in the face of challenges, showing that collective resilience is the key to overcoming obstacles."
-    },
-    sourceUrl: "https://www.imdb.com/title/tt4574334/",
-    sourceLabel: { fr: "Voir la série", en: "See the series" }
-  }*/
 ];
 
 

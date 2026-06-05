@@ -209,6 +209,15 @@
       "I believe in people who believe.",
       "I believe in you!"
     ]
+  },
+  "QuotesPro": {
+    "title": "What future of work do you wish for ?",
+    "list": [
+      "I believe in a world where expertise across seemingly unrelated fields fosters creative, innovative, and original ideas, helping us adapt to rapid technological change.",
+      "I believe in a professional world that recognizes talent and potential beyond past achievements, giving everyone a fair chance to demonstrate their capabilities.",
+      "I believe in the constant capacity to learn and to build connections between existing knowledge and future possibilities in a rapidly changing world.", 
+      "I believe in the power of languages as cultural bridges that foster meaningful personal and professional relationships beyond transactional exchanges."
+    ]
   }
   ,"about": {
     "quote-pyramid": "A good relationship with oneself (spiritual, athletic, health) allows for good relationships with others (family, friends, acquaintances, lovers) and enables one to give the best of oneself in the service of others!"

@@ -211,7 +211,16 @@
         "Je crois en les personnes qui croient.",
         "Je crois en toi !"
     ]
-  }
+  },
+  "QuotesPro": {
+  "title": "Quel avenir du monde du travail souhaitez-vous ?",
+  "list": [
+    "Je crois en un monde où l'expertise dans des domaines apparemment sans lien favorise des idées créatives, innovantes et originales, nous aidant à nous adapter aux changements technologiques rapides.",
+    "Je crois en un monde professionnel qui reconnaît le talent et le potentiel au-delà des seules réussites passées, en donnant à chacun une chance équitable de démontrer ses capacités.",
+    "Je crois en la capacité constante à apprendre et à créer des liens entre les connaissances existantes et les possibilités futures dans un monde en rapide évolution.",
+    "Je crois au pouvoir des langues comme ponts culturels qui favorisent des relations personnelles et professionnelles significatives, au-delà de simples échanges transactionnels."
+  ]
+}
   ,"about": {
     "quote-pyramid": "Une bonne relation à soi (spirituelle, sportive, santé) permet une bonne relation aux autres (familles, amis, connaissances, amours) et de donner le meilleur de soi au service des autres !"
   },

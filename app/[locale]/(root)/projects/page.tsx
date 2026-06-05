@@ -1,3 +1,4 @@
+import IBelievePro from '@/app/components/about/iBelievePro';
 import Identity from '@/app/components/entrepreneurship/identity'
 import Link from 'next/link';
 import React from 'react'
@@ -51,7 +52,7 @@ const Entrepreneurship = () => {
         </p>
       </div>
     </Link>
-       
+       <IBelievePro />
     </>
   );
 };
