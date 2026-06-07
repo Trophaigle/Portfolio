@@ -3,6 +3,8 @@
 
 A modern personal website built with **Next.js** and **Tailwind CSS**, designed to showcase my projects, ideas, values, and resources in a clean and structured way.
 
+🌐 Live website: [Visit my personal website](https://thomaserafin.com/en)
+
 ---
 
 ## 🚀 Overview
