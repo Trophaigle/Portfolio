@@ -24,6 +24,7 @@ export default function ArtHero() {
 
   return (
     <>
+    <div className="bg-black">
     <div
   className={`relative overflow-hidden transition-transform duration-1000 ease-out ${
     zooming ? "scale-700" : "scale-100"
@@ -145,6 +146,7 @@ export default function ArtHero() {
 
   </div>
 </section>
+</div>
     </>
   );
 }
