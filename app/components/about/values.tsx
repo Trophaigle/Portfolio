@@ -62,7 +62,7 @@ function Values() {
   //une equipe qui poursuit un meme but
 
   return (
-    <div className="bg-black p-8">
+    <div className="bg-black p-8" id="values">
   <div className="container mx-auto">
     <h1 className="text-white text-4xl mb-12 text-center">
       {t("title")}

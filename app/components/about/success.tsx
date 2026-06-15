@@ -7,7 +7,7 @@ const Success = () => {
   const t = useTranslations('success')
 
   return (
-       <section className="min-h-screen flex items-center justify-center px-6 bg-black relative overflow-hidden">
+       <section className="min-h-screen flex items-center justify-center px-6 bg-black relative overflow-hidden" id="success">
   <div className="absolute inset-0 bg-gradient-radial from-purple-500 via-pink-500 to-indigo-500 opacity-20 pointer-events-none"></div>
 
   <div className="relative max-w-2xl text-center p-10 rounded-3xl">
