@@ -1,3 +1,4 @@
+"use client";
 
 import Link from "next/link";
 import { SiPatreon, SiInstagram, SiYoutube, SiLinkedin } from "react-icons/si";
@@ -12,22 +13,23 @@ function Footer (){
     {
       title: "Menu",
       links: [
-        { name: t("home"), href: "/" },
-        { name: t("about"), href: "/about" },
-        { name: t("art"), href: "/art", badge: "New" },
-        // { name: t("blog"), href: "/blog", badge: "New" },
-        { name: t("tech"), href: "/tech", badge: "New" },
-        { name: t("resources"), href: "/resources", badge: "New" },
-      ],
+        { name: "home", href: "/" },
+        { name: "about", href: "/about"},
+        { name: "art", href: "/art"},
+        { name: "projects", href: "/projects"},
+      // { name: "blog", href: "/blog" },
+      //{ name: "tech", href: "/tech" },
+        { name: "resources", href: "/resources" },
+      ]
     },
-    {
+    /*{
       title: "Support",
       links: [
         
         { name: "Privacy Policy", href: "/#" },
         { name: "Conditions", href: "/#" },
       ],
-    },
+    },*/
     // {
     //   title: "Contact us",
     //   links: [
@@ -55,7 +57,7 @@ function Footer (){
             <div className="text-lg uppercase text-white font-bold">{section.title}</div>
             {section.links.map((link, i) => (
               <Link key={i} href={link.href} className="my-2 block hover:text-yellow-900">
-                {link.name} {link.badge && <span className="text-teal-600 text-xs p-1">{link.badge}</span>}
+                {t(link.name)} 
               </Link>
             ))}
           </div>

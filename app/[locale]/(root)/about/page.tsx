@@ -7,6 +7,7 @@ import Pyramid from '@/app/components/about/pyramid'
 import Style from '@/app/components/about/style'
 import Success from '@/app/components/about/success'
 import Strenghs from '@/app/components/about/strenghs'
+import Strenghts from '@/app/components/about/strenghs'
 
 const About = () => {
   
@@ -37,7 +38,7 @@ const About = () => {
     ]}
   />
   <Success />
-  {/* <Strenghs /> */}
+  <Strenghts />
   <Style />
     </>
   )

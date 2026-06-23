@@ -40,7 +40,7 @@ function Navbar (){
           {/* Mobile Hamburger */}
           <div className="lg:hidden">
             <button
-              className="relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] rounded-lg text-center text-slate-800"
+              className="relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] rounded-lg text-center text-white"
               onClick={toggleMobileMenu}
             >
               <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl">
