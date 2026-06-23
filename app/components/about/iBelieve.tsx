@@ -21,7 +21,7 @@ export default function IBelieve () { //ecrit dans auberge jeunesse Copenhague, 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl font-light tracking-wide text-gray-200"
+            className="text-4xl font-light tracking-wide text-gray-200 px-4 sm:px-0"
           >
             {t("title")}
           </motion.h2>

@@ -58,6 +58,17 @@
       "subtitle": "Fantasy, having fun with ourselves and people."
     }
   },
+  "strengths": {
+    "title": "My formidable strength",
+    "subtitle": "Composition",
+    "points": [
+      "Start from a more or less vague idea.",
+      "Visualize the outcome you want to achieve.",
+      "Identify the tools, knowledge, and resources required.",
+      "Assemble the pieces step by step while alternating action and reflection.",
+      "Gradually build until a coherent realization emerges."
+    ]
+  },
 
     "Timeline": {
         "title": "Relevant topics",

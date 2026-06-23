@@ -57,6 +57,17 @@
       "subtitle": "Fantaisie, le fun pour soi et avec les autres."
     }
   },
+  "strengths": {
+    "title": "Ma force redoutable",
+    "subtitle": "La composition",
+    "points": [
+      "Partir d'une idée plus ou moins vague.",
+      "Visualiser le résultat que l'on souhaite obtenir.",
+      "Identifier les outils, connaissances et ressources nécessaires.",
+      "Assembler les éléments étape par étape et itérer entre action et prise de recul.",
+      "Construire progressivement jusqu'à faire émerger une réalisation cohérente."
+    ]
+  },
   
 
     "Timeline":

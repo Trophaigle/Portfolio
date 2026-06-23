@@ -6,8 +6,7 @@ import IBelieve from '@/app/components/about/iBelieve'
 import Pyramid from '@/app/components/about/pyramid'
 import Style from '@/app/components/about/style'
 import Success from '@/app/components/about/success'
-import Strenghs from '@/app/components/about/strenghs'
-import Strenghts from '@/app/components/about/strenghs'
+import Strengths from '@/app/components/about/strengths'
 
 const About = () => {
   
@@ -38,7 +37,7 @@ const About = () => {
     ]}
   />
   <Success />
-  <Strenghts />
+  <Strengths />
   <Style />
     </>
   )
