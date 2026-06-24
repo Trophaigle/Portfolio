@@ -107,7 +107,7 @@ export default function Resources() {
         title: "How to Win Friends and Influence People - Dale Carnegie",
         summary:
           "",
-          url: "#",
+          url: "https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People",
       }
     ],
   },
