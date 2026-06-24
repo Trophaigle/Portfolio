@@ -252,5 +252,13 @@
 
   "p4": "Le succès, c’est créer quelque chose qui fait partie des souvenirs de quelqu’un d’autre, l’inspirant à rêver et à créer à son tour.",
   "p4_highlight": "souvenirs"
-}
+},
+"projects": {
+    "portfolioCard": {
+      "badge": "Portfolio Interactif",
+      "title": "🚀 Découvrez mes projets Web & Moteur 3D",
+      "description": "Explorez des applications web interactives, des expériences 3D temps réel, des moteurs graphiques et des démonstrations techniques développées avec Unity, Unreal Engine et les technologies modernes du web.",
+      "cta": "Voir le portfolio"
+    }
+  }
 }

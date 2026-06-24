@@ -250,5 +250,13 @@
     
     "p4": "Success is creating something that becomes part of someone else’s memories, inspiring them to dream and create in return.",
     "p4_highlight": "memories"
+  },
+   "projects": {
+    "portfolioCard": {
+      "badge": "Interactive Portfolio",
+      "title": "🚀 Discover My Web & 3D Engine Projects",
+      "description": "Explore interactive web applications, real-time 3D experiences, graphics engines, and technical demonstrations built with Unity, Unreal Engine, and modern web technologies.",
+      "cta": "View Portfolio"
+    }
   }
 }
