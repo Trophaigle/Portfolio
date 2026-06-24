@@ -37,6 +37,12 @@ export default function Resources() {
         url: "https://www.youtube.com/watch?v=ezygvBTXeeQ",
       },
       {
+        title: "L'art de réussir l'impossible",
+        summary:
+          "",
+        url: "https://www.tiktok.com/@clip.youtube351/video/7549220303809924370",
+      },
+      {
         title: "Les 6 règles pour avoir confiance en soi | Sally | TEDxBrussels",
         summary:
           "",
@@ -84,14 +90,7 @@ export default function Resources() {
         summary:
           "",
         url: "https://www.youtube.com/watch?v=iMBJrvEwv8s",
-      },
-      // {
-      //   title: "Christophe André: 9 choses à éliminer de votre vie avant 2026 pour retrouver la paix intérieure",
-      //   summary:
-      //     "Rappels",
-      //   url: "https://www.youtube.com/watch?v=QV_ld64HyNs",
-      // },
-     
+      },  
     ],
   },
    {
@@ -103,6 +102,11 @@ export default function Resources() {
         summary:
           "'Bref, engagez-vous ! Impliquez-vous ! Montrez-vous ! Faites entendre votre voix, vos envies, vos impressions, vos convictions ! Oser dire OUI ! Mieux encore... Oser vous tromper !'",
         url: "https://personal-branding.fr/le-monde-appartient-a-ceux-qui-osent/",
+      },
+      {
+        title: "How to Win Friends and Influence People - Dale Carnegie",
+        summary:
+          "",
       },
     ],
   },
