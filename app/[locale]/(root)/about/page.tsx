@@ -21,10 +21,10 @@ const About = () => {
   <Languages
     languages={[
       { name: "Français", level: "Native", flagEmoji: "🇫🇷" },
-      { name: "Anglais", level: "Fluent C1-2", flagEmoji: "🇬🇧" },
-      { name: "Danois", level: "Débutant A1", flagEmoji: "🇩🇰" },
-      { name: "Espagnol", level: "Intermediate B1", flagEmoji: "🇪🇸" },
-      { name: "Allemand", level: "Débutant+ A2+", flagEmoji: "🇩🇪" },
+      { name: "English", level: "Fluent C1-2", flagEmoji: "🇬🇧" },
+      { name: "Dansk", level: "Débutant A1", flagEmoji: "🇩🇰" },
+      { name: "Espanol", level: "Intermediate B1", flagEmoji: "🇪🇸" },
+      { name: "Deutsch", level: "Intermediate B1", flagEmoji: "🇩🇪" },
     ]}
   />
 
