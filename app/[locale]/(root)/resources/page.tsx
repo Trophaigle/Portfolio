@@ -107,7 +107,8 @@ export default function Resources() {
         title: "How to Win Friends and Influence People - Dale Carnegie",
         summary:
           "",
-      },
+          url: "#",
+      }
     ],
   },
   {
@@ -161,7 +162,7 @@ export default function Resources() {
                 <span>{group.icon}</span>
                 <span>{group.category}</span>
               </h2>
-  {/* Cards */}
+              {/* Cards */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {group.items.map((item, idx) => (
                   <Link
