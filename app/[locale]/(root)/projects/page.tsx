@@ -77,7 +77,6 @@ const Projects = () => {
     <IBelievePro />
        </main>
     </>
-   
   );
 };
 
