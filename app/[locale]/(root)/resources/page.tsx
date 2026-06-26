@@ -83,7 +83,7 @@ export default function Resources() {
         title: "Thomas D'Ansembourg",
         summary:
           "Livres et conférences sur la communication et bien d'autres choses",
-        url: "https://www.youtube.com/watch?v=t2hWWM3OJdU",
+        url: "https://www.youtube.com/watch?v=oZWOYtVHpkY",
       },
       {
         title: "Why Having Fun Is the Secret to a Healthier Life | Catherine Price | TED",
