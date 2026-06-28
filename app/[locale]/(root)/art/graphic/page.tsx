@@ -1,7 +1,7 @@
 import GaleryImage from '@/app/components/graphic/galery';
 import Gallery from '@/app/components/graphic/galery';
 import HeroGraphic from '@/app/components/graphic/heroGraphic';
-import Highlight from '@/app/components/home/highlight';
+import Highlight from '@/app/components/utils/highlight';
 import React from 'react'
 
 export default function graphic () {

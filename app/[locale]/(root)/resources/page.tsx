@@ -61,10 +61,10 @@ export default function Resources() {
         url: "https://www.youtube.com/watch?v=o_XVt5rdpFY",
       },
       {
-        title: "Danish Podcast: Learn Danish Like a Child – Fast and Naturally",
+        title: "Engage and Inspire: Simon Sinek's Guide to Starting with Why",
         summary:
-          "More than just a method to learn a language, it's rethinking how to learn something and face difficulties. It could be summarized in 'keeping simple, fun/love, making mistakes, courage and repetition'.",
-        url: "https://www.youtube.com/watch?v=XimUGRxIPIk",
+          "",
+        url: "https://www.youtube.com/watch?v=F6CErhagSuI",
       },
       
       {

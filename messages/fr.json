@@ -11,11 +11,15 @@
     },
 
     "HomeHero": {
-        "title": "Bienvenue sur mon site internet personnel 👊 ! ",
-        "quote": "Créer pour faire émerger une dynamique collective",
+        "title": "Bienvenue sur mon site internet 👊 ! ",
+        "quote": "Je veux faire en sorte que les gens puissent vivre une vie avec profondeur, magie et intensité !",
         "subtext": "Est-ce que cela t’inspire ? Est-ce que tu y crois aussi ?",
         "button": "Go !"
     }, 
+    "HomeHightlight" : {
+      "title" : "Objectif du site",
+      "description" : "Partager ma vision du monde et la manière dont j'essaie, à travers mon comportement quotidien, mon travail et mes projets, d'incarner ce que je souhaite représenter !"
+    },
 
    "values": {
     "title": "Ce que je défends",
@@ -72,7 +76,7 @@
 
     "Timeline":
     {
-        "title": "Thématiques pertinentes",
+        "title": "Parcours d'apprentissage",
         "quote": "'Ceux qui ont assez de folie pour croire qu’ils peuvent changer le monde sont ceux qui y parviennent vraiment.'"
     },
 
@@ -97,7 +101,7 @@
         "magicalPortal": "Portail|Magique",
         "footerText": "L’art, c’est créer, faire voyager et raconter des histoires qui osent transformer et transcender le réel.",
         "theaterTitle": "Théâtre",
-        "theaterText":  "Je pratique aussi le théâtre en français et en anglais — un moyen ludique de s’ouvrir aux autres, de jouer avec les langues, et d’apprendre à habiter la parole."
+        "theaterText":  "Je pratique aussi le théâtre en français et en anglais — un moyen ludique de s’ouvrir aux autres, de jouer avec les langues, et d’apprendre à habiter la parole. Comme la musique, tout est question d'interprétation !"
       },
 
     "music": {
@@ -200,9 +204,7 @@
   "music-composition": {
     "myCompos": "Mes compositions"
   },
-   "MiniTimeline": {
-    "title": "Parcours scolaire & explorations"
-  },
+   
   "Quotes": {
     "title": "En quoi crois-tu ?",
     "list": [

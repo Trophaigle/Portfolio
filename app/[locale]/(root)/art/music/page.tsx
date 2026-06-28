@@ -1,6 +1,6 @@
 "use client";
 
-import Highlight from "@/app/components/home/highlight";
+import Highlight from "@/app/components/utils/highlight";
 import HeroMusic from "@/app/components/music/heroMusic";
 import MusicGalery from "@/app/components/music/musicGalery";
 import PDFDownloadContainer from "@/app/components/music/pdfDownload";

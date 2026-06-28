@@ -11,10 +11,14 @@
     },
 
     "HomeHero": {
-        "title": "Welcome on my personal website 👊 !",
-        "quote": "Creating to spark a collective momentum.", 
+        "title": "Welcome on my website 👊 !",
+        "quote": "I want to provide people ways to experience life with depth, magic and intensity !", 
         "subtext": "Do you feel inspired ? Do you believe in this too ?",
         "button": "Dive in !"
+    },
+     "HomeHightlight" : {
+      "title" : "Website goal",
+      "description" : "Share what I believe about the world and how I try, through my daily behaviour, work and projects, to embody what I want to represent !"
     },
 
    "values": {
@@ -71,7 +75,7 @@
   },
 
     "Timeline": {
-        "title": "Relevant topics",
+        "title": "Learning Journey",
         
         "quote": "'The people who are crazy enough to think they can change the world ... are the ones who actually do'"
     },
@@ -96,7 +100,7 @@
         "magicalPortal": "Magic|Portal",
         "footerText": "Art is creating, taking journeys, and telling stories that dare to transform and transcend reality.",
         "theaterTitle": "Theater",
-        "theaterText":  "I also practice theater in French and in English — a playful way to connect with others, to play with languages, and to learn how to inhabit speech."
+        "theaterText":  "I also practice theater in French and in English — a playful way to connect with others, to play with languages, and to learn how to inhabit speech. Like music, it's all a matter of interpretation !"
       } ,
      "music": {
         "theme-passion": {
@@ -197,9 +201,6 @@
   },
   "music-composition": {
     "myCompos": "My compositions"
-  },
-   "MiniTimeline": {
-    "title": "Learning Journey"
   },
    "Quotes": {
     "title": "What do you believe in ?",

@@ -14,7 +14,7 @@ function Highlight({
   description,
   imageSrc,
   imageAlt = "Highlight visuel",
-  href = "/art",
+  href = "#",
 }: HighlightProps) {
   return (
     <div className="bg-white">

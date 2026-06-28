@@ -7,48 +7,54 @@ interface TimelineStep {
   icon: string;
   title: { fr: string; en: string };
   description: { fr: string; en: string };
-  sourceUrl: string;
-  sourceLabel: { fr: string; en: string };
 }
 
 const timelineSteps: TimelineStep[] = [
   {
     icon: "🖌️",
     title: {
-      fr: "Journal de Meera Lee Patel",
-      en: "Meera Lee Patel's Journal"
+      fr: "Apprentissage personnel",
+      en: "Personal Learning"
     },
     description: {
-      fr: "« Où que nous soyons dans la vie, le changement est toujours au coin de la rue – et nous nous accrochons souvent à ce qui est familier, à ce qui est sûr, même si cela ne nous sert plus, plutôt que d'avoir le courage de lâcher prise. Dans ce journal magnifiquement illustré, l'artiste et auteure Meera Lee Patel associe des citations inspirantes et des exercices pour vous aider à affronter vos défis, naviguer dans les transitions difficiles et sortir de votre zone de confort afin de progresser en confiance vers votre prochain chapitre. »",
-      en: "'Wherever we are in life, change is always around the corner – and we often find ourselves clinging to the familiar, to what’s safe, even if it’s no longer serving us, rather than summoning the courage to simply let go. In this beautifully illustrated journal, artist and author Meera Lee Patel pairs inspiring quotes and encouraging prompts to help you face your current challenges, navigate difficult transitions, and leave your comfort zone—so you can confidently move forward, into your next chapter.'"
+      fr: "J’aime approfondir mes connaissances et développer mes compétences dans les domaines qui éveillent ma curiosité : apprentissage de nouvelles langues (comme l’allemand), harmonie et orchestration musicales, ainsi que perfectionnement dans les arts graphiques.",
+      en: "I enjoy deepening my knowledge and developing my skills in the subjects that spark my curiosity: learning new languages such as German, studying musical harmony and orchestration, and refining my graphic arts skills."
     },
-    sourceUrl: "https://www.meeralee.com/my-friend-fear",
-    sourceLabel: { fr: "Lire la source", en: "Read source" }
+   
+  },
+   {
+    icon: "🌟",
+    title: {
+      fr: "Launching, building projects, and exploring new ideas",
+      en: "Lancer et construire des projets, et explorer de nouvelles idées"
+    },
+    description: {
+      fr: "",
+      en: ""
+    },
+  
   },
   {
     icon: "🌟",
     title: {
-      fr: "Apprenez comment les grands leaders inspirent l'action (TEDX) — Top 5 leçons de ‘Start With Why’ de Simon Sinek",
-      en: "Learn how great leaders inspire action (TEDX) — Top 5 lessons from Simon Sinek’s ‘Start With Why’"
+      fr: "Ecole National Supérieure d'Informatique et de Mathématiques Appliquées de Grenoble (ENSIMAG) — Informatique",
+      en: "National School of Computer Science and Applied Mathematics of Grenoble (ENSIMAG) — Computer Science"
     },
     description: {
-      fr: "Les leaders et organisations qui inspirent l'action, et qui peuvent le maintenir sur le long terme, sont ceux qui ont une clarté de leur 'pourquoi', une discipline de leur 'comment' et une cohérence de leur 'quoi'.",
-      en: "The leaders and organisations which inspire action, and can sustain to do so for longer periods of time, are the ones which have a clarity of their ‘why’, discipline of ‘how’, and consistency of ‘what’."
+      fr: "",
+      en: ""
     },
-    sourceUrl: "https://medium.com/@supermansastry/learn-how-great-leaders-inspire-action-top-5-lessons-from-simon-sineks-start-with-why-5727c9c1d76",
-    sourceLabel: { fr: "Lire la source", en: "Read source" }
+  
   },
   {
     icon: "🕊️",
     title: {
-      fr: "Et si on arrêtait d'avoir peur ? | Margaux Hammann | TEDxReims",
-      en: "What if we stopped being afraid? | Margaux Hammann | TEDxReims"
+      fr: "Classe Préparatoire aux Grandes Écoles (CPGE) — Physique - Chimie",
+      en: "Preparatory Class for the Grandes Écoles (CPGE) — Physics - Chemistry"
     },
     description: { fr: "", en: "" },
-    sourceUrl: "https://www.youtube.com/watch?v=xKSSEHbRXcM",
-    sourceLabel: { fr: "Lire la source", en: "Read source" }
   },
-  {
+  /*{
     icon: "🧲",
     title: {
       fr: "Lien profond entre art et science",
@@ -60,7 +66,7 @@ const timelineSteps: TimelineStep[] = [
     },
     sourceUrl: "https://www.usherbrooke.ca/actualites/nouvelles/details/36748",
     sourceLabel: { fr: "Lire la source", en: "Read source" }
-  },
+  },*/
 ];
 
 
@@ -68,7 +74,6 @@ function getText(step: TimelineStep, locale: "fr" | "en") { //pour eviter d'écr
   return {
     title: step.title[locale],
     description: step.description[locale],
-    sourceLabel: step.sourceLabel[locale],
   };
 }
 
@@ -112,17 +117,6 @@ export default function ZigzagTimelineAuto() {
                           <h3 className="text-xl font-semibold text-white">{text.title}</h3>
                           <p className="text-gray-300 mt-2">{text.description}</p>
 
-                          {step.sourceUrl && (
-                            <a
-                              href={step.sourceUrl}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-2 mt-3 text-sm text-purple-400 hover:text-purple-300 underline underline-offset-4"
-                            >
-                              🔗 {text.sourceLabel ?? "Voir la source"}
-                            </a>
-                          )}
-
                         </div>
                       </div>
                       
@@ -152,17 +146,6 @@ export default function ZigzagTimelineAuto() {
                           <h3 className="text-xl font-semibold text-white">{text.title}</h3>
                           <p className="text-gray-300 mt-2">{text.description}</p>
 
-                          {step.sourceUrl && (
-                            <a
-                              href={step.sourceUrl}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-2 mt-3 text-sm text-purple-400 hover:text-purple-300 underline underline-offset-4"
-                            >
-                              🔗 {text.sourceLabel ?? "Voir la source"}
-                            </a>
-                          )}
-
                         </div>
                       </div>
                     </>
@@ -178,17 +161,6 @@ export default function ZigzagTimelineAuto() {
 
                     <h3 className="text-xl font-semibold text-white">{text.title}</h3>
                     <p className="text-gray-300 mt-2">{text.description}</p>
-
-                    {step.sourceUrl && (
-                      <a
-                        href={step.sourceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 mt-3 text-sm text-purple-400 hover:text-purple-300 underline underline-offset-4"
-                      >
-                        🔗 {text.sourceLabel ?? "Voir la source"}
-                      </a>
-                    )}
 
                   </div>
                 </div>
