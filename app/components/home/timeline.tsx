@@ -25,8 +25,8 @@ const timelineSteps: TimelineStep[] = [
    {
     icon: "🌟",
     title: {
-      fr: "Launching, building projects, and exploring new ideas",
-      en: "Lancer et construire des projets, et explorer de nouvelles idées"
+       fr: "Lancer et construire des projets, et explorer de nouvelles idées",
+      en: "Launching, building projects, and exploring new ideas"
     },
     description: {
       fr: "",
