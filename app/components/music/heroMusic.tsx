@@ -48,7 +48,9 @@ function HeroMusic () {
             {/* //clip pour musique instrumental pour l'illustrer ? */}
           </div>
 
-          <p className='text-2xl'>{t("question")}</p>
+          <p className="px-4 text-2xl sm:px-0">
+            {t("question")}
+          </p>
         </div>
 
       {/* Courbe SVG */}

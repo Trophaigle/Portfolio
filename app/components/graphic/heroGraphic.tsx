@@ -35,7 +35,9 @@ function HeroGraphic () {
             </div>
           </div>
             
-          <p className='text-2xl'>{t('subtitle')}</p>
+          <p className="px-4 text-2xl sm:px-0">
+            {t("subtitle")}
+          </p>
         </div>
         
       {/* Courbe SVG */}
