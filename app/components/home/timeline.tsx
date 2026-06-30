@@ -14,7 +14,7 @@ const timelineSteps: TimelineStep[] = [
     icon: "🖌️",
     title: {
       fr: "Apprentissage personnel",
-      en: "Personal Learning"
+      en: "Self Learning"
     },
     description: {
       fr: "J’aime approfondir mes connaissances et développer mes compétences dans les domaines qui éveillent ma curiosité : apprentissage de nouvelles langues (comme l’allemand), harmonie et orchestration musicales, ainsi que perfectionnement dans les arts graphiques.",
@@ -41,8 +41,8 @@ const timelineSteps: TimelineStep[] = [
       en: "National School of Computer Science and Applied Mathematics of Grenoble (ENSIMAG) — Computer Science"
     },
     description: {
-      fr: "",
-      en: ""
+      fr: "2022-2025",
+      en: "2022-2025"
     },
   
   },
@@ -52,7 +52,7 @@ const timelineSteps: TimelineStep[] = [
       fr: "Classe Préparatoire aux Grandes Écoles (CPGE) — Physique - Chimie",
       en: "Preparatory Class for the Grandes Écoles (CPGE) — Physics - Chemistry"
     },
-    description: { fr: "", en: "" },
+    description: { fr: "2020-2022", en: "2020-2022" },
   },
   /*{
     icon: "🧲",
