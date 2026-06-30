@@ -29,8 +29,8 @@ const timelineSteps: TimelineStep[] = [
       en: "Launching, building projects, and exploring new ideas"
     },
     description: {
-      fr: "",
-      en: ""
+      fr: "Explorer de nouvelles techniques, perspectives, idées qui me rapprochent de ce que je souhaite créer dans ce monde ! (voir section 'Art' et 'Projets')",
+      en: "Exploring new techniques, perspectives, and ideas that bring me closer to what I want to create in this world ! (see 'Art' and 'Projects' sections)"
     },
   
   },
