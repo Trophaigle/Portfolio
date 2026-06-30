@@ -61,7 +61,7 @@ export default function ArtHero() {
       {/* LEFT TEXT */}
       <div className="text-white md:w-1/3 text-center md:text-left mb-8 md:mb-0">
         <h2 className="text-3xl font-bold mb-4">{t("musicTitle")}</h2>
-        <p className="text-gray-300 mb-4">{t("musicSubtitle")}</p>
+        {/*<p className="text-gray-300 mb-4">{t("musicSubtitle")}</p>*/}
 
         <Link
           href="/art/music"
@@ -101,7 +101,7 @@ export default function ArtHero() {
       {/* RIGHT TEXT */}
       <div className="text-white md:w-1/3 text-center md:text-right">
         <h2 className="text-3xl font-bold mb-4">{t("graphicTitle")}</h2>
-        <p className="text-gray-300 mb-4">{t("graphicSubtitle")}</p>
+       {/* <p className="text-gray-300 mb-4">{t("graphicSubtitle")}</p>*/}
 
         <Link
           href="/art/graphic"
