@@ -92,10 +92,10 @@
         "error": "❌ Une erreur est survenue. Veuillez réessayer."
     },
     "artPage": {
-        "musicTitle": "Musiques",
+        "musicTitle": "Œuvres Musicales",
         "musicSubtitle": "Oeuvres musicales classiques et autres ...",
         "musicCTA": "Commencer l'exploration",
-        "graphicTitle": "Oeuvres graphiques",
+        "graphicTitle": "Œuvres Graphiques",
         "graphicSubtitle": "Dessins, peintures ...",
         "graphicCTA": "Commencer l'exploration",
         "magicalPortal": "Portail|Magique",
@@ -186,7 +186,7 @@
       "noSketches": "Aucune esquisse disponible"
     },
     "heroGraphic": {
-      "title": "Oeuvres graphiques",
+      "title": "Œuvres Graphiques",
       "buttons": {
         "drawing": "Dessin",
         "painting": "Peinture"

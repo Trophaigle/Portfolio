@@ -28,7 +28,15 @@ function Navbar (){
 
   return (
     <>
-      <nav className="block w-full max-w-screen px-4 py-4 mx-auto bg-navbarcolor bg-opacity-90 sticky top-0 shadow lg:px-8 backdrop-blur-lg z-[9999]">
+      <nav className="
+  w-full max-w-screen px-4 py-4 mx-auto
+  bg-black/70
+  backdrop-blur-lg
+  border-b border-white/10
+  shadow-md
+  sticky top-0
+  z-[9999]
+">
         <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800 px-6">
           <Link
             href="/"

@@ -34,18 +34,27 @@ export default function ImageCard({ src, alt, technique }: ImageCardProps) {
             "
           />
            {/* Hover overlay */}
-          <div className="
-            absolute inset-0 flex items-center justify-center
-            bg-black/0 group-hover:bg-black/50
-            transition-all duration-300
-          ">
-            <span className="
-              text-white text-sm md:text-base
-              opacity-0 group-hover:opacity-100
-              transition-opacity duration-300
-              px-3 py-1 rounded-md
-              bg-black/40
-            ">
+          <div
+            className="
+              absolute inset-0 flex items-center justify-center
+              bg-black/0 group-hover:bg-black/40
+              backdrop-blur-0 group-hover:backdrop-blur-[2px]
+              transition-all duration-300 ease-out
+            "
+          >
+            <span
+              className="
+                text-white text-xs md:text-sm font-medium
+                px-3 py-1 rounded-full
+                bg-white/10 border border-white/20
+                backdrop-blur-md
+
+                opacity-0 scale-95 translate-y-2
+                group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0
+
+                transition-all duration-300 ease-out
+              "
+            >
               {technique}
             </span>
           </div>
