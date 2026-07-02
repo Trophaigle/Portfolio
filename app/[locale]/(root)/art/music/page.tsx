@@ -28,7 +28,7 @@ export default function music() {
 
     {/* 🎹 Répertoire (secondaire, discret) */}
  
-    <PianoRepertoire />
+    {/*<PianoRepertoire />*/}
 
   </>
   );

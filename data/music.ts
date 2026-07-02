@@ -113,7 +113,7 @@ export const musicData: MusicPiece[] = [
     videoUrl: "https://www.youtube.com/embed/v4n77kQ1YeY?si=4l0Bqp4oo7G3sT_v",
     sketches: []
   },
-  {
+  /*{
     slug: "boom-boom-instru",
     videoUrl: "https://www.youtube.com/embed/BOZwdtLd64Y?si=jvMhXkcA9DysTA0m",
     type: "band",
@@ -124,5 +124,5 @@ export const musicData: MusicPiece[] = [
     videoUrl: "https://www.youtube.com/embed/YxeqlAWos_A?si=G0Qo2Qc_Cj1UpQ5_",
     type: "band",
 
-  }
+  }*/
 ];

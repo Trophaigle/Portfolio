@@ -37,7 +37,7 @@ const About = () => {
     ]}
   />
   <Success />
-  <Strengths />
+  {/*<Strengths />*/}
   <Style />
     </>
   )
