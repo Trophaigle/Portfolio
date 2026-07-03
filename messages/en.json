@@ -258,6 +258,9 @@
       "title": "🚀 Discover My Web & 3D Engine Projects",
       "description": "Explore interactive web applications, real-time 3D experiences, graphics engines, and technical demonstrations built with Unity, Unreal Engine, and modern web technologies.",
       "cta": "View Portfolio"
+    } 
+  },
+  "buttons": {
+      "quote": "Request a Quote"
     }
-  }
 }

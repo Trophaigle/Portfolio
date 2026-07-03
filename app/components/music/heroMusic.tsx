@@ -2,9 +2,11 @@
 import Link from 'next/link'
 import React from 'react'
 import { useTranslations } from "next-intl";
+import ButtonCTA from '../buttons/buttonCTA';
 
 function HeroMusic () {
   const t = useTranslations("heroMusic");
+  const buttons = useTranslations('buttons');// Récupère le texte du bouton depuis les traductions
 
   return (
      <section className="relative h-[70vh] flex items-center justify-center text-center text-white">
@@ -51,6 +53,9 @@ function HeroMusic () {
           <p className="px-4 text-2xl sm:px-0">
             {t("question")}
           </p>
+          <div className="mt-7">
+              <ButtonCTA label={buttons('quote')} href="/contact" />
+          </div>
         </div>
 
       {/* Courbe SVG */}
