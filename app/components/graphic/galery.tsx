@@ -10,6 +10,7 @@ export enum Technique {
   PENCIL_DRAWING = "Pencil Drawing",
   COLORPENCIL_DRAWING = "Color Pencil Drawing",
   MIXED_MEDIA = "Mixed Media",
+  AQUARELLE = "Aquarelle",
 }
 
 // 🔥 Wrapper animé
@@ -53,6 +54,7 @@ const col1 = [
 ];
 
 const col2 = [
+  { src: "/images/oeuvresGraphiques/Gavarnie_rogne.jpg", tech: Technique.AQUARELLE },
   { src: "/images/oeuvresGraphiques/RosaEnflorece_rogne.png", tech: Technique.PENCIL_DRAWING },
   { src: "/images/oeuvresGraphiques/cat.jpg", tech: Technique.COLORPENCIL_DRAWING },
   { src: "/images/oeuvresGraphiques/pirate_rogne.jpg", tech: Technique.ACR_PAINTING },
