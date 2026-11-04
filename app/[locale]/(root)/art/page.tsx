@@ -6,6 +6,8 @@ import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import ButtonCTA from "@/app/components/buttons/buttonCTA";
+import ViewPdfButton from "@/app/components/buttons/viewPdfButton";
 
 export default function ArtHero() {
   const [zooming, setZooming] = useState(false);
@@ -216,6 +218,34 @@ export default function ArtHero() {
           <p className="text-gray-300 leading-relaxed">
             {t("theaterText")}
           </p>
+
+        </div>
+      </motion.section>
+
+      {/* WRITING SECTION */}
+      <motion.section
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="mt-24 pb-8 flex justify-center"
+      >
+        <div className="max-w-2xl text-center text-gray-200 px-6 mb-10">
+
+          <div className="text-4xl mb-4">✍️</div>
+
+          <h3 className="text-2xl font-semibold mb-4 text-white">
+            {t("writingTitle")}
+          </h3>
+
+          <p className="text-gray-300 leading-relaxed">
+            {t("writingText")}
+          </p>
+          <div className="w-full pt-2 flex justify-center gap-2">
+            <ViewPdfButton pdfUrl="/pdf/The_Choral_of_Living_Beings-English_story.pdf" viewPdfLabel="1" />
+            <ViewPdfButton pdfUrl="/pdf/LesPapillonsDeLaPetiteJeanneConte.pdf" viewPdfLabel="2" />
+          
+          </div>
 
         </div>
       </motion.section>
