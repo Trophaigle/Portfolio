@@ -47,6 +47,7 @@ const col1 = [
   { src: "/images/oeuvresGraphiques/elea3_rogne.jpg", tech: Technique.OIL_PAINTING },
   { src: "/images/oeuvresGraphiques/daenerys_rogne.jpg", tech: Technique.PENCIL_DRAWING },
   { src: "/images/oeuvresGraphiques/bedroom3_rogne.jpg", tech: Technique.OIL_PAINTING },
+  { src: "/images/oeuvresGraphiques/voielactee_rogne.jpg", tech: Technique.AQUARELLE },
   { src: "/images/oeuvresGraphiques/jeanWoman_rogne.jpg", tech: Technique.COLORPENCIL_DRAWING },
   { src: "/images/oeuvresGraphiques/mereNature_rogne.jpg", tech: Technique.MIXED_MEDIA },
   { src: "/images/oeuvresGraphiques/abeille.jpg", tech: Technique.ACR_PAINTING },
