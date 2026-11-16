@@ -61,6 +61,13 @@ export const musicData: MusicPiece[] = [
     sketches: ["/music/nar-det-lider-mot-jul/page1SketchPapierNarDetLiderMotJul.jpg", "/sketches/autre_bout.jpg"]
   },
   {
+    slug: "hi-diddle-dee-dee",
+    type: "orchestra",
+    pdfUrl: "/music/hi-diddle-dee-dee/HiDiddleDeeDeeTempCover.pdf",
+    
+    sketches: []
+  },
+  {
     slug: "petit-nocturne-sankta-lucia",
     type: "piano",
     pdfUrl: "/music/petit-nocturne-sankta-lucia/NocturneLucia_merged.pdf",

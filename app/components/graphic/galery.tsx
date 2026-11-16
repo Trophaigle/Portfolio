@@ -66,6 +66,7 @@ const col2 = [
 
 const col3 = [
   { src: "/images/oeuvresGraphiques/train_rogne.jpg", tech: Technique.ACR_PAINTING },
+  { src: "/images/oeuvresGraphiques/HiDiddleDeeDeePhotoCover_rogne.jpg", tech: Technique.PENCIL_DRAWING },
   { src: "/images/oeuvresGraphiques/NarDetLiderMotJul.jpg", tech: Technique.MIXED_MEDIA },
   { src: "/images/oeuvresGraphiques/lena_rogne.jpg", tech: Technique.PENCIL_DRAWING },
   { src: "/images/oeuvresGraphiques/flowers_rogne.jpg", tech: Technique.ACR_PAINTING },
